@@ -164,6 +164,35 @@ function closeSettings() {
   settingsBackdrop.hidden = true;
 }
 
+function isGameScreenTapTarget(target) {
+  if (!target) {
+    return false;
+  }
+  if (
+    target.closest(
+      "button, [role=button], a, input, select, textarea, .settings-panel, .settings-backdrop, .portrait-hint",
+    )
+  ) {
+    return false;
+  }
+  return true;
+}
+
+function installGamePageTapHandler() {
+  gameScreen.addEventListener("pointerup", (event) => {
+    if (!gameScreen.classList.contains("active")) {
+      return;
+    }
+    if (!settingsBackdrop.hidden) {
+      return;
+    }
+    if (!isGameScreenTapTarget(event.target)) {
+      return;
+    }
+    nextWord();
+  });
+}
+
 modeButtons.forEach((button) => {
   button.addEventListener("click", () => {
     state.settings.mode = button.dataset.modeOption;
@@ -199,17 +228,45 @@ document.getElementById("portraitDismissBtn").addEventListener("click", () => {
   document.body.dataset.portraitOk = "1";
 });
 
-settingsBtn.addEventListener("click", openSettings);
-closeSettingsBtn.addEventListener("click", closeSettings);
+settingsBtn.addEventListener("click", (event) => {
+  event.stopPropagation();
+  openSettings();
+});
+
+closeSettingsBtn.addEventListener("click", (event) => {
+  event.stopPropagation();
+  closeSettings();
+});
+
 settingsBackdrop.addEventListener("click", (event) => {
   if (event.target === settingsBackdrop) {
     closeSettings();
   }
 });
 
-startBtn.addEventListener("click", startGame);
-nextBtn.addEventListener("click", nextWord);
-exitBtn.addEventListener("click", showHome);
+function stopPointerEvent(event) {
+  event.stopPropagation();
+}
+
+startBtn.addEventListener("click", (event) => {
+  event.stopPropagation();
+  startGame();
+});
+startBtn.addEventListener("pointerup", stopPointerEvent);
+
+nextBtn.addEventListener("click", (event) => {
+  event.stopPropagation();
+  nextWord();
+});
+nextBtn.addEventListener("pointerup", stopPointerEvent);
+
+exitBtn.addEventListener("click", (event) => {
+  event.stopPropagation();
+  showHome();
+});
+exitBtn.addEventListener("pointerup", stopPointerEvent);
+
+installGamePageTapHandler();
 
 document.addEventListener("keydown", (event) => {
   if (!settingsBackdrop.hidden) {
