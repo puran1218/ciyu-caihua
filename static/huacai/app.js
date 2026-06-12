@@ -3,7 +3,7 @@ const SETTINGS_KEY = "cyhc-settings";
 const DEFAULT_SETTINGS = {
   mode: "color",
   range: "all",
-  allowFour: true
+  allowFour: true,
 };
 
 // 兜底词库：words.json 加载失败时仍可开局
@@ -15,15 +15,15 @@ const FALLBACK_BANK = {
       label: "示例",
       difficulty: "easy",
       words: [
-        { "text": "太阳", "length": 2, "tags": [] },
-        { "text": "月亮", "length": 2, "tags": [] },
-        { "text": "小鸟", "length": 2, "tags": [] },
-        { "text": "雨伞", "length": 2, "tags": [] },
-        { "text": "彩虹", "length": 2, "tags": [] },
-        { "text": "书包", "length": 2, "tags": [] }
-      ]
-    }
-  ]
+        { text: "太阳", length: 2, tags: [] },
+        { text: "月亮", length: 2, tags: [] },
+        { text: "小鸟", length: 2, tags: [] },
+        { text: "雨伞", length: 2, tags: [] },
+        { text: "彩虹", length: 2, tags: [] },
+        { text: "书包", length: 2, tags: [] },
+      ],
+    },
+  ],
 };
 
 const state = {
@@ -31,7 +31,7 @@ const state = {
   bank: FALLBACK_BANK,
   deck: [],
   index: -1,
-  lastWord: ""
+  lastWord: "",
 };
 
 const homeScreen = document.getElementById("homeScreen");
@@ -45,8 +45,12 @@ const settingsBackdrop = document.getElementById("settingsBackdrop");
 const closeSettingsBtn = document.getElementById("closeSettingsBtn");
 const resetBtn = document.getElementById("resetBtn");
 const modeButtons = Array.from(document.querySelectorAll("[data-mode-option]"));
-const rangeButtons = Array.from(document.querySelectorAll("#rangeSeg [data-range]"));
-const fourButtons = Array.from(document.querySelectorAll("#fourSeg [data-four]"));
+const rangeButtons = Array.from(
+  document.querySelectorAll("#rangeSeg [data-range]"),
+);
+const fourButtons = Array.from(
+  document.querySelectorAll("#fourSeg [data-four]"),
+);
 
 function loadSettings() {
   try {
@@ -64,15 +68,17 @@ function saveSettings() {
 function candidateWords() {
   const { range, allowFour } = state.settings;
   const groups = state.bank.groups.filter(
-    group => range === "all" || group.difficulty === range
+    (group) => range === "all" || group.difficulty === range,
   );
   const words = groups
-    .flatMap(group => group.words)
-    .filter(word => allowFour || word.length < 4)
-    .map(word => word.text);
+    .flatMap((group) => group.words)
+    .filter((word) => allowFour || word.length < 4)
+    .map((word) => word.text);
   // 设置组合筛不出词时退回全量，保证总能开局
   if (words.length === 0) {
-    return state.bank.groups.flatMap(group => group.words.map(word => word.text));
+    return state.bank.groups.flatMap((group) =>
+      group.words.map((word) => word.text),
+    );
   }
   return words;
 }
@@ -98,17 +104,26 @@ function rebuildDeck() {
 
 function applyMode() {
   document.body.dataset.mode = state.settings.mode;
-  modeButtons.forEach(button => {
-    button.classList.toggle("selected", button.dataset.modeOption === state.settings.mode);
+  modeButtons.forEach((button) => {
+    button.classList.toggle(
+      "selected",
+      button.dataset.modeOption === state.settings.mode,
+    );
   });
 }
 
 function applySettingsUI() {
-  rangeButtons.forEach(button => {
-    button.classList.toggle("selected", button.dataset.range === state.settings.range);
+  rangeButtons.forEach((button) => {
+    button.classList.toggle(
+      "selected",
+      button.dataset.range === state.settings.range,
+    );
   });
-  fourButtons.forEach(button => {
-    button.classList.toggle("selected", (button.dataset.four === "on") === state.settings.allowFour);
+  fourButtons.forEach((button) => {
+    button.classList.toggle(
+      "selected",
+      (button.dataset.four === "on") === state.settings.allowFour,
+    );
   });
 }
 
@@ -149,7 +164,7 @@ function closeSettings() {
   settingsBackdrop.hidden = true;
 }
 
-modeButtons.forEach(button => {
+modeButtons.forEach((button) => {
   button.addEventListener("click", () => {
     state.settings.mode = button.dataset.modeOption;
     applyMode();
@@ -157,7 +172,7 @@ modeButtons.forEach(button => {
   });
 });
 
-rangeButtons.forEach(button => {
+rangeButtons.forEach((button) => {
   button.addEventListener("click", () => {
     state.settings.range = button.dataset.range;
     applySettingsUI();
@@ -165,7 +180,7 @@ rangeButtons.forEach(button => {
   });
 });
 
-fourButtons.forEach(button => {
+fourButtons.forEach((button) => {
   button.addEventListener("click", () => {
     state.settings.allowFour = button.dataset.four === "on";
     applySettingsUI();
@@ -186,7 +201,7 @@ document.getElementById("portraitDismissBtn").addEventListener("click", () => {
 
 settingsBtn.addEventListener("click", openSettings);
 closeSettingsBtn.addEventListener("click", closeSettings);
-settingsBackdrop.addEventListener("click", event => {
+settingsBackdrop.addEventListener("click", (event) => {
   if (event.target === settingsBackdrop) {
     closeSettings();
   }
@@ -196,7 +211,7 @@ startBtn.addEventListener("click", startGame);
 nextBtn.addEventListener("click", nextWord);
 exitBtn.addEventListener("click", showHome);
 
-document.addEventListener("keydown", event => {
+document.addEventListener("keydown", (event) => {
   if (!settingsBackdrop.hidden) {
     if (event.key === "Escape") {
       closeSettings();
@@ -206,7 +221,11 @@ document.addEventListener("keydown", event => {
   if (!gameScreen.classList.contains("active")) {
     return;
   }
-  if (event.key === "ArrowRight" || event.key === " " || event.key === "Enter") {
+  if (
+    event.key === "ArrowRight" ||
+    event.key === " " ||
+    event.key === "Enter"
+  ) {
     nextWord();
   }
   if (event.key === "Escape") {
@@ -217,13 +236,26 @@ document.addEventListener("keydown", event => {
 applyMode();
 
 fetch("./data/words.json")
-  .then(response => (response.ok ? response.json() : Promise.reject(new Error(String(response.status)))))
-  .then(bank => {
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+    }
+    return response.json();
+  })
+  .then((bank) => {
     if (bank && Array.isArray(bank.groups) && bank.groups.length > 0) {
+      console.log(
+        "[words.json] 加载成功，词条数:",
+        bank.groups.reduce((sum, g) => sum + g.words.length, 0),
+      );
       state.bank = bank;
+    } else {
+      console.warn("[words.json] 结构不符合预期，使用示例词库");
     }
   })
-  .catch(() => {});
+  .catch((err) => {
+    console.error("[words.json] 加载失败:", err.message);
+  });
 
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {

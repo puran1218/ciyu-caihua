@@ -1,35 +1,934 @@
 {
   "version": "0.1.0",
+  "schema": "cn-primary-draw-guess-wordbank",
+  "language": "zh-Hans",
+  "curation": {
+    "purpose": "小学语文方向的词语画猜候选词库，按年级和绘画难度分组。",
+    "basis": [
+      "参考统编版/人教版小学语文 1–6 年级常见生字、词语、课文主题和生活场景。",
+      "公开生字表页面只用于候选词整理线索，不按网页顺序复制完整列表。",
+      "国家中小学智慧教育平台只作为教材版本、年级册次和课文结构校验来源。"
+    ],
+    "sourcePolicy": "App UI 只读取本文件中的精选游戏词条；不要在 UI 层硬编码来源网页正文、列表顺序或抓取结果。",
+    "selectionRules": [
+      "优先保留能画出来的名词、场景、动作、职业、节日物件、自然和科学词。",
+      "过滤过于抽象、争议性强、低龄不宜、只适合背诵但难以画猜的词。",
+      "年级分组表示推荐投放难度，不表示该词只属于该年级教材。",
+      "length 为当前 text 的字符数，可用于前端展示字数提示。"
+    ]
+  },
+  "tagCatalog": {
+    "drawable": "适合通过图画表达",
+    "nature": "自然/地理",
+    "weather": "天气/季节",
+    "animal": "动物",
+    "plant": "植物",
+    "food": "食物",
+    "object": "物品",
+    "school": "校园/学习",
+    "home": "家庭/居家",
+    "person": "人物/职业/角色",
+    "body": "身体部位",
+    "place": "地点/建筑/场景",
+    "transport": "交通工具/交通设施",
+    "action": "动作/活动",
+    "sports": "运动",
+    "festival": "节日/民俗",
+    "culture": "传统文化/历史",
+    "science": "科学/技术",
+    "space": "太空/天文",
+    "tool": "工具",
+    "color": "颜色/形状",
+    "emotion": "表情/情绪",
+    "safety": "安全/救援",
+    "advanced": "高阶但可画"
+  },
   "groups": [
     {
       "id": "grade-1",
       "label": "一年级",
       "difficulty": "easy",
       "words": [
-        { "text": "太阳", "length": 2, "tags": ["nature", "drawable"] },
-        { "text": "月亮", "length": 2, "tags": ["nature", "drawable"] },
-        { "text": "小鸟", "length": 2, "tags": ["animal", "drawable"] },
-        { "text": "花朵", "length": 2, "tags": ["nature", "drawable"] },
-        { "text": "大山", "length": 2, "tags": ["nature", "drawable"] },
-        { "text": "小河", "length": 2, "tags": ["nature", "drawable"] },
-        { "text": "雨伞", "length": 2, "tags": ["object", "drawable"] },
-        { "text": "书包", "length": 2, "tags": ["object", "drawable"] },
-        { "text": "铅笔", "length": 2, "tags": ["object", "drawable"] },
-        { "text": "朋友", "length": 2, "tags": ["people"] },
-        { "text": "老师", "length": 2, "tags": ["people"] },
-        { "text": "同学", "length": 2, "tags": ["people"] },
-        { "text": "春天", "length": 2, "tags": ["nature", "season"] },
-        { "text": "夏天", "length": 2, "tags": ["nature", "season"] },
-        { "text": "秋天", "length": 2, "tags": ["nature", "season"] },
-        { "text": "冬天", "length": 2, "tags": ["nature", "season"] },
-        { "text": "雪花", "length": 2, "tags": ["nature", "drawable"] },
-        { "text": "森林", "length": 2, "tags": ["nature", "drawable"] },
-        { "text": "草地", "length": 2, "tags": ["nature", "drawable"] },
-        { "text": "明亮", "length": 2, "tags": ["adjective"] },
-        { "text": "快乐", "length": 2, "tags": ["emotion"] },
-        { "text": "认真", "length": 2, "tags": ["adjective"] },
-        { "text": "高兴", "length": 2, "tags": ["emotion"] },
-        { "text": "勇敢", "length": 2, "tags": ["adjective"] }
+        {
+          "text": "太阳",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "月亮",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "星星",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "天空",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "白云",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "小鸟",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "大山",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "小河",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "花朵",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "草地",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "树林",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "叶子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "雨伞",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "weather"
+          ]
+        },
+        {
+          "text": "雪人",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "weather"
+          ]
+        },
+        {
+          "text": "春天",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "weather"
+          ]
+        },
+        {
+          "text": "夏天",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "weather"
+          ]
+        },
+        {
+          "text": "秋天",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "weather"
+          ]
+        },
+        {
+          "text": "冬天",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "weather"
+          ]
+        },
+        {
+          "text": "小鱼",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "小狗",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "小猫",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "小马",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "小羊",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "小牛",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "公鸡",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "鸭子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "兔子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "虫子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "蝴蝶",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "蜜蜂",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "苹果",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food",
+            "plant"
+          ]
+        },
+        {
+          "text": "香蕉",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food",
+            "plant"
+          ]
+        },
+        {
+          "text": "西瓜",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food",
+            "plant"
+          ]
+        },
+        {
+          "text": "桃子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food",
+            "plant"
+          ]
+        },
+        {
+          "text": "米饭",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food"
+          ]
+        },
+        {
+          "text": "面包",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food"
+          ]
+        },
+        {
+          "text": "牛奶",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food"
+          ]
+        },
+        {
+          "text": "鸡蛋",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food"
+          ]
+        },
+        {
+          "text": "书包",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "school",
+            "object"
+          ]
+        },
+        {
+          "text": "铅笔",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "school",
+            "object"
+          ]
+        },
+        {
+          "text": "橡皮",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "school",
+            "object"
+          ]
+        },
+        {
+          "text": "尺子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "school",
+            "object"
+          ]
+        },
+        {
+          "text": "课本",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "school",
+            "object"
+          ]
+        },
+        {
+          "text": "本子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "school",
+            "object"
+          ]
+        },
+        {
+          "text": "桌子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "home"
+          ]
+        },
+        {
+          "text": "椅子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "home"
+          ]
+        },
+        {
+          "text": "黑板",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "school",
+            "object"
+          ]
+        },
+        {
+          "text": "窗户",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "home",
+            "object"
+          ]
+        },
+        {
+          "text": "门",
+          "length": 1,
+          "tags": [
+            "drawable",
+            "home",
+            "object"
+          ]
+        },
+        {
+          "text": "房子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place",
+            "home"
+          ]
+        },
+        {
+          "text": "床",
+          "length": 1,
+          "tags": [
+            "drawable",
+            "home",
+            "object"
+          ]
+        },
+        {
+          "text": "灯",
+          "length": 1,
+          "tags": [
+            "drawable",
+            "home",
+            "object"
+          ]
+        },
+        {
+          "text": "杯子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "home",
+            "object"
+          ]
+        },
+        {
+          "text": "盘子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "home",
+            "object"
+          ]
+        },
+        {
+          "text": "衣服",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "鞋子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "帽子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "手套",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "眼睛",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "body"
+          ]
+        },
+        {
+          "text": "耳朵",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "body"
+          ]
+        },
+        {
+          "text": "鼻子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "body"
+          ]
+        },
+        {
+          "text": "嘴巴",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "body"
+          ]
+        },
+        {
+          "text": "小手",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "body"
+          ]
+        },
+        {
+          "text": "脚丫",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "body"
+          ]
+        },
+        {
+          "text": "爸爸",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person"
+          ]
+        },
+        {
+          "text": "妈妈",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person"
+          ]
+        },
+        {
+          "text": "爷爷",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person"
+          ]
+        },
+        {
+          "text": "奶奶",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person"
+          ]
+        },
+        {
+          "text": "老师",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person",
+            "school"
+          ]
+        },
+        {
+          "text": "同学",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person",
+            "school"
+          ]
+        },
+        {
+          "text": "学校",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place",
+            "school"
+          ]
+        },
+        {
+          "text": "教室",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place",
+            "school"
+          ]
+        },
+        {
+          "text": "操场",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place",
+            "school",
+            "sports"
+          ]
+        },
+        {
+          "text": "红旗",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "school"
+          ]
+        },
+        {
+          "text": "汽车",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport"
+          ]
+        },
+        {
+          "text": "火车",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport"
+          ]
+        },
+        {
+          "text": "小船",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport"
+          ]
+        },
+        {
+          "text": "飞机",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport"
+          ]
+        },
+        {
+          "text": "马路",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport",
+            "place"
+          ]
+        },
+        {
+          "text": "桥",
+          "length": 1,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "上山",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "nature"
+          ]
+        },
+        {
+          "text": "下雨",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "weather"
+          ]
+        },
+        {
+          "text": "唱歌",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "跳舞",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "跑步",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "sports"
+          ]
+        },
+        {
+          "text": "画画",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "school"
+          ]
+        },
+        {
+          "text": "读书",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "school"
+          ]
+        },
+        {
+          "text": "写字",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "school"
+          ]
+        },
+        {
+          "text": "拍手",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "洗手",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "吃饭",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "food"
+          ]
+        },
+        {
+          "text": "喝水",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "睡觉",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "home"
+          ]
+        },
+        {
+          "text": "笑脸",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "哭脸",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "红色",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "color"
+          ]
+        },
+        {
+          "text": "黄色",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "color"
+          ]
+        },
+        {
+          "text": "蓝色",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "color"
+          ]
+        },
+        {
+          "text": "绿色",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "color"
+          ]
+        },
+        {
+          "text": "圆形",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "color"
+          ]
+        },
+        {
+          "text": "方形",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "color"
+          ]
+        },
+        {
+          "text": "气球",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "风筝",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "action"
+          ]
+        },
+        {
+          "text": "皮球",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "sports"
+          ]
+        },
+        {
+          "text": "积木",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        }
       ]
     },
     {
@@ -37,85 +936,3212 @@
       "label": "二年级",
       "difficulty": "easy",
       "words": [
-        { "text": "海洋", "length": 2, "tags": ["nature", "drawable"] },
-        { "text": "城市", "length": 2, "tags": ["place", "drawable"] },
-        { "text": "公园", "length": 2, "tags": ["place", "drawable"] },
-        { "text": "故事", "length": 2, "tags": ["abstract"] },
-        { "text": "办法", "length": 2, "tags": ["abstract"] },
-        { "text": "礼物", "length": 2, "tags": ["object", "drawable"] },
-        { "text": "眼睛", "length": 2, "tags": ["body", "drawable"] },
-        { "text": "窗户", "length": 2, "tags": ["object", "drawable"] },
-        { "text": "彩虹", "length": 2, "tags": ["nature", "drawable"] },
-        { "text": "柳树", "length": 2, "tags": ["nature", "drawable"] },
-        { "text": "池塘", "length": 2, "tags": ["nature", "drawable"] },
-        { "text": "脚印", "length": 2, "tags": ["object", "drawable"] },
-        { "text": "帮助", "length": 2, "tags": ["action"] },
-        { "text": "温暖", "length": 2, "tags": ["adjective"] },
-        { "text": "安静", "length": 2, "tags": ["adjective"] },
-        { "text": "热闹", "length": 2, "tags": ["adjective"] },
-        { "text": "仔细", "length": 2, "tags": ["adjective"] },
-        { "text": "奇妙", "length": 2, "tags": ["adjective"] },
-        { "text": "井底之蛙", "length": 4, "tags": ["idiom", "drawable"] },
-        { "text": "坐井观天", "length": 4, "tags": ["idiom", "drawable"] },
-        { "text": "亡羊补牢", "length": 4, "tags": ["idiom", "drawable"] },
-        { "text": "拔苗助长", "length": 4, "tags": ["idiom", "drawable"] }
+        {
+          "text": "高楼",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "花园",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place",
+            "plant"
+          ]
+        },
+        {
+          "text": "田野",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "森林",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature",
+            "plant"
+          ]
+        },
+        {
+          "text": "海边",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place",
+            "nature"
+          ]
+        },
+        {
+          "text": "湖水",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "石头",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature",
+            "object"
+          ]
+        },
+        {
+          "text": "沙滩",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place",
+            "nature"
+          ]
+        },
+        {
+          "text": "彩虹",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "weather",
+            "nature"
+          ]
+        },
+        {
+          "text": "闪电",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "weather"
+          ]
+        },
+        {
+          "text": "露珠",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature",
+            "weather"
+          ]
+        },
+        {
+          "text": "冰块",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "weather"
+          ]
+        },
+        {
+          "text": "泉水",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "荷花",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "柳树",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "松树",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "竹子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "稻田",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant",
+            "nature"
+          ]
+        },
+        {
+          "text": "麦苗",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "棉花",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "葡萄",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food",
+            "plant"
+          ]
+        },
+        {
+          "text": "草莓",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food",
+            "plant"
+          ]
+        },
+        {
+          "text": "白菜",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food",
+            "plant"
+          ]
+        },
+        {
+          "text": "萝卜",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food",
+            "plant"
+          ]
+        },
+        {
+          "text": "蘑菇",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food",
+            "plant"
+          ]
+        },
+        {
+          "text": "老虎",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "狮子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "大象",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "长颈鹿",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "熊猫",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "猴子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "松鼠",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "青蛙",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "乌龟",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "蜻蜓",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "燕子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "孔雀",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "鲸鱼",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "海豚",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "螃蟹",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "贝壳",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature",
+            "object"
+          ]
+        },
+        {
+          "text": "城堡",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "钟表",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "闹钟",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "镜子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "home"
+          ]
+        },
+        {
+          "text": "牙刷",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "home"
+          ]
+        },
+        {
+          "text": "毛巾",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "home"
+          ]
+        },
+        {
+          "text": "水壶",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "home"
+          ]
+        },
+        {
+          "text": "锅",
+          "length": 1,
+          "tags": [
+            "drawable",
+            "object",
+            "home"
+          ]
+        },
+        {
+          "text": "筷子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "food"
+          ]
+        },
+        {
+          "text": "勺子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "food"
+          ]
+        },
+        {
+          "text": "书架",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "school"
+          ]
+        },
+        {
+          "text": "日记",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "school",
+            "object"
+          ]
+        },
+        {
+          "text": "剪刀",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "tool",
+            "object"
+          ]
+        },
+        {
+          "text": "胶水",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "school",
+            "object"
+          ]
+        },
+        {
+          "text": "画笔",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "school",
+            "object"
+          ]
+        },
+        {
+          "text": "地图",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "school",
+            "object"
+          ]
+        },
+        {
+          "text": "信封",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "邮票",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "照片",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "礼物",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "灯笼",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "festival",
+            "object"
+          ]
+        },
+        {
+          "text": "鞭炮",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "festival",
+            "object"
+          ]
+        },
+        {
+          "text": "月饼",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "festival",
+            "food"
+          ]
+        },
+        {
+          "text": "粽子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "festival",
+            "food"
+          ]
+        },
+        {
+          "text": "饺子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "festival",
+            "food"
+          ]
+        },
+        {
+          "text": "蛋糕",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food"
+          ]
+        },
+        {
+          "text": "冰淇淋",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "food"
+          ]
+        },
+        {
+          "text": "糖果",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food"
+          ]
+        },
+        {
+          "text": "公交车",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "transport"
+          ]
+        },
+        {
+          "text": "自行车",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "transport"
+          ]
+        },
+        {
+          "text": "轮船",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport"
+          ]
+        },
+        {
+          "text": "滑梯",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "place"
+          ]
+        },
+        {
+          "text": "秋千",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "place"
+          ]
+        },
+        {
+          "text": "跷跷板",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "object",
+            "place"
+          ]
+        },
+        {
+          "text": "篮球",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "sports",
+            "object"
+          ]
+        },
+        {
+          "text": "足球",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "sports",
+            "object"
+          ]
+        },
+        {
+          "text": "羽毛球",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "sports",
+            "object"
+          ]
+        },
+        {
+          "text": "跳绳",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "sports",
+            "object",
+            "action"
+          ]
+        },
+        {
+          "text": "游泳",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "sports",
+            "action"
+          ]
+        },
+        {
+          "text": "爬山",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "sports",
+            "action",
+            "nature"
+          ]
+        },
+        {
+          "text": "种树",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "plant"
+          ]
+        },
+        {
+          "text": "浇水",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "扫地",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "home"
+          ]
+        },
+        {
+          "text": "擦窗",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "home"
+          ]
+        },
+        {
+          "text": "做饭",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "food"
+          ]
+        },
+        {
+          "text": "钓鱼",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "放牛",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "animal"
+          ]
+        },
+        {
+          "text": "采花",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "plant"
+          ]
+        },
+        {
+          "text": "捉迷藏",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "放风筝",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "action",
+            "object"
+          ]
+        },
+        {
+          "text": "看书",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "school"
+          ]
+        },
+        {
+          "text": "听歌",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "拍照",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "object"
+          ]
+        },
+        {
+          "text": "排队",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "school"
+          ]
+        },
+        {
+          "text": "敬礼",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "school"
+          ]
+        },
+        {
+          "text": "笑容",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "哭泣",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion",
+            "action"
+          ]
+        },
+        {
+          "text": "拥抱",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion",
+            "action"
+          ]
+        },
+        {
+          "text": "影子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "梦",
+          "length": 1,
+          "tags": [
+            "drawable",
+            "advanced"
+          ]
+        },
+        {
+          "text": "奇石",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "小路",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "屋顶",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "home",
+            "place"
+          ]
+        },
+        {
+          "text": "窗帘",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "home",
+            "object"
+          ]
+        }
       ]
     },
     {
       "id": "grade-3",
       "label": "三年级",
-      "difficulty": "normal",
+      "difficulty": "medium",
       "words": [
-        { "text": "旅行", "length": 2, "tags": ["action", "drawable"] },
-        { "text": "观察", "length": 2, "tags": ["action"] },
-        { "text": "准备", "length": 2, "tags": ["action"] },
-        { "text": "发现", "length": 2, "tags": ["action"] },
-        { "text": "秘密", "length": 2, "tags": ["abstract"] },
-        { "text": "希望", "length": 2, "tags": ["abstract"] },
-        { "text": "梦想", "length": 2, "tags": ["abstract"] },
-        { "text": "蜜蜂", "length": 2, "tags": ["animal", "drawable"] },
-        { "text": "蝴蝶", "length": 2, "tags": ["animal", "drawable"] },
-        { "text": "荷花", "length": 2, "tags": ["nature", "drawable"] },
-        { "text": "影子", "length": 2, "tags": ["nature", "drawable"] },
-        { "text": "姿势", "length": 2, "tags": ["action", "drawable"] },
-        { "text": "规则", "length": 2, "tags": ["abstract"] },
-        { "text": "诚实", "length": 2, "tags": ["adjective"] },
-        { "text": "团结", "length": 2, "tags": ["abstract"] },
-        { "text": "鼓励", "length": 2, "tags": ["action"] },
-        { "text": "波光粼粼", "length": 4, "tags": ["idiom", "nature"] },
-        { "text": "争先恐后", "length": 4, "tags": ["idiom", "action"] },
-        { "text": "五颜六色", "length": 4, "tags": ["idiom", "drawable"] },
-        { "text": "一本正经", "length": 4, "tags": ["idiom", "action"] },
-        { "text": "大吃一惊", "length": 4, "tags": ["idiom", "emotion"] },
-        { "text": "引人注目", "length": 4, "tags": ["idiom"] }
+        {
+          "text": "海洋",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "沙漠",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "草原",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "峡谷",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "瀑布",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "火山",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "岛屿",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "港口",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place",
+            "transport"
+          ]
+        },
+        {
+          "text": "城市",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "乡村",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "农场",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "果园",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place",
+            "plant"
+          ]
+        },
+        {
+          "text": "菜园",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place",
+            "plant"
+          ]
+        },
+        {
+          "text": "花坛",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place",
+            "plant"
+          ]
+        },
+        {
+          "text": "池塘",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "溪流",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "河岸",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "山坡",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "山洞",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "雾气",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "weather"
+          ]
+        },
+        {
+          "text": "霜花",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "weather",
+            "nature"
+          ]
+        },
+        {
+          "text": "雷雨",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "weather"
+          ]
+        },
+        {
+          "text": "北风",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "weather"
+          ]
+        },
+        {
+          "text": "阳光",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "月光",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "树根",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "树枝",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "花瓣",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "花蕊",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "种子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "麦穗",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "玉米",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food",
+            "plant"
+          ]
+        },
+        {
+          "text": "南瓜",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food",
+            "plant"
+          ]
+        },
+        {
+          "text": "花生",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food",
+            "plant"
+          ]
+        },
+        {
+          "text": "红薯",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food",
+            "plant"
+          ]
+        },
+        {
+          "text": "竹笋",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food",
+            "plant"
+          ]
+        },
+        {
+          "text": "茶叶",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant",
+            "food"
+          ]
+        },
+        {
+          "text": "老鹰",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "鸽子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "麻雀",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "啄木鸟",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "翠鸟",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "狐狸",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "狼",
+          "length": 1,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "骆驼",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "刺猬",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "袋鼠",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "斑马",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "犀牛",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "河马",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "鳄鱼",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "章鱼",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "水母",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "海星",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "珊瑚",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature",
+            "animal"
+          ]
+        },
+        {
+          "text": "蚂蚁",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "蚯蚓",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "蜘蛛",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "蚕宝宝",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "校门",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "school",
+            "place"
+          ]
+        },
+        {
+          "text": "图书馆",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "school",
+            "place"
+          ]
+        },
+        {
+          "text": "实验室",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "school",
+            "science",
+            "place"
+          ]
+        },
+        {
+          "text": "音乐室",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "school",
+            "place"
+          ]
+        },
+        {
+          "text": "美术室",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "school",
+            "place"
+          ]
+        },
+        {
+          "text": "体育馆",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "sports",
+            "place"
+          ]
+        },
+        {
+          "text": "舞台",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "讲台",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "school",
+            "object"
+          ]
+        },
+        {
+          "text": "笔盒",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "school",
+            "object"
+          ]
+        },
+        {
+          "text": "圆规",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "school",
+            "tool"
+          ]
+        },
+        {
+          "text": "字典",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "school",
+            "object"
+          ]
+        },
+        {
+          "text": "报纸",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "相册",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "奖状",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "school",
+            "object"
+          ]
+        },
+        {
+          "text": "书签",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "school",
+            "object"
+          ]
+        },
+        {
+          "text": "玩具车",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "陀螺",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "风铃",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "沙包",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "sports",
+            "object"
+          ]
+        },
+        {
+          "text": "毽子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "sports",
+            "object"
+          ]
+        },
+        {
+          "text": "滑板",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "sports",
+            "object"
+          ]
+        },
+        {
+          "text": "帐篷",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "place"
+          ]
+        },
+        {
+          "text": "望远镜",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "science",
+            "object"
+          ]
+        },
+        {
+          "text": "显微镜",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "science",
+            "object"
+          ]
+        },
+        {
+          "text": "指南针",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "science",
+            "object"
+          ]
+        },
+        {
+          "text": "温度计",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "science",
+            "object"
+          ]
+        },
+        {
+          "text": "火箭",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "space",
+            "transport"
+          ]
+        },
+        {
+          "text": "卫星",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "space",
+            "science"
+          ]
+        },
+        {
+          "text": "机器人",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "science",
+            "object"
+          ]
+        },
+        {
+          "text": "电梯",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "place"
+          ]
+        },
+        {
+          "text": "电视",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "home"
+          ]
+        },
+        {
+          "text": "电脑",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "science"
+          ]
+        },
+        {
+          "text": "手机",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "science"
+          ]
+        },
+        {
+          "text": "相机",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "键盘",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "science"
+          ]
+        },
+        {
+          "text": "鼠标",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "science"
+          ]
+        },
+        {
+          "text": "厨房",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "home",
+            "place"
+          ]
+        },
+        {
+          "text": "客厅",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "home",
+            "place"
+          ]
+        },
+        {
+          "text": "阳台",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "home",
+            "place"
+          ]
+        },
+        {
+          "text": "院子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "home",
+            "place"
+          ]
+        },
+        {
+          "text": "篱笆",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "home",
+            "place"
+          ]
+        },
+        {
+          "text": "水井",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "风车",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "place"
+          ]
+        },
+        {
+          "text": "水车",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "place"
+          ]
+        },
+        {
+          "text": "桥洞",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "隧道",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport",
+            "place"
+          ]
+        },
+        {
+          "text": "斑马线",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "transport",
+            "place"
+          ]
+        },
+        {
+          "text": "红绿灯",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "transport",
+            "object"
+          ]
+        },
+        {
+          "text": "消防车",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "transport",
+            "safety"
+          ]
+        },
+        {
+          "text": "救护车",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "transport",
+            "safety"
+          ]
+        },
+        {
+          "text": "警车",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport",
+            "safety"
+          ]
+        },
+        {
+          "text": "飞机场",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "transport",
+            "place"
+          ]
+        },
+        {
+          "text": "火车站",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "transport",
+            "place"
+          ]
+        },
+        {
+          "text": "码头",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport",
+            "place"
+          ]
+        },
+        {
+          "text": "划船",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "transport"
+          ]
+        },
+        {
+          "text": "骑马",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "sports"
+          ]
+        },
+        {
+          "text": "滑雪",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "sports"
+          ]
+        },
+        {
+          "text": "溜冰",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "sports"
+          ]
+        },
+        {
+          "text": "踢球",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "sports"
+          ]
+        },
+        {
+          "text": "打鼓",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "culture"
+          ]
+        },
+        {
+          "text": "吹号",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "culture"
+          ]
+        },
+        {
+          "text": "弹琴",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "culture"
+          ]
+        },
+        {
+          "text": "练字",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "school"
+          ]
+        },
+        {
+          "text": "朗读",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "school"
+          ]
+        },
+        {
+          "text": "做操",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "sports"
+          ]
+        },
+        {
+          "text": "野餐",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "food"
+          ]
+        },
+        {
+          "text": "旅行",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "transport"
+          ]
+        },
+        {
+          "text": "参观",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "比赛",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "sports"
+          ]
+        },
+        {
+          "text": "庆祝",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "festival"
+          ]
+        },
+        {
+          "text": "观察",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "science"
+          ]
+        },
+        {
+          "text": "实验",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "science"
+          ]
+        }
       ]
     },
     {
       "id": "grade-4",
       "label": "四年级",
-      "difficulty": "normal",
+      "difficulty": "medium",
       "words": [
-        { "text": "故乡", "length": 2, "tags": ["place"] },
-        { "text": "风景", "length": 2, "tags": ["nature", "drawable"] },
-        { "text": "创造", "length": 2, "tags": ["action"] },
-        { "text": "智慧", "length": 2, "tags": ["abstract"] },
-        { "text": "责任", "length": 2, "tags": ["abstract"] },
-        { "text": "掌声", "length": 2, "tags": ["action", "drawable"] },
-        { "text": "愿望", "length": 2, "tags": ["abstract"] },
-        { "text": "信任", "length": 2, "tags": ["abstract"] },
-        { "text": "勇气", "length": 2, "tags": ["abstract"] },
-        { "text": "节约", "length": 2, "tags": ["action"] },
-        { "text": "保护", "length": 2, "tags": ["action"] },
-        { "text": "继续", "length": 2, "tags": ["action"] },
-        { "text": "思考", "length": 2, "tags": ["action", "drawable"] },
-        { "text": "辽阔", "length": 2, "tags": ["adjective"] },
-        { "text": "灿烂", "length": 2, "tags": ["adjective"] },
-        { "text": "成群结队", "length": 4, "tags": ["idiom", "drawable"] },
-        { "text": "无边无际", "length": 4, "tags": ["idiom", "nature"] },
-        { "text": "若隐若现", "length": 4, "tags": ["idiom"] },
-        { "text": "人山人海", "length": 4, "tags": ["idiom", "drawable"] },
-        { "text": "山清水秀", "length": 4, "tags": ["idiom", "nature", "drawable"] },
-        { "text": "千姿百态", "length": 4, "tags": ["idiom"] }
+        {
+          "text": "恐龙",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal",
+            "science"
+          ]
+        },
+        {
+          "text": "化石",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "science",
+            "nature"
+          ]
+        },
+        {
+          "text": "长城",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "place"
+          ]
+        },
+        {
+          "text": "故宫",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "place"
+          ]
+        },
+        {
+          "text": "天坛",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "place"
+          ]
+        },
+        {
+          "text": "兵马俑",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "culture",
+            "place"
+          ]
+        },
+        {
+          "text": "石狮",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "宫灯",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "龙舟",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "festival",
+            "culture",
+            "transport"
+          ]
+        },
+        {
+          "text": "戏台",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "place"
+          ]
+        },
+        {
+          "text": "脸谱",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "铜钱",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "算盘",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "毛笔",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "school",
+            "object"
+          ]
+        },
+        {
+          "text": "砚台",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "卷轴",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "印章",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "剪纸",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "年画",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "festival",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "民居",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "place"
+          ]
+        },
+        {
+          "text": "窑洞",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "place"
+          ]
+        },
+        {
+          "text": "竹楼",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "place"
+          ]
+        },
+        {
+          "text": "蒙古包",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "culture",
+            "place"
+          ]
+        },
+        {
+          "text": "毡房",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "place"
+          ]
+        },
+        {
+          "text": "牧场",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature",
+            "place"
+          ]
+        },
+        {
+          "text": "梯田",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature",
+            "place"
+          ]
+        },
+        {
+          "text": "茶园",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant",
+            "place"
+          ]
+        },
+        {
+          "text": "渔港",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place",
+            "transport"
+          ]
+        },
+        {
+          "text": "盐田",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature",
+            "place"
+          ]
+        },
+        {
+          "text": "矿山",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature",
+            "place"
+          ]
+        },
+        {
+          "text": "工厂",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "车间",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "仓库",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "水库",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place",
+            "nature"
+          ]
+        },
+        {
+          "text": "大坝",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place",
+            "science"
+          ]
+        },
+        {
+          "text": "电站",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place",
+            "science"
+          ]
+        },
+        {
+          "text": "铁路",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport",
+            "place"
+          ]
+        },
+        {
+          "text": "公路",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport",
+            "place"
+          ]
+        },
+        {
+          "text": "航线",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport"
+          ]
+        },
+        {
+          "text": "灯塔",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport",
+            "place"
+          ]
+        },
+        {
+          "text": "港湾",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place",
+            "nature"
+          ]
+        },
+        {
+          "text": "广场",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "博物馆",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "culture",
+            "place"
+          ]
+        },
+        {
+          "text": "展厅",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "place"
+          ]
+        },
+        {
+          "text": "纪念碑",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "culture",
+            "place"
+          ]
+        },
+        {
+          "text": "喷泉",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place",
+            "object"
+          ]
+        },
+        {
+          "text": "雕像",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "花篮",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "plant"
+          ]
+        },
+        {
+          "text": "奖杯",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "军舰",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport"
+          ]
+        },
+        {
+          "text": "潜水艇",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "transport",
+            "science"
+          ]
+        },
+        {
+          "text": "降落伞",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "transport",
+            "object"
+          ]
+        },
+        {
+          "text": "热气球",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "transport",
+            "object"
+          ]
+        },
+        {
+          "text": "直升机",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "transport"
+          ]
+        },
+        {
+          "text": "拖拉机",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "transport"
+          ]
+        },
+        {
+          "text": "收割机",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "transport",
+            "tool"
+          ]
+        },
+        {
+          "text": "吊车",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport",
+            "tool"
+          ]
+        },
+        {
+          "text": "挖掘机",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "transport",
+            "tool"
+          ]
+        },
+        {
+          "text": "推土机",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "transport",
+            "tool"
+          ]
+        },
+        {
+          "text": "卡车",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport"
+          ]
+        },
+        {
+          "text": "轮椅",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport",
+            "object"
+          ]
+        },
+        {
+          "text": "雪橇",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport",
+            "object"
+          ]
+        },
+        {
+          "text": "邮局",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "医院",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "商店",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "菜市场",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "place",
+            "food"
+          ]
+        },
+        {
+          "text": "电影院",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "剧院",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place",
+            "culture"
+          ]
+        },
+        {
+          "text": "银行",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "旅馆",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "餐厅",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place",
+            "food"
+          ]
+        },
+        {
+          "text": "书店",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place",
+            "school"
+          ]
+        },
+        {
+          "text": "农夫",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person"
+          ]
+        },
+        {
+          "text": "渔夫",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person"
+          ]
+        },
+        {
+          "text": "医生",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person"
+          ]
+        },
+        {
+          "text": "护士",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person"
+          ]
+        },
+        {
+          "text": "警察",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person",
+            "safety"
+          ]
+        },
+        {
+          "text": "消防员",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "person",
+            "safety"
+          ]
+        },
+        {
+          "text": "司机",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person",
+            "transport"
+          ]
+        },
+        {
+          "text": "厨师",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person",
+            "food"
+          ]
+        },
+        {
+          "text": "演员",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person",
+            "culture"
+          ]
+        },
+        {
+          "text": "画家",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person",
+            "culture"
+          ]
+        },
+        {
+          "text": "运动员",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "person",
+            "sports"
+          ]
+        },
+        {
+          "text": "裁判",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person",
+            "sports"
+          ]
+        },
+        {
+          "text": "宇航员",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "person",
+            "space"
+          ]
+        },
+        {
+          "text": "科学家",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "person",
+            "science"
+          ]
+        },
+        {
+          "text": "岩石",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "矿石",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "珍珠",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature",
+            "object"
+          ]
+        },
+        {
+          "text": "宝石",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature",
+            "object"
+          ]
+        },
+        {
+          "text": "珊瑚礁",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "蒲公英",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "向日葵",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "牵牛花",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "仙人掌",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "芦苇",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "枫叶",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "橡树",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "槐树",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "梧桐",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "柏树",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "候鸟",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "天鹅",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "丹顶鹤",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "夜莺",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "黄鹂",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "鹦鹉",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "蝙蝠",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "梅花鹿",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "金丝猴",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "东北虎",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "藏羚羊",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "牦牛",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "孔雀鱼",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "海龟",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "白鲸",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "蓝鲸",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "乌贼",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "瓢虫",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "萤火虫",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "蟋蟀",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "螳螂",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "蜗牛",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "毛毛虫",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "播种",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "plant"
+          ]
+        },
+        {
+          "text": "收割",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "plant"
+          ]
+        },
+        {
+          "text": "灌溉",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "plant"
+          ]
+        },
+        {
+          "text": "捕鱼",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "航行",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "transport"
+          ]
+        },
+        {
+          "text": "攀登",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "sports"
+          ]
+        },
+        {
+          "text": "跳远",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "sports"
+          ]
+        },
+        {
+          "text": "投篮",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "sports"
+          ]
+        },
+        {
+          "text": "射箭",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "sports"
+          ]
+        },
+        {
+          "text": "拔河",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "sports"
+          ]
+        },
+        {
+          "text": "舞狮",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "festival"
+          ]
+        },
+        {
+          "text": "舞龙",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "festival"
+          ]
+        }
       ]
     },
     {
@@ -123,28 +4149,1177 @@
       "label": "五年级",
       "difficulty": "hard",
       "words": [
-        { "text": "欣赏", "length": 2, "tags": ["action"] },
-        { "text": "判断", "length": 2, "tags": ["action"] },
-        { "text": "配合", "length": 2, "tags": ["action"] },
-        { "text": "启发", "length": 2, "tags": ["abstract"] },
-        { "text": "珍惜", "length": 2, "tags": ["action"] },
-        { "text": "坚持", "length": 2, "tags": ["action"] },
-        { "text": "探索", "length": 2, "tags": ["action", "drawable"] },
-        { "text": "沟通", "length": 2, "tags": ["action"] },
-        { "text": "承诺", "length": 2, "tags": ["abstract"] },
-        { "text": "尊重", "length": 2, "tags": ["abstract"] },
-        { "text": "规律", "length": 2, "tags": ["abstract"] },
-        { "text": "想象", "length": 2, "tags": ["action"] },
-        { "text": "独立", "length": 2, "tags": ["abstract"] },
-        { "text": "宽容", "length": 2, "tags": ["abstract"] },
-        { "text": "清澈", "length": 2, "tags": ["adjective"] },
-        { "text": "敏捷", "length": 2, "tags": ["adjective"] },
-        { "text": "津津有味", "length": 4, "tags": ["idiom", "action", "drawable"] },
-        { "text": "栩栩如生", "length": 4, "tags": ["idiom"] },
-        { "text": "心旷神怡", "length": 4, "tags": ["idiom", "emotion"] },
-        { "text": "理直气壮", "length": 4, "tags": ["idiom"] },
-        { "text": "不动声色", "length": 4, "tags": ["idiom", "action"] },
-        { "text": "举世闻名", "length": 4, "tags": ["idiom"] }
+        {
+          "text": "地球",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "space",
+            "science"
+          ]
+        },
+        {
+          "text": "赤道",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "science",
+            "nature"
+          ]
+        },
+        {
+          "text": "经纬线",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "science"
+          ]
+        },
+        {
+          "text": "地图册",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "school",
+            "object"
+          ]
+        },
+        {
+          "text": "火星",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "space"
+          ]
+        },
+        {
+          "text": "木星",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "space"
+          ]
+        },
+        {
+          "text": "银河",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "space"
+          ]
+        },
+        {
+          "text": "彗星",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "space"
+          ]
+        },
+        {
+          "text": "流星",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "space"
+          ]
+        },
+        {
+          "text": "日食",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "space"
+          ]
+        },
+        {
+          "text": "月食",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "space"
+          ]
+        },
+        {
+          "text": "火山口",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "温泉",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "冰川",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "冻土",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "海峡",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "海湾",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "半岛",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "高原",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "盆地",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "平原",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "丘陵",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "悬崖",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "礁石",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "潮汐",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "浪花",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "旋涡",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "稻谷",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant",
+            "food"
+          ]
+        },
+        {
+          "text": "麦田",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant",
+            "place"
+          ]
+        },
+        {
+          "text": "棉田",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant",
+            "place"
+          ]
+        },
+        {
+          "text": "桑叶",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "蚕茧",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal",
+            "object"
+          ]
+        },
+        {
+          "text": "蜂巢",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal",
+            "object"
+          ]
+        },
+        {
+          "text": "鸟巢",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal",
+            "object"
+          ]
+        },
+        {
+          "text": "兽穴",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal",
+            "place"
+          ]
+        },
+        {
+          "text": "水稻",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant",
+            "food"
+          ]
+        },
+        {
+          "text": "葫芦",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant",
+            "object"
+          ]
+        },
+        {
+          "text": "石榴",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food",
+            "plant"
+          ]
+        },
+        {
+          "text": "柿子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food",
+            "plant"
+          ]
+        },
+        {
+          "text": "橘子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food",
+            "plant"
+          ]
+        },
+        {
+          "text": "柠檬",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food",
+            "plant"
+          ]
+        },
+        {
+          "text": "菠萝",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food",
+            "plant"
+          ]
+        },
+        {
+          "text": "椰子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food",
+            "plant"
+          ]
+        },
+        {
+          "text": "辣椒",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food",
+            "plant"
+          ]
+        },
+        {
+          "text": "茄子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food",
+            "plant"
+          ]
+        },
+        {
+          "text": "黄瓜",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food",
+            "plant"
+          ]
+        },
+        {
+          "text": "莲藕",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food",
+            "plant"
+          ]
+        },
+        {
+          "text": "竹篓",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "tool",
+            "object"
+          ]
+        },
+        {
+          "text": "箩筐",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "tool",
+            "object"
+          ]
+        },
+        {
+          "text": "扁担",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "tool",
+            "object"
+          ]
+        },
+        {
+          "text": "锄头",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "tool",
+            "object"
+          ]
+        },
+        {
+          "text": "镰刀",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "tool",
+            "object"
+          ]
+        },
+        {
+          "text": "锯子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "tool",
+            "object"
+          ]
+        },
+        {
+          "text": "锤子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "tool",
+            "object"
+          ]
+        },
+        {
+          "text": "钳子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "tool",
+            "object"
+          ]
+        },
+        {
+          "text": "螺丝",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "tool",
+            "object"
+          ]
+        },
+        {
+          "text": "钉子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "tool",
+            "object"
+          ]
+        },
+        {
+          "text": "梯子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "tool",
+            "object"
+          ]
+        },
+        {
+          "text": "绳索",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "tool",
+            "object"
+          ]
+        },
+        {
+          "text": "铁锹",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "tool",
+            "object"
+          ]
+        },
+        {
+          "text": "油灯",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "culture"
+          ]
+        },
+        {
+          "text": "烛台",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "culture"
+          ]
+        },
+        {
+          "text": "屏风",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "culture"
+          ]
+        },
+        {
+          "text": "壁炉",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "home",
+            "object"
+          ]
+        },
+        {
+          "text": "烟囱",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "home",
+            "place"
+          ]
+        },
+        {
+          "text": "屋檐",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "home",
+            "place"
+          ]
+        },
+        {
+          "text": "瓦片",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "home",
+            "object"
+          ]
+        },
+        {
+          "text": "台阶",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "栅栏",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "路牌",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport",
+            "object"
+          ]
+        },
+        {
+          "text": "站牌",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport",
+            "object"
+          ]
+        },
+        {
+          "text": "路灯",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport",
+            "object"
+          ]
+        },
+        {
+          "text": "索道",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport"
+          ]
+        },
+        {
+          "text": "渡船",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport"
+          ]
+        },
+        {
+          "text": "帆船",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport"
+          ]
+        },
+        {
+          "text": "货轮",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport"
+          ]
+        },
+        {
+          "text": "客机",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport"
+          ]
+        },
+        {
+          "text": "航母",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport"
+          ]
+        },
+        {
+          "text": "列车",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport"
+          ]
+        },
+        {
+          "text": "地铁",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport"
+          ]
+        },
+        {
+          "text": "轻轨",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport"
+          ]
+        },
+        {
+          "text": "马车",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport"
+          ]
+        },
+        {
+          "text": "赛车",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport",
+            "sports"
+          ]
+        },
+        {
+          "text": "摩托车",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "transport"
+          ]
+        },
+        {
+          "text": "滑翔机",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "transport"
+          ]
+        },
+        {
+          "text": "诊所",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "药箱",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "safety",
+            "object"
+          ]
+        },
+        {
+          "text": "听诊器",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "safety",
+            "object"
+          ]
+        },
+        {
+          "text": "针筒",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "safety",
+            "object"
+          ]
+        },
+        {
+          "text": "绷带",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "safety",
+            "object"
+          ]
+        },
+        {
+          "text": "担架",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "safety",
+            "object"
+          ]
+        },
+        {
+          "text": "口罩",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "safety",
+            "object"
+          ]
+        },
+        {
+          "text": "头盔",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "safety",
+            "object"
+          ]
+        },
+        {
+          "text": "护目镜",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "safety",
+            "object"
+          ]
+        },
+        {
+          "text": "救生圈",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "safety",
+            "object"
+          ]
+        },
+        {
+          "text": "灭火器",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "safety",
+            "object"
+          ]
+        },
+        {
+          "text": "安全帽",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "safety",
+            "object"
+          ]
+        },
+        {
+          "text": "国旗",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "队旗",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "school",
+            "object"
+          ]
+        },
+        {
+          "text": "徽章",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "奖牌",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "sports",
+            "object"
+          ]
+        },
+        {
+          "text": "幕布",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "话筒",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "乐谱",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "古筝",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "笛子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "二胡",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "鼓槌",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "面具",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "皮影",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "木偶",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "陶罐",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "青铜器",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "瓷器",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "花瓶",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "屏幕",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "science",
+            "object"
+          ]
+        },
+        {
+          "text": "遥控器",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "science",
+            "object"
+          ]
+        },
+        {
+          "text": "插座",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "science",
+            "object"
+          ]
+        },
+        {
+          "text": "电池",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "science",
+            "object"
+          ]
+        },
+        {
+          "text": "电线",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "science",
+            "object"
+          ]
+        },
+        {
+          "text": "太阳能板",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "science",
+            "object"
+          ]
+        },
+        {
+          "text": "风力发电机",
+          "length": 5,
+          "tags": [
+            "drawable",
+            "science",
+            "object"
+          ]
+        },
+        {
+          "text": "机械臂",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "science",
+            "object"
+          ]
+        },
+        {
+          "text": "试管",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "science",
+            "object"
+          ]
+        },
+        {
+          "text": "天平",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "science",
+            "object"
+          ]
+        },
+        {
+          "text": "磁铁",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "science",
+            "object"
+          ]
+        },
+        {
+          "text": "标本",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "science",
+            "object"
+          ]
+        },
+        {
+          "text": "航拍",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "science"
+          ]
+        },
+        {
+          "text": "测量",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "science"
+          ]
+        },
+        {
+          "text": "救援",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "safety"
+          ]
+        },
+        {
+          "text": "探险",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "advanced"
+          ]
+        },
+        {
+          "text": "采访",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "直播",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "science"
+          ]
+        },
+        {
+          "text": "裁剪",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "拼图",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "object"
+          ]
+        }
       ]
     },
     {
@@ -152,28 +5327,923 @@
       "label": "六年级",
       "difficulty": "hard",
       "words": [
-        { "text": "辩论", "length": 2, "tags": ["action", "drawable"] },
-        { "text": "理想", "length": 2, "tags": ["abstract"] },
-        { "text": "挫折", "length": 2, "tags": ["abstract"] },
-        { "text": "奋斗", "length": 2, "tags": ["action"] },
-        { "text": "回忆", "length": 2, "tags": ["abstract"] },
-        { "text": "选择", "length": 2, "tags": ["action"] },
-        { "text": "贡献", "length": 2, "tags": ["abstract"] },
-        { "text": "传承", "length": 2, "tags": ["abstract"] },
-        { "text": "感悟", "length": 2, "tags": ["abstract"] },
-        { "text": "凝望", "length": 2, "tags": ["action", "drawable"] },
-        { "text": "朴素", "length": 2, "tags": ["adjective"] },
-        { "text": "慷慨", "length": 2, "tags": ["adjective"] },
-        { "text": "沉着", "length": 2, "tags": ["adjective"] },
-        { "text": "严谨", "length": 2, "tags": ["adjective"] },
-        { "text": "眷恋", "length": 2, "tags": ["abstract"] },
-        { "text": "渺小", "length": 2, "tags": ["adjective"] },
-        { "text": "意味深长", "length": 4, "tags": ["idiom"] },
-        { "text": "全神贯注", "length": 4, "tags": ["idiom", "action", "drawable"] },
-        { "text": "别出心裁", "length": 4, "tags": ["idiom"] },
-        { "text": "司空见惯", "length": 4, "tags": ["idiom"] },
-        { "text": "见微知著", "length": 4, "tags": ["idiom"] },
-        { "text": "锲而不舍", "length": 4, "tags": ["idiom"] }
+        {
+          "text": "宇宙",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "space",
+            "advanced"
+          ]
+        },
+        {
+          "text": "星系",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "space",
+            "advanced"
+          ]
+        },
+        {
+          "text": "星云",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "space",
+            "advanced"
+          ]
+        },
+        {
+          "text": "黑洞",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "space",
+            "advanced"
+          ]
+        },
+        {
+          "text": "空间站",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "space",
+            "science"
+          ]
+        },
+        {
+          "text": "探测器",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "space",
+            "science"
+          ]
+        },
+        {
+          "text": "宇航服",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "space",
+            "object"
+          ]
+        },
+        {
+          "text": "月球车",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "space",
+            "transport"
+          ]
+        },
+        {
+          "text": "地震",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "海啸",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "暴风雪",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "weather"
+          ]
+        },
+        {
+          "text": "沙尘暴",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "weather"
+          ]
+        },
+        {
+          "text": "洪水",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "干旱",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "冰雹",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "weather"
+          ]
+        },
+        {
+          "text": "霜冻",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "weather"
+          ]
+        },
+        {
+          "text": "云海",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "日出",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "日落",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "极光",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature",
+            "space"
+          ]
+        },
+        {
+          "text": "雪山",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "高山",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "地下河",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "溶洞",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "湿地",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "沼泽",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "草甸",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "荒漠",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "绿洲",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "红树林",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "plant",
+            "nature"
+          ]
+        },
+        {
+          "text": "保护区",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "place",
+            "nature"
+          ]
+        },
+        {
+          "text": "国家公园",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "place",
+            "nature"
+          ]
+        },
+        {
+          "text": "纪念馆",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "culture",
+            "place"
+          ]
+        },
+        {
+          "text": "剧场",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "place"
+          ]
+        },
+        {
+          "text": "体育场",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "sports",
+            "place"
+          ]
+        },
+        {
+          "text": "长江大桥",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "transport",
+            "place"
+          ]
+        },
+        {
+          "text": "三峡大坝",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "science",
+            "place"
+          ]
+        },
+        {
+          "text": "高铁站",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "transport",
+            "place"
+          ]
+        },
+        {
+          "text": "发电站",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "science",
+            "place"
+          ]
+        },
+        {
+          "text": "气象站",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "science",
+            "place"
+          ]
+        },
+        {
+          "text": "观测站",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "science",
+            "place"
+          ]
+        },
+        {
+          "text": "烽火台",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "culture",
+            "place"
+          ]
+        },
+        {
+          "text": "城墙",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "place"
+          ]
+        },
+        {
+          "text": "城门",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "place"
+          ]
+        },
+        {
+          "text": "牌楼",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "place"
+          ]
+        },
+        {
+          "text": "石桥",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "place"
+          ]
+        },
+        {
+          "text": "古井",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "place"
+          ]
+        },
+        {
+          "text": "木屋",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place",
+            "home"
+          ]
+        },
+        {
+          "text": "吊脚楼",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "culture",
+            "place"
+          ]
+        },
+        {
+          "text": "四合院",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "culture",
+            "place"
+          ]
+        },
+        {
+          "text": "稻草人",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "object",
+            "plant"
+          ]
+        },
+        {
+          "text": "麦浪",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant",
+            "nature"
+          ]
+        },
+        {
+          "text": "菜棚",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant",
+            "place"
+          ]
+        },
+        {
+          "text": "温室",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "science",
+            "place"
+          ]
+        },
+        {
+          "text": "鱼塘",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place",
+            "animal"
+          ]
+        },
+        {
+          "text": "水渠",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "水塔",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "水磨",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "造纸",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "culture"
+          ]
+        },
+        {
+          "text": "印刷",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "culture"
+          ]
+        },
+        {
+          "text": "纺织",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "culture"
+          ]
+        },
+        {
+          "text": "织布机",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "缝纫机",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "object",
+            "science"
+          ]
+        },
+        {
+          "text": "收音机",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "object",
+            "science"
+          ]
+        },
+        {
+          "text": "留声机",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "电报机",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "culture",
+            "science",
+            "object"
+          ]
+        },
+        {
+          "text": "竹简",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "甲骨文",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "青铜鼎",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "编钟",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "古琴",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "京剧",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture"
+          ]
+        },
+        {
+          "text": "皮影戏",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "culture"
+          ]
+        },
+        {
+          "text": "泥塑",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture",
+            "object"
+          ]
+        },
+        {
+          "text": "太极拳",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "sports",
+            "culture"
+          ]
+        },
+        {
+          "text": "武术",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "sports",
+            "culture"
+          ]
+        },
+        {
+          "text": "马术",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "sports"
+          ]
+        },
+        {
+          "text": "航海",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "transport"
+          ]
+        },
+        {
+          "text": "潜水",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "sports"
+          ]
+        },
+        {
+          "text": "攀岩",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "sports"
+          ]
+        },
+        {
+          "text": "滑翔",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "sports"
+          ]
+        },
+        {
+          "text": "露营",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "远足",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "考古",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "science"
+          ]
+        },
+        {
+          "text": "勘探",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "science"
+          ]
+        },
+        {
+          "text": "观测",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "science"
+          ]
+        },
+        {
+          "text": "测绘",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "science"
+          ]
+        },
+        {
+          "text": "绘图",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "school"
+          ]
+        },
+        {
+          "text": "摄影",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "摄像",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "建模",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "science"
+          ]
+        },
+        {
+          "text": "编程",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "science"
+          ]
+        },
+        {
+          "text": "无人机",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "science",
+            "object"
+          ]
+        },
+        {
+          "text": "打印机",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "science",
+            "object"
+          ]
+        },
+        {
+          "text": "扫描仪",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "science",
+            "object"
+          ]
+        },
+        {
+          "text": "传送带",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "science",
+            "object"
+          ]
+        },
+        {
+          "text": "起重机",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "transport",
+            "tool"
+          ]
+        },
+        {
+          "text": "防护服",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "safety",
+            "object"
+          ]
+        },
+        {
+          "text": "救生艇",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "safety",
+            "transport"
+          ]
+        },
+        {
+          "text": "急救包",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "safety",
+            "object"
+          ]
+        },
+        {
+          "text": "地图投影",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "science",
+            "advanced"
+          ]
+        },
+        {
+          "text": "等高线",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "science",
+            "advanced"
+          ]
+        },
+        {
+          "text": "比例尺",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "science",
+            "advanced"
+          ]
+        },
+        {
+          "text": "地形图",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "science",
+            "object"
+          ]
+        },
+        {
+          "text": "指南车",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "culture",
+            "transport"
+          ]
+        }
       ]
     }
   ]

@@ -122,7 +122,7 @@ body[data-mode="mono"] .game::after {
   position: relative;
   z-index: 1;
   width: min(780px, 92vw);
-  height: min(480px, 82dvh);
+  min-height: min(480px, 82dvh);
   border-radius: var(--radius);
   background: var(--card);
   border: 1px solid var(--line);
