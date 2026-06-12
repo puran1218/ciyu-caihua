@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build / dependency directories
+node_modules/
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# OS files
+Thumbs.db
+
+# Claude AI workspace
+.claude/
+
+# Generated files
+*.env
+.env.local
+.env.*.local
+
+# Other
+coverage/
+*.tmp
+*.temp
