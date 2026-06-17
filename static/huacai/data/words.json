@@ -1840,7 +1840,7 @@
     {
       "id": "grade-3",
       "label": "三年级",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "words": [
         {
           "text": "海洋",
@@ -2964,13 +2964,265 @@
             "action",
             "science"
           ]
+        },
+        {
+          "text": "小狗洗澡",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "animal",
+            "action",
+            "home"
+          ]
+        },
+        {
+          "text": "小猫钓鱼",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "animal",
+            "action"
+          ]
+        },
+        {
+          "text": "小兔采菇",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "animal",
+            "plant",
+            "action"
+          ]
+        },
+        {
+          "text": "乌龟赛跑",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "animal",
+            "sports",
+            "action"
+          ]
+        },
+        {
+          "text": "青蛙跳远",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "animal",
+            "sports",
+            "action"
+          ]
+        },
+        {
+          "text": "蜜蜂采蜜",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "animal",
+            "plant",
+            "action"
+          ]
+        },
+        {
+          "text": "蝴蝶飞舞",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "animal",
+            "action"
+          ]
+        },
+        {
+          "text": "小鱼吐泡",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "animal",
+            "action",
+            "nature"
+          ]
+        },
+        {
+          "text": "海豚跳水",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "animal",
+            "sports",
+            "action"
+          ]
+        },
+        {
+          "text": "熊猫吃竹",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "animal",
+            "plant",
+            "food"
+          ]
+        },
+        {
+          "text": "大象喷水",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "animal",
+            "action"
+          ]
+        },
+        {
+          "text": "猴子摘桃",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "animal",
+            "plant",
+            "food",
+            "action"
+          ]
+        },
+        {
+          "text": "全家野餐",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "home",
+            "food",
+            "action"
+          ]
+        },
+        {
+          "text": "厨房做饭",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "home",
+            "food",
+            "action"
+          ]
+        },
+        {
+          "text": "客厅跳舞",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "home",
+            "action"
+          ]
+        },
+        {
+          "text": "阳台浇花",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "home",
+            "plant",
+            "action"
+          ]
+        },
+        {
+          "text": "操场跑步",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "school",
+            "sports",
+            "action"
+          ]
+        },
+        {
+          "text": "教室画画",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "school",
+            "action"
+          ]
+        },
+        {
+          "text": "同学排队",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "school",
+            "person",
+            "action"
+          ]
+        },
+        {
+          "text": "老师讲课",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "school",
+            "person",
+            "action"
+          ]
+        },
+        {
+          "text": "雨后彩虹",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "weather",
+            "nature"
+          ]
+        },
+        {
+          "text": "雪地脚印",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "weather",
+            "nature"
+          ]
+        },
+        {
+          "text": "春天踏青",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "weather",
+            "action"
+          ]
+        },
+        {
+          "text": "夏夜萤火",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "weather",
+            "animal",
+            "nature"
+          ]
+        },
+        {
+          "text": "秋天落叶",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "weather",
+            "plant",
+            "nature"
+          ]
+        },
+        {
+          "text": "冬天堆雪",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "weather",
+            "action"
+          ]
         }
       ]
     },
     {
       "id": "grade-4",
       "label": "四年级",
-      "difficulty": "medium",
+      "difficulty": "normal",
       "words": [
         {
           "text": "恐龙",
@@ -4140,6 +4392,301 @@
             "drawable",
             "action",
             "festival"
+          ]
+        },
+        {
+          "text": "风筝上天",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "object",
+            "weather",
+            "action"
+          ]
+        },
+        {
+          "text": "火车进站",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "transport",
+            "place",
+            "action"
+          ]
+        },
+        {
+          "text": "轮船靠岸",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "transport",
+            "place",
+            "action"
+          ]
+        },
+        {
+          "text": "飞机起飞",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "transport",
+            "action"
+          ]
+        },
+        {
+          "text": "公交到站",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "transport",
+            "place",
+            "action"
+          ]
+        },
+        {
+          "text": "消防救火",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "safety",
+            "person",
+            "action"
+          ]
+        },
+        {
+          "text": "医生看病",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "person",
+            "action",
+            "safety"
+          ]
+        },
+        {
+          "text": "警察指路",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "person",
+            "action",
+            "safety"
+          ]
+        },
+        {
+          "text": "厨师炒菜",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "person",
+            "food",
+            "action"
+          ]
+        },
+        {
+          "text": "农民插秧",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "person",
+            "plant",
+            "action"
+          ]
+        },
+        {
+          "text": "园丁浇花",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "person",
+            "plant",
+            "action"
+          ]
+        },
+        {
+          "text": "赛道冲刺",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "school",
+            "sports",
+            "action"
+          ]
+        },
+        {
+          "text": "篮球投篮",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "sports",
+            "action"
+          ]
+        },
+        {
+          "text": "足球射门",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "sports",
+            "action"
+          ]
+        },
+        {
+          "text": "跳绳比赛",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "sports",
+            "action",
+            "school"
+          ]
+        },
+        {
+          "text": "游泳比赛",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "sports",
+            "action"
+          ]
+        },
+        {
+          "text": "操场拔河",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "school",
+            "sports",
+            "action"
+          ]
+        },
+        {
+          "text": "公园划船",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "place",
+            "transport",
+            "action"
+          ]
+        },
+        {
+          "text": "沙滩拾贝",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "place",
+            "nature",
+            "action"
+          ]
+        },
+        {
+          "text": "山顶看云",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "place",
+            "nature",
+            "weather"
+          ]
+        },
+        {
+          "text": "森林露营",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "place",
+            "plant",
+            "action"
+          ]
+        },
+        {
+          "text": "草原骑马",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "place",
+            "animal",
+            "action"
+          ]
+        },
+        {
+          "text": "沙滩城堡",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "place",
+            "object"
+          ]
+        },
+        {
+          "text": "桥上看船",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "place",
+            "transport",
+            "action"
+          ]
+        },
+        {
+          "text": "春节贴福",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "festival",
+            "culture",
+            "action"
+          ]
+        },
+        {
+          "text": "元宵看灯",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "festival",
+            "culture",
+            "action"
+          ]
+        },
+        {
+          "text": "端午赛舟",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "festival",
+            "culture",
+            "sports"
+          ]
+        },
+        {
+          "text": "中秋赏月",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "festival",
+            "culture",
+            "nature"
+          ]
+        },
+        {
+          "text": "生日蛋糕",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "festival",
+            "home",
+            "food"
+          ]
+        },
+        {
+          "text": "庙会舞狮",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "festival",
+            "culture",
+            "action"
           ]
         }
       ]
@@ -5319,6 +5866,351 @@
             "action",
             "object"
           ]
+        },
+        {
+          "text": "火山喷发",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "nature",
+            "science"
+          ]
+        },
+        {
+          "text": "海浪拍岸",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "nature",
+            "place",
+            "action"
+          ]
+        },
+        {
+          "text": "瀑布落下",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "nature",
+            "action"
+          ]
+        },
+        {
+          "text": "山谷回声",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "nature",
+            "place",
+            "science"
+          ]
+        },
+        {
+          "text": "沙漠骆驼",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "nature",
+            "animal",
+            "place"
+          ]
+        },
+        {
+          "text": "草原牛羊",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "nature",
+            "animal",
+            "place"
+          ]
+        },
+        {
+          "text": "雪山缆车",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "nature",
+            "transport",
+            "place"
+          ]
+        },
+        {
+          "text": "梯田插秧",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "plant",
+            "place",
+            "action"
+          ]
+        },
+        {
+          "text": "稻田收割",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "plant",
+            "place",
+            "action"
+          ]
+        },
+        {
+          "text": "果园采摘",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "plant",
+            "food",
+            "action"
+          ]
+        },
+        {
+          "text": "茶园采茶",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "plant",
+            "culture",
+            "action"
+          ]
+        },
+        {
+          "text": "竹林小路",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "plant",
+            "place",
+            "nature"
+          ]
+        },
+        {
+          "text": "夜空烟花",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "festival",
+            "weather",
+            "object"
+          ]
+        },
+        {
+          "text": "舞台表演",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "place",
+            "action",
+            "person"
+          ]
+        },
+        {
+          "text": "木偶表演",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "culture",
+            "object",
+            "action"
+          ]
+        },
+        {
+          "text": "皮影戏台",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "culture",
+            "place",
+            "object"
+          ]
+        },
+        {
+          "text": "书法写字",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "culture",
+            "school",
+            "action"
+          ]
+        },
+        {
+          "text": "剪纸窗花",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "culture",
+            "festival",
+            "object"
+          ]
+        },
+        {
+          "text": "泥人捏脸",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "culture",
+            "object",
+            "action"
+          ]
+        },
+        {
+          "text": "陶罐作坊",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "culture",
+            "object",
+            "place"
+          ]
+        },
+        {
+          "text": "显微观察",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "science",
+            "action",
+            "tool"
+          ]
+        },
+        {
+          "text": "磁铁吸钉",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "science",
+            "object",
+            "action"
+          ]
+        },
+        {
+          "text": "水车转动",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "science",
+            "object",
+            "action"
+          ]
+        },
+        {
+          "text": "风车发电",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "science",
+            "object",
+            "weather"
+          ]
+        },
+        {
+          "text": "机器手臂",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "science",
+            "object"
+          ]
+        },
+        {
+          "text": "无人机飞",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "science",
+            "transport",
+            "action"
+          ]
+        },
+        {
+          "text": "望远观星",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "science",
+            "space",
+            "tool"
+          ]
+        },
+        {
+          "text": "指南针转",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "science",
+            "tool",
+            "action"
+          ]
+        },
+        {
+          "text": "急救包扎",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "safety",
+            "action",
+            "object"
+          ]
+        },
+        {
+          "text": "帐篷露营",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "object",
+            "action",
+            "place"
+          ]
+        },
+        {
+          "text": "灯塔照船",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "place",
+            "transport",
+            "object"
+          ]
+        },
+        {
+          "text": "港口装货",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "place",
+            "transport",
+            "action"
+          ]
+        },
+        {
+          "text": "高铁穿山",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "transport",
+            "nature",
+            "action"
+          ]
+        },
+        {
+          "text": "城市夜景",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "place",
+            "object"
+          ]
+        },
+        {
+          "text": "乡村小院",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "place",
+            "home"
+          ]
         }
       ]
     },
@@ -6242,6 +7134,324 @@
             "drawable",
             "culture",
             "transport"
+          ]
+        },
+        {
+          "text": "月球探测",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "space",
+            "science",
+            "advanced"
+          ]
+        },
+        {
+          "text": "火星车轮",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "space",
+            "science",
+            "transport"
+          ]
+        },
+        {
+          "text": "火箭升空",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "space",
+            "science",
+            "transport"
+          ]
+        },
+        {
+          "text": "卫星绕地",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "space",
+            "science",
+            "object"
+          ]
+        },
+        {
+          "text": "太空行走",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "space",
+            "person",
+            "action"
+          ]
+        },
+        {
+          "text": "星空帐篷",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "space",
+            "object",
+            "place"
+          ]
+        },
+        {
+          "text": "日食眼镜",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "space",
+            "science",
+            "object"
+          ]
+        },
+        {
+          "text": "流星划过",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "space",
+            "nature",
+            "action"
+          ]
+        },
+        {
+          "text": "海底潜艇",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "science",
+            "transport",
+            "nature"
+          ]
+        },
+        {
+          "text": "珊瑚海龟",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "nature",
+            "animal",
+            "place"
+          ]
+        },
+        {
+          "text": "鲸鱼喷水",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "animal",
+            "nature",
+            "action"
+          ]
+        },
+        {
+          "text": "冰川裂缝",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "nature",
+            "advanced"
+          ]
+        },
+        {
+          "text": "极光天空",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "nature",
+            "weather",
+            "advanced"
+          ]
+        },
+        {
+          "text": "雨林瀑布",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "nature",
+            "plant",
+            "place"
+          ]
+        },
+        {
+          "text": "峡谷栈道",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "nature",
+            "place",
+            "advanced"
+          ]
+        },
+        {
+          "text": "古桥流水",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "culture",
+            "place",
+            "nature"
+          ]
+        },
+        {
+          "text": "古城城门",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "culture",
+            "place"
+          ]
+        },
+        {
+          "text": "龙舟鼓手",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "festival",
+            "culture",
+            "person"
+          ]
+        },
+        {
+          "text": "灯笼长街",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "festival",
+            "culture",
+            "place"
+          ]
+        },
+        {
+          "text": "戏台脸谱",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "culture",
+            "place",
+            "person"
+          ]
+        },
+        {
+          "text": "古琴演奏",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "culture",
+            "object",
+            "action"
+          ]
+        },
+        {
+          "text": "茶馆听书",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "culture",
+            "place",
+            "action"
+          ]
+        },
+        {
+          "text": "文物展柜",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "culture",
+            "place",
+            "object"
+          ]
+        },
+        {
+          "text": "考古刷土",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "culture",
+            "science",
+            "action"
+          ]
+        },
+        {
+          "text": "恐龙骨架",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "science",
+            "animal",
+            "object"
+          ]
+        },
+        {
+          "text": "地震避险",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "safety",
+            "action",
+            "advanced"
+          ]
+        },
+        {
+          "text": "消防演练",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "safety",
+            "school",
+            "action"
+          ]
+        },
+        {
+          "text": "救生圈漂",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "safety",
+            "object",
+            "action"
+          ]
+        },
+        {
+          "text": "地图寻宝",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "object",
+            "action",
+            "advanced"
+          ]
+        },
+        {
+          "text": "罗盘指北",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "tool",
+            "science",
+            "action"
+          ]
+        },
+        {
+          "text": "影子测时",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "science",
+            "nature",
+            "advanced"
+          ]
+        },
+        {
+          "text": "水滴放大",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "science",
+            "nature",
+            "action"
           ]
         }
       ]
