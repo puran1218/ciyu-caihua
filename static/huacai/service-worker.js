@@ -1,4 +1,4 @@
-const CACHE_NAME = "ciyu-huacai-v3";
+const CACHE_NAME = "ciyu-huacai-v4";
 const ASSETS = [
   "./",
   "./index.html",
@@ -6,6 +6,7 @@ const ASSETS = [
   "./app.js",
   "./manifest.webmanifest",
   "./data/words.json",
+  "./data/imagenet-words.json",
   "./icons/icon.svg",
   "./icons/icon-192.png",
   "./icons/icon-512.png",

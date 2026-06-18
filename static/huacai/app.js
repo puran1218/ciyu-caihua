@@ -2,8 +2,14 @@ const SETTINGS_KEY = "cyhc-settings";
 
 const DEFAULT_SETTINGS = {
   mode: "color",
+  source: "primary",
   range: "all",
   allowFour: true,
+};
+
+const WORD_BANK_SOURCES = {
+  primary: "./data/words.json",
+  imagenet: "./data/imagenet-words.json",
 };
 
 // 兜底词库：words.json 加载失败时仍可开局
@@ -45,6 +51,9 @@ const settingsBackdrop = document.getElementById("settingsBackdrop");
 const closeSettingsBtn = document.getElementById("closeSettingsBtn");
 const resetBtn = document.getElementById("resetBtn");
 const modeButtons = Array.from(document.querySelectorAll("[data-mode-option]"));
+const sourceButtons = Array.from(
+  document.querySelectorAll("#sourceSeg [data-source]"),
+);
 const rangeButtons = Array.from(
   document.querySelectorAll("#rangeSeg [data-range]"),
 );
@@ -55,7 +64,11 @@ const fourButtons = Array.from(
 function loadSettings() {
   try {
     const saved = JSON.parse(localStorage.getItem(SETTINGS_KEY));
-    return { ...DEFAULT_SETTINGS, ...(saved || {}) };
+    const settings = { ...DEFAULT_SETTINGS, ...(saved || {}) };
+    if (!WORD_BANK_SOURCES[settings.source]) {
+      settings.source = DEFAULT_SETTINGS.source;
+    }
+    return settings;
   } catch {
     return { ...DEFAULT_SETTINGS };
   }
@@ -113,6 +126,12 @@ function applyMode() {
 }
 
 function applySettingsUI() {
+  sourceButtons.forEach((button) => {
+    button.classList.toggle(
+      "selected",
+      button.dataset.source === state.settings.source,
+    );
+  });
   rangeButtons.forEach((button) => {
     button.classList.toggle(
       "selected",
@@ -125,6 +144,40 @@ function applySettingsUI() {
       (button.dataset.four === "on") === state.settings.allowFour,
     );
   });
+}
+
+function isValidWordBank(bank) {
+  return bank && Array.isArray(bank.groups) && bank.groups.length > 0;
+}
+
+function wordBankPath() {
+  return WORD_BANK_SOURCES[state.settings.source] || WORD_BANK_SOURCES.primary;
+}
+
+async function loadWordBank() {
+  const path = wordBankPath();
+  try {
+    const response = await fetch(path);
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+    }
+    const bank = await response.json();
+    if (!isValidWordBank(bank)) {
+      throw new Error("结构不符合预期");
+    }
+    console.log(
+      `[${path}] 加载成功，词条数:`,
+      bank.groups.reduce((sum, group) => sum + group.words.length, 0),
+    );
+    state.bank = bank;
+  } catch (err) {
+    console.error(`[${path}] 加载失败，使用示例词库:`, err.message);
+    state.bank = FALLBACK_BANK;
+  }
+  if (gameScreen.classList.contains("active")) {
+    rebuildDeck();
+    nextWord();
+  }
 }
 
 function showHome() {
@@ -201,6 +254,15 @@ modeButtons.forEach((button) => {
   });
 });
 
+sourceButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    state.settings.source = button.dataset.source;
+    applySettingsUI();
+    saveSettings();
+    loadWordBank();
+  });
+});
+
 rangeButtons.forEach((button) => {
   button.addEventListener("click", () => {
     state.settings.range = button.dataset.range;
@@ -222,6 +284,7 @@ resetBtn.addEventListener("click", () => {
   saveSettings();
   applyMode();
   applySettingsUI();
+  loadWordBank();
 });
 
 document.getElementById("portraitDismissBtn").addEventListener("click", () => {
@@ -291,28 +354,8 @@ document.addEventListener("keydown", (event) => {
 });
 
 applyMode();
-
-fetch("./data/words.json")
-  .then((response) => {
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-    }
-    return response.json();
-  })
-  .then((bank) => {
-    if (bank && Array.isArray(bank.groups) && bank.groups.length > 0) {
-      console.log(
-        "[words.json] 加载成功，词条数:",
-        bank.groups.reduce((sum, g) => sum + g.words.length, 0),
-      );
-      state.bank = bank;
-    } else {
-      console.warn("[words.json] 结构不符合预期，使用示例词库");
-    }
-  })
-  .catch((err) => {
-    console.error("[words.json] 加载失败:", err.message);
-  });
+applySettingsUI();
+loadWordBank();
 
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
