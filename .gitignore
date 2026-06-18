@@ -25,6 +25,7 @@ Thumbs.db
 
 # Claude AI workspace
 .claude/
+.superpowers/
 
 # Generated files
 *.env
