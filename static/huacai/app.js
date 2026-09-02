@@ -35,9 +35,6 @@ const FALLBACK_BANK = {
 const state = {
   settings: loadSettings(),
   bank: FALLBACK_BANK,
-  deck: [],
-  index: -1,
-  lastWord: "",
 };
 
 const homeScreen = document.getElementById("homeScreen");
@@ -78,41 +75,99 @@ function saveSettings() {
   localStorage.setItem(SETTINGS_KEY, JSON.stringify(state.settings));
 }
 
+function isValidWord(word) {
+  return (
+    Boolean(word) &&
+    typeof word.text === "string" &&
+    word.text.trim() !== "" &&
+    typeof word.length === "number" &&
+    Number.isFinite(word.length) &&
+    Array.isArray(word.tags)
+  );
+}
+
+// 词库整体可用：结构完整，且至少有一个能玩的词
+function isValidWordBank(bank) {
+  return (
+    Boolean(bank) &&
+    Array.isArray(bank.groups) &&
+    bank.groups.length > 0 &&
+    bank.groups.some(
+      (group) => Array.isArray(group.words) && group.words.some(isValidWord),
+    )
+  );
+}
+
+// 单个坏词条直接忽略，不让整个词库不可用；返回清理后的词库和忽略数量
+function sanitizeWordBank(bank) {
+  let skipped = 0;
+  const groups = bank.groups.map((group) => {
+    const words = Array.isArray(group.words) ? group.words : [];
+    const validWords = words.filter((word) => {
+      if (isValidWord(word)) {
+        return true;
+      }
+      skipped += 1;
+      return false;
+    });
+    return { ...group, words: validWords };
+  });
+  return { bank: { ...bank, groups }, skipped };
+}
+
+function countBankWords(bank) {
+  return bank.groups.reduce((sum, group) => sum + group.words.length, 0);
+}
+
+// 候选池：按设置筛选、按 text 去重，同一个词在一副牌里只出现一次
 function candidateWords() {
   const { range, allowFour } = state.settings;
-  const groups = state.bank.groups.filter(
-    (group) => range === "all" || group.difficulty === range,
-  );
-  const words = groups
-    .flatMap((group) => group.words)
-    .filter((word) => allowFour || word.length < 4)
-    .map((word) => word.text);
-  // 设置组合筛不出词时退回全量，保证总能开局
-  if (words.length === 0) {
-    return state.bank.groups.flatMap((group) =>
-      group.words.map((word) => word.text),
+  const inRange = (group) => range === "all" || group.difficulty === range;
+  const lengthOk = (word) => allowFour || word.length < 4;
+  const collect = (groupOk, wordOk) =>
+    CyhcBag.uniqueTexts(
+      state.bank.groups
+        .filter(groupOk)
+        .flatMap((group) => group.words)
+        .filter(wordOk)
+        .map((word) => word.text),
     );
+
+  // 筛不出词时逐级放宽，只放弃必要的条件：
+  // 先放宽难度范围（保住四字开关），再放宽四字开关（保住难度范围），
+  // 仍然为空才用全量词兜底，保证总能开局
+  let words = collect(inRange, lengthOk);
+  if (words.length === 0) {
+    words = collect(() => true, lengthOk);
+  }
+  if (words.length === 0) {
+    words = collect(inRange, () => true);
+  }
+  if (words.length === 0) {
+    words = collect(() => true, () => true);
   }
   return words;
 }
 
-function shuffle(items) {
-  const copy = [...items];
-  for (let i = copy.length - 1; i > 0; i -= 1) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [copy[i], copy[j]] = [copy[j], copy[i]];
-  }
-  return copy;
+// 袋子身份：换词库 / 换范围 / 换四字开关 / 词库升版都会用新袋子
+function getBagKey() {
+  return CyhcBag.bagKey({
+    source: state.settings.source,
+    range: state.settings.range,
+    allowFour: state.settings.allowFour,
+    version: state.bank.version,
+  });
 }
 
-function rebuildDeck() {
-  state.deck = shuffle(candidateWords());
-  state.index = -1;
-  // 新一轮第一个词避免和上一个词相同
-  if (state.deck.length > 1 && state.deck[0] === state.lastWord) {
-    const swap = 1 + Math.floor(Math.random() * (state.deck.length - 1));
-    [state.deck[0], state.deck[swap]] = [state.deck[swap], state.deck[0]];
+function nextWordFromBag() {
+  const candidates = candidateWords();
+  if (candidates.length === 0) {
+    return "";
   }
+  return CyhcBag.nextFromStore(localStorage, getBagKey(), candidates, {
+    source: state.settings.source,
+    version: state.bank.version,
+  });
 }
 
 function applyMode() {
@@ -146,10 +201,6 @@ function applySettingsUI() {
   });
 }
 
-function isValidWordBank(bank) {
-  return bank && Array.isArray(bank.groups) && bank.groups.length > 0;
-}
-
 function wordBankPath() {
   return WORD_BANK_SOURCES[state.settings.source] || WORD_BANK_SOURCES.primary;
 }
@@ -165,17 +216,17 @@ async function loadWordBank() {
     if (!isValidWordBank(bank)) {
       throw new Error("结构不符合预期");
     }
-    console.log(
-      `[${path}] 加载成功，词条数:`,
-      bank.groups.reduce((sum, group) => sum + group.words.length, 0),
-    );
-    state.bank = bank;
+    const { bank: cleanBank, skipped } = sanitizeWordBank(bank);
+    state.bank = cleanBank;
+    console.log(`[${path}] 加载成功，词条数:`, countBankWords(cleanBank));
+    if (skipped > 0) {
+      console.warn(`[${path}] 忽略 ${skipped} 个无效词条`);
+    }
   } catch (err) {
     console.error(`[${path}] 加载失败，使用示例词库:`, err.message);
     state.bank = FALLBACK_BANK;
   }
   if (gameScreen.classList.contains("active")) {
-    rebuildDeck();
     nextWord();
   }
 }
@@ -191,21 +242,19 @@ function showGame() {
 }
 
 function startGame() {
-  rebuildDeck();
   showGame();
   nextWord();
 }
 
 function nextWord() {
-  state.index += 1;
-  if (state.index >= state.deck.length) {
-    rebuildDeck();
-    state.index = 0;
+  const word = nextWordFromBag();
+  if (!word) {
+    return;
   }
-  const word = state.deck[state.index];
-  state.lastWord = word;
   wordText.textContent = word;
-  wordText.classList.toggle("four", word.length >= 4);
+  // 1–5 字各给一档字号；更长的词共用第 5 档，CSS 会按实际字数收缩
+  wordText.dataset.len = String(Math.min(word.length, 5));
+  wordText.style.setProperty("--word-chars", String(word.length));
 }
 
 function openSettings() {

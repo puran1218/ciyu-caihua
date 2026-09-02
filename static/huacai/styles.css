@@ -311,8 +311,23 @@ body[data-mode="mono"] .word-card {
   text-wrap: nowrap;
 }
 
-.word.four {
-  font-size: clamp(72px, 18vw, 188px);
+/* JS 会按词长设置 data-len（1–5 档），2 字词走上面的默认字号 */
+.word[data-len="1"] {
+  font-size: clamp(120px, 34vw, 320px);
+}
+
+.word[data-len="3"] {
+  font-size: clamp(84px, 20vw, 200px);
+}
+
+.word[data-len="4"] {
+  font-size: clamp(72px, 17vw, 180px);
+  letter-spacing: .02em;
+}
+
+/* 5 字及以上共用最小档，再按实际字数收缩，保证更长的词也不超出卡片 */
+.word[data-len="5"] {
+  font-size: min(clamp(56px, 13vw, 150px), calc(88vw / var(--word-chars, 5)));
   letter-spacing: .02em;
 }
 

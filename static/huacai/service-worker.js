@@ -1,8 +1,9 @@
-const CACHE_NAME = "ciyu-huacai-v4";
+const CACHE_NAME = "ciyu-huacai-v5";
 const ASSETS = [
   "./",
   "./index.html",
   "./styles.css",
+  "./shuffle-bag.js",
   "./app.js",
   "./manifest.webmanifest",
   "./data/words.json",
