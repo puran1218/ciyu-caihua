@@ -1,0 +1,3443 @@
+{
+  "schema": "cn-primary-gameability-curation",
+  "version": "0.1.0",
+  "scope": {
+    "source": "curation/textbook-diff.json#newCandidates",
+    "length": 4,
+    "candidateCount": 131,
+    "note": "第一轮四字词校准。KEEP/REJECT 仅放高置信项，其余保守进入 MAYBE，供下一轮人工复核。"
+  },
+  "rubric": "gameability-rubric-v1",
+  "summary": {
+    "MAYBE": 45,
+    "REJECT": 41,
+    "KEEP": 45
+  },
+  "items": [
+    {
+      "text": "一丝不苟",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "一声不吭",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "一望无边",
+      "length": 4,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（二）"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "near-synonym-conflict"
+        ],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。 另有近义词冲突，需要决定只保留哪一个。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "一望无际",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "near-synonym-conflict"
+        ],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。 另有近义词冲突，需要决定只保留哪一个。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "一本正经",
+      "length": 4,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "一知半解",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "一针见血",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [
+          "ambiguous-visual",
+          "sensitive-metaphor"
+        ],
+        "reason": "字面与比喻义冲突，且带医疗/伤害联想，画面难锁定具体词。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "万不得已",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "万象更新",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "万里无云",
+      "length": 4,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（一）"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "可以形成明确而有表现力的场景，虽然存在少量近义表达，但整体适合画猜。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "不动声色",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "不可估量",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "不可思议",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "不可计数",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "不计其数",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "严严实实",
+      "length": 4,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "举世闻名",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "争奇斗艳",
+      "length": 4,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "五湖四海",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "亡羊补牢",
+      "length": 4,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（二）"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "动作/表情/场景感强，容易形成有趣画面，猜中具体词的机会较高。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "亭台楼阁",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 3,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "具象对象/场景明确，画面辨识度高，儿童较容易猜中。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "人山人海",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "动作/表情/场景感强，容易形成有趣画面，猜中具体词的机会较高。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "众星拱月",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "动作/表情/场景感强，容易形成有趣画面，猜中具体词的机会较高。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "全神贯注",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "兴致勃勃",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "养尊处优",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "冰天雪地",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "可以形成明确而有表现力的场景，虽然存在少量近义表达，但整体适合画猜。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "出谋划策",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "别出心裁",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "千真万确",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "半信半疑",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "半夜三更",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "反反复复",
+      "length": 4,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（二）"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "司空见惯",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "同心协力",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "呆头呆脑",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "动作/表情/场景感强，容易形成有趣画面，猜中具体词的机会较高。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "呼风唤雨",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "动作/表情/场景感强，容易形成有趣画面，猜中具体词的机会较高。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "哄堂大笑",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "动作/表情/场景感强，容易形成有趣画面，猜中具体词的机会较高。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "哈哈大笑",
+      "length": 4,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（二）"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "动作/表情/场景感强，容易形成有趣画面，猜中具体词的机会较高。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "哭笑不得",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "坑坑洼洼",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "可以形成明确而有表现力的场景，虽然存在少量近义表达，但整体适合画猜。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "大吃一惊",
+      "length": 4,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "动作/表情/场景感强，容易形成有趣画面，猜中具体词的机会较高。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "大步流星",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "动作/表情/场景感强，容易形成有趣画面，猜中具体词的机会较高。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "天南海北",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "奇珍异宝",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 3,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "具象对象/场景明确，画面辨识度高，儿童较容易猜中。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "奔流不息",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "可以形成明确而有表现力的场景，虽然存在少量近义表达，但整体适合画猜。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "威风凛凛",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "完好无缺",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "寸草不生",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "可以形成明确而有表现力的场景，虽然存在少量近义表达，但整体适合画猜。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "居高临下",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "山崩地裂",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "可以形成明确而有表现力的场景，虽然存在少量近义表达，但整体适合画猜。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "左顾右盼",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "动作/表情/场景感强，容易形成有趣画面，猜中具体词的机会较高。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "应接不暇",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "引人注目",
+      "length": 4,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（一）"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "得心应手",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "心平气和",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "心惊肉跳",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "动作/表情/场景感强，容易形成有趣画面，猜中具体词的机会较高。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "心惊胆战",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "动作/表情/场景感强，容易形成有趣画面，猜中具体词的机会较高。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "心旷神怡",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "心满意足",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "忘乎所以",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "念念有词",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "急急忙忙",
+      "length": 4,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "动作/表情/场景感强，容易形成有趣画面，猜中具体词的机会较高。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "恋恋不舍",
+      "length": 4,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（一）"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "情不自禁",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "惊天动地",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "near-synonym-conflict"
+        ],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。 另有近义词冲突，需要决定只保留哪一个。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "愤愤不平",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "成千上万",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "成家立业",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "成群结队",
+      "length": 4,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "动作/表情/场景感强，容易形成有趣画面，猜中具体词的机会较高。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "手忙脚乱",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "动作/表情/场景感强，容易形成有趣画面，猜中具体词的机会较高。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "手疾眼快",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "动作/表情/场景感强，容易形成有趣画面，猜中具体词的机会较高。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "手舞足蹈",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "动作/表情/场景感强，容易形成有趣画面，猜中具体词的机会较高。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "技高一筹",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "排山倒海",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "可以形成明确而有表现力的场景，虽然存在少量近义表达，但整体适合画猜。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "摇头晃脑",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "动作/表情/场景感强，容易形成有趣画面，猜中具体词的机会较高。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "摩拳擦掌",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "动作/表情/场景感强，容易形成有趣画面，猜中具体词的机会较高。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "斩钉截铁",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "断断续续",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "无价之宝",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "无可奈何",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "无独有偶",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "无穷无尽",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "无缘无故",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "无能为力",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "暴露无遗",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "来来往往",
+      "length": 4,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "动作/表情/场景感强，容易形成有趣画面，猜中具体词的机会较高。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "横七竖八",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "动作/表情/场景感强，容易形成有趣画面，猜中具体词的机会较高。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "死得其所",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 1,
+        "playfulness": 0,
+        "score": 3,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [
+          "sensitive"
+        ],
+        "reason": "含明显死亡/伤害语义，不符合轻松亲子画猜的默认词库方向。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "汹涌澎湃",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "可以形成明确而有表现力的场景，虽然存在少量近义表达，但整体适合画猜。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "没精打采",
+      "length": 4,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "动作/表情/场景感强，容易形成有趣画面，猜中具体词的机会较高。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "津津有味",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "热血沸腾",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "焉知非福",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "理所当然",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "相依为命",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "相提并论",
+      "length": 4,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "真情实感",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "眨眼通宵",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 0,
+        "guessSpecificity": 0,
+        "childFamiliarity": 1,
+        "playfulness": 0,
+        "score": 1,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [
+          "source-anomaly"
+        ],
+        "reason": "源数据已标记为疑似粘连/排版异常，暂不进入游戏词库。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "碧空如洗",
+      "length": 4,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（一）"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "神机妙算",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "空空如也",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "筋疲力尽",
+      "length": 4,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（二）"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "动作/表情/场景感强，容易形成有趣画面，猜中具体词的机会较高。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "粉身碎骨",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 1,
+        "playfulness": 0,
+        "score": 3,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [
+          "sensitive"
+        ],
+        "reason": "含明显死亡/伤害语义，不符合轻松亲子画猜的默认词库方向。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "精疲力竭",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "near-synonym-conflict"
+        ],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。 另有近义词冲突，需要决定只保留哪一个。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "美中不足",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "翻箱倒柜",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "动作/表情/场景感强，容易形成有趣画面，猜中具体词的机会较高。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "肃然起敬",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "胸有成竹",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "腾云驾雾",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "动作/表情/场景感强，容易形成有趣画面，猜中具体词的机会较高。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "自作自受",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "花草树木",
+      "length": 4,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（二）"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 3,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "具象对象/场景明确，画面辨识度高，儿童较容易猜中。"
+      },
+      "suggestedDifficulty": "normal"
+    },
+    {
+      "text": "花骨朵儿",
+      "length": 4,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 3,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "具象对象/场景明确，画面辨识度高，儿童较容易猜中。"
+      },
+      "suggestedDifficulty": "normal"
+    },
+    {
+      "text": "见微知著",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "诗情画意",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "跃跃欲试",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "跌跌撞撞",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "动作/表情/场景感强，容易形成有趣画面，猜中具体词的机会较高。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "通情达理",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "重整旗鼓",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "重见天日",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "金碧辉煌",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "可以形成明确而有表现力的场景，虽然存在少量近义表达，但整体适合画猜。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "银光闪闪",
+      "length": 4,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "可以形成明确而有表现力的场景，虽然存在少量近义表达，但整体适合画猜。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "闪闪发光",
+      "length": 4,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "可以形成明确而有表现力的场景，虽然存在少量近义表达，但整体适合画猜。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "随遇而安",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "难以置信",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [],
+        "reason": "教材价值可以成立，但视觉表达或具体猜中率偏低，不适合作为默认画猜题。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "震天动地",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "near-synonym-conflict"
+        ],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。 另有近义词冲突，需要决定只保留哪一个。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "面如土色",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "动作/表情/场景感强，容易形成有趣画面，猜中具体词的机会较高。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "风平浪静",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "可以形成明确而有表现力的场景，虽然存在少量近义表达，但整体适合画猜。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "风景名胜",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      },
+      "suggestedDifficulty": "hard"
+    },
+    {
+      "text": "高速公路",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 3,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "具象对象/场景明确，画面辨识度高，儿童较容易猜中。"
+      },
+      "suggestedDifficulty": "normal"
+    },
+    {
+      "text": "齐头并进",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "动作/表情/场景感强，容易形成有趣画面，猜中具体词的机会较高。"
+      },
+      "suggestedDifficulty": "hard"
+    }
+  ]
+}

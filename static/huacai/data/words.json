@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "schema": "cn-primary-draw-guess-wordbank",
   "language": "zh-Hans",
   "curation": {
@@ -1834,6 +1834,630 @@
             "home",
             "object"
           ]
+        },
+        {
+          "text": "世界",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "乌云",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "weather"
+          ]
+        },
+        {
+          "text": "休息",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "使劲",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "值日",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "school",
+            "action"
+          ]
+        },
+        {
+          "text": "做客",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "home"
+          ]
+        },
+        {
+          "text": "公主",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person"
+          ]
+        },
+        {
+          "text": "公园",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "加工",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "science"
+          ]
+        },
+        {
+          "text": "劳动",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "发明",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "science"
+          ]
+        },
+        {
+          "text": "发现",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "叔叔",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person"
+          ]
+        },
+        {
+          "text": "变化",
+          "length": 2,
+          "tags": [
+            "drawable"
+          ]
+        },
+        {
+          "text": "合力",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "向导",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person"
+          ]
+        },
+        {
+          "text": "味道",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food"
+          ]
+        },
+        {
+          "text": "回忆",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "围巾",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "声音",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "夜晚",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "太空",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "space"
+          ]
+        },
+        {
+          "text": "头痛",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "body"
+          ]
+        },
+        {
+          "text": "妹妹",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person"
+          ]
+        },
+        {
+          "text": "季节",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "害怕",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "对岸",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "寻找",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "尽情",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "屁股",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "body"
+          ]
+        },
+        {
+          "text": "山川",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "工具",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "tool"
+          ]
+        },
+        {
+          "text": "帮助",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "幸运",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "弟弟",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person"
+          ]
+        },
+        {
+          "text": "忘记",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "快活",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "扇子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "方向",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "science"
+          ]
+        },
+        {
+          "text": "桃花",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "汗珠",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "body",
+            "action"
+          ]
+        },
+        {
+          "text": "波纹",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "洗澡",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "home"
+          ]
+        },
+        {
+          "text": "消失",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "science"
+          ]
+        },
+        {
+          "text": "温暖",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "炎热",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "weather"
+          ]
+        },
+        {
+          "text": "烤鸭",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food"
+          ]
+        },
+        {
+          "text": "热闹",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "festival"
+          ]
+        },
+        {
+          "text": "爱心",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "生长",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "童话",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture"
+          ]
+        },
+        {
+          "text": "笔直",
+          "length": 2,
+          "tags": [
+            "drawable"
+          ]
+        },
+        {
+          "text": "精灵",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person"
+          ]
+        },
+        {
+          "text": "编织",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "home"
+          ]
+        },
+        {
+          "text": "美食",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food"
+          ]
+        },
+        {
+          "text": "胜利",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "sports"
+          ]
+        },
+        {
+          "text": "脚尖",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "body"
+          ]
+        },
+        {
+          "text": "自由",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "花纹",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "color"
+          ]
+        },
+        {
+          "text": "认真",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "school"
+          ]
+        },
+        {
+          "text": "迷路",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "place"
+          ]
+        },
+        {
+          "text": "野外",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "五角星",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "color"
+          ]
+        },
+        {
+          "text": "北极星",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "space",
+            "nature"
+          ]
+        },
+        {
+          "text": "台湾岛",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "清明节",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "festival"
+          ]
+        },
+        {
+          "text": "蛋炒饭",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "food"
+          ]
+        },
+        {
+          "text": "邮递员",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "person",
+            "transport"
+          ]
+        },
+        {
+          "text": "难为情",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "一望无边",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "万里无云",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "weather",
+            "nature"
+          ]
+        },
+        {
+          "text": "亡羊补牢",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "animal",
+            "culture"
+          ]
+        },
+        {
+          "text": "哈哈大笑",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "引人注目",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "恋恋不舍",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "筋疲力尽",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "花草树木",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
         }
       ]
     },
@@ -3215,6 +3839,945 @@
             "drawable",
             "weather",
             "action"
+          ]
+        },
+        {
+          "text": "中药",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture"
+          ]
+        },
+        {
+          "text": "乐器",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "仙子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person"
+          ]
+        },
+        {
+          "text": "倒影",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "假装",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "做梦",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "偷偷",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "冰柱",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "weather",
+            "nature"
+          ]
+        },
+        {
+          "text": "凶猛",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "勇气",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "危险",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "safety"
+          ]
+        },
+        {
+          "text": "历史",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture"
+          ]
+        },
+        {
+          "text": "发抖",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "body"
+          ]
+        },
+        {
+          "text": "古代",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture"
+          ]
+        },
+        {
+          "text": "叹气",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "后退",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "吸收",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "science"
+          ]
+        },
+        {
+          "text": "呼吸",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "body"
+          ]
+        },
+        {
+          "text": "哈欠",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "body"
+          ]
+        },
+        {
+          "text": "围裙",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "home"
+          ]
+        },
+        {
+          "text": "国王",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person"
+          ]
+        },
+        {
+          "text": "地板",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "home"
+          ]
+        },
+        {
+          "text": "堆积",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "墙壁",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "失望",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "夸奖",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "好奇",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "姿势",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "威武",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person"
+          ]
+        },
+        {
+          "text": "婴儿",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person"
+          ]
+        },
+        {
+          "text": "安静",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "尽头",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "布料",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "希望",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "形状",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "color"
+          ]
+        },
+        {
+          "text": "感动",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "扑腾",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "打扮",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "抬头",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "body"
+          ]
+        },
+        {
+          "text": "担心",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "排骨",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food"
+          ]
+        },
+        {
+          "text": "搬家",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "home"
+          ]
+        },
+        {
+          "text": "放假",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "school"
+          ]
+        },
+        {
+          "text": "放晴",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "weather"
+          ]
+        },
+        {
+          "text": "早晨",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "星空",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "space",
+            "nature"
+          ]
+        },
+        {
+          "text": "机灵",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "松手",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "检查",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "school"
+          ]
+        },
+        {
+          "text": "模型",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "欢迎",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "母鸡",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "沉思",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "海底",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "清凉",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "weather"
+          ]
+        },
+        {
+          "text": "漂亮",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "火柴",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "火焰",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "狂风",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "weather"
+          ]
+        },
+        {
+          "text": "玩耍",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "理发",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "person"
+          ]
+        },
+        {
+          "text": "痛苦",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "目送",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "相遇",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "秘密",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "童年",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "笑话",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "答应",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "网球",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "sports"
+          ]
+        },
+        {
+          "text": "羽毛",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "翅膀",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal",
+            "body"
+          ]
+        },
+        {
+          "text": "胆小",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "胡子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "body"
+          ]
+        },
+        {
+          "text": "脑袋",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "body"
+          ]
+        },
+        {
+          "text": "自然",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "莲蓬",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant",
+            "nature"
+          ]
+        },
+        {
+          "text": "菊花",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "蜡烛",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "festival"
+          ]
+        },
+        {
+          "text": "衬衫",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "角落",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "记录",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "school"
+          ]
+        },
+        {
+          "text": "赶集",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place",
+            "festival"
+          ]
+        },
+        {
+          "text": "轮流",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "迅速",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "sports"
+          ]
+        },
+        {
+          "text": "过冬",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "过年",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "festival"
+          ]
+        },
+        {
+          "text": "迟到",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "school",
+            "action"
+          ]
+        },
+        {
+          "text": "醒来",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "雨点",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "weather"
+          ]
+        },
+        {
+          "text": "雪花",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "weather",
+            "nature"
+          ]
+        },
+        {
+          "text": "颜料",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "school"
+          ]
+        },
+        {
+          "text": "风景",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "香味",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food"
+          ]
+        },
+        {
+          "text": "香肠",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food"
+          ]
+        },
+        {
+          "text": "骄傲",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "天然气",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "science"
+          ]
+        },
+        {
+          "text": "巧克力",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "food"
+          ]
+        },
+        {
+          "text": "慢吞吞",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "暴风雨",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "weather"
+          ]
+        },
+        {
+          "text": "水墨画",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "culture"
+          ]
+        },
+        {
+          "text": "火烧云",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "weather",
+            "nature"
+          ]
+        },
+        {
+          "text": "电灯泡",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "肥皂泡",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "赵州桥",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "place",
+            "culture"
+          ]
+        },
+        {
+          "text": "造纸术",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "culture"
+          ]
+        },
+        {
+          "text": "音乐家",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "person"
+          ]
+        },
+        {
+          "text": "争奇斗艳",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "plant",
+            "nature"
+          ]
+        },
+        {
+          "text": "大吃一惊",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "急急忙忙",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "成群结队",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "来来往往",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "没精打采",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "花骨朵儿",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "银光闪闪",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "闪闪发光",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "nature"
           ]
         }
       ]
@@ -4687,6 +6250,744 @@
             "festival",
             "culture",
             "action"
+          ]
+        },
+        {
+          "text": "上升",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "下降",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "专家",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person"
+          ]
+        },
+        {
+          "text": "严肃",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "交叉",
+          "length": 2,
+          "tags": [
+            "drawable"
+          ]
+        },
+        {
+          "text": "传说",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture"
+          ]
+        },
+        {
+          "text": "僵硬",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "兴奋",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "冰箱",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "home"
+          ]
+        },
+        {
+          "text": "助威",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "sports"
+          ]
+        },
+        {
+          "text": "努力",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "school"
+          ]
+        },
+        {
+          "text": "卧室",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place",
+            "home"
+          ]
+        },
+        {
+          "text": "吼叫",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "奇幻",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture"
+          ]
+        },
+        {
+          "text": "妖怪",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person"
+          ]
+        },
+        {
+          "text": "宽阔",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "尖叫",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "屏息",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "幸福",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "庄稼",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "弯曲",
+          "length": 2,
+          "tags": [
+            "drawable"
+          ]
+        },
+        {
+          "text": "徒弟",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person"
+          ]
+        },
+        {
+          "text": "成熟",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "成绩",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "school"
+          ]
+        },
+        {
+          "text": "戒指",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "拆除",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "招待",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "home"
+          ]
+        },
+        {
+          "text": "指挥",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "person"
+          ]
+        },
+        {
+          "text": "排练",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "school"
+          ]
+        },
+        {
+          "text": "教练",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person",
+            "sports"
+          ]
+        },
+        {
+          "text": "斧头",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "tool"
+          ]
+        },
+        {
+          "text": "新娘",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person",
+            "festival"
+          ]
+        },
+        {
+          "text": "新鲜",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food"
+          ]
+        },
+        {
+          "text": "旋转",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "梅花",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "汤圆",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food",
+            "festival"
+          ]
+        },
+        {
+          "text": "淘气",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "灰尘",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "牙齿",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "body"
+          ]
+        },
+        {
+          "text": "狂吠",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "痕迹",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "睁眼",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "body"
+          ]
+        },
+        {
+          "text": "禁止",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "safety"
+          ]
+        },
+        {
+          "text": "笨重",
+          "length": 2,
+          "tags": [
+            "drawable"
+          ]
+        },
+        {
+          "text": "等待",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "紧张",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "绳子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "tool",
+            "object"
+          ]
+        },
+        {
+          "text": "翻身",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "聚集",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "胳膊",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "body"
+          ]
+        },
+        {
+          "text": "脖子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "body"
+          ]
+        },
+        {
+          "text": "脸颊",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "body"
+          ]
+        },
+        {
+          "text": "脾气",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "自信",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "舒服",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "苍蝇",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "蔬菜",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food",
+            "plant"
+          ]
+        },
+        {
+          "text": "蚊子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "表情",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "警戒",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "safety"
+          ]
+        },
+        {
+          "text": "讨厌",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "豌豆",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant",
+            "food"
+          ]
+        },
+        {
+          "text": "辫子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "body"
+          ]
+        },
+        {
+          "text": "隐形",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "science"
+          ]
+        },
+        {
+          "text": "雷达",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "science"
+          ]
+        },
+        {
+          "text": "鬼脸",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion",
+            "action"
+          ]
+        },
+        {
+          "text": "黑暗",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "催眠曲",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "home"
+          ]
+        },
+        {
+          "text": "原子核",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "science"
+          ]
+        },
+        {
+          "text": "毛茸茸",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "爬山虎",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "猫头鹰",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "眼睁睁",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "瞧不起",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "石钟乳",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "鹅卵石",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "不动声色",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "人山人海",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "冰天雪地",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "weather",
+            "nature"
+          ]
+        },
+        {
+          "text": "呼风唤雨",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "action",
+            "culture"
+          ]
+        },
+        {
+          "text": "坑坑洼洼",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "奔流不息",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "山崩地裂",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "左顾右盼",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "手舞足蹈",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "摇头晃脑",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "横七竖八",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "空空如也",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "腾云驾雾",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "action",
+            "culture"
+          ]
+        },
+        {
+          "text": "面如土色",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "齐头并进",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "sports"
           ]
         }
       ]
@@ -6211,6 +8512,690 @@
             "place",
             "home"
           ]
+        },
+        {
+          "text": "保姆",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person"
+          ]
+        },
+        {
+          "text": "俯冲",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "停泊",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport"
+          ]
+        },
+        {
+          "text": "光滑",
+          "length": 2,
+          "tags": [
+            "drawable"
+          ]
+        },
+        {
+          "text": "典礼",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "festival"
+          ]
+        },
+        {
+          "text": "冠军",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "sports"
+          ]
+        },
+        {
+          "text": "剩饭",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food"
+          ]
+        },
+        {
+          "text": "包袱",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "发誓",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "吆喝",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person"
+          ]
+        },
+        {
+          "text": "后悔",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "吓唬",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "垫子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "复活",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "science"
+          ]
+        },
+        {
+          "text": "大臣",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture"
+          ]
+        },
+        {
+          "text": "大雁",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal",
+            "nature"
+          ]
+        },
+        {
+          "text": "妒忌",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "孤独",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "崩塌",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "布置",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "home"
+          ]
+        },
+        {
+          "text": "师傅",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person"
+          ]
+        },
+        {
+          "text": "平衡",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "sports"
+          ]
+        },
+        {
+          "text": "年龄",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "body"
+          ]
+        },
+        {
+          "text": "庙会",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "festival",
+            "place"
+          ]
+        },
+        {
+          "text": "心疼",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "忙碌",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "感激",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "慈祥",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person"
+          ]
+        },
+        {
+          "text": "懒惰",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "拇指",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "body"
+          ]
+        },
+        {
+          "text": "拐弯",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "拒绝",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "搬运",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "摔跤",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "sports"
+          ]
+        },
+        {
+          "text": "教训",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "school"
+          ]
+        },
+        {
+          "text": "晚霞",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "weather",
+            "nature"
+          ]
+        },
+        {
+          "text": "杀菌",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "science"
+          ]
+        },
+        {
+          "text": "樱桃",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant",
+            "food"
+          ]
+        },
+        {
+          "text": "歇凉",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "毕业",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "school"
+          ]
+        },
+        {
+          "text": "海鸥",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal",
+            "nature"
+          ]
+        },
+        {
+          "text": "渔船",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "transport"
+          ]
+        },
+        {
+          "text": "焦急",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "猎豹",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "瘦弱",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "body"
+          ]
+        },
+        {
+          "text": "瞄准",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "sports"
+          ]
+        },
+        {
+          "text": "粉刷",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "粉碎",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "紧急",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "safety"
+          ]
+        },
+        {
+          "text": "纽扣",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "绝活",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture"
+          ]
+        },
+        {
+          "text": "胸膛",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "body"
+          ]
+        },
+        {
+          "text": "英雄",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person"
+          ]
+        },
+        {
+          "text": "蚂蚱",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "解决",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "谎话",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "走廊",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "追逐",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "铃铛",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "阻挡",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "飘浮",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "science"
+          ]
+        },
+        {
+          "text": "黄昏",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "发动机",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "science",
+            "tool"
+          ]
+        },
+        {
+          "text": "圆滚滚",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "手电筒",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "object",
+            "tool"
+          ]
+        },
+        {
+          "text": "白茫茫",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "weather"
+          ]
+        },
+        {
+          "text": "眼巴巴",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "脚腕子",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "body"
+          ]
+        },
+        {
+          "text": "露馅儿",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "food"
+          ]
+        },
+        {
+          "text": "亭台楼阁",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "place",
+            "culture"
+          ]
+        },
+        {
+          "text": "众星拱月",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "space"
+          ]
+        },
+        {
+          "text": "半信半疑",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "哭笑不得",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "奇珍异宝",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "object",
+            "culture"
+          ]
+        },
+        {
+          "text": "寸草不生",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "应接不暇",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "手忙脚乱",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "手疾眼快",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "摩拳擦掌",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "津津有味",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "food",
+            "emotion"
+          ]
+        },
+        {
+          "text": "跃跃欲试",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "金碧辉煌",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "place",
+            "culture"
+          ]
+        },
+        {
+          "text": "风平浪静",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "weather",
+            "nature"
+          ]
+        },
+        {
+          "text": "高速公路",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "transport"
+          ]
         }
       ]
     },
@@ -7451,6 +10436,601 @@
             "drawable",
             "science",
             "nature",
+            "action"
+          ]
+        },
+        {
+          "text": "举杯",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "festival"
+          ]
+        },
+        {
+          "text": "亲吻",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "倒霉",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "倾听",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "冰棍",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food"
+          ]
+        },
+        {
+          "text": "冷笑",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "凌乱",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "home"
+          ]
+        },
+        {
+          "text": "制服",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "school"
+          ]
+        },
+        {
+          "text": "加速",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "transport"
+          ]
+        },
+        {
+          "text": "嗓子",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "body"
+          ]
+        },
+        {
+          "text": "嘴唇",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "body"
+          ]
+        },
+        {
+          "text": "困难",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "坚硬",
+          "length": 2,
+          "tags": [
+            "drawable"
+          ]
+        },
+        {
+          "text": "埋头",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "增加",
+          "length": 2,
+          "tags": [
+            "drawable"
+          ]
+        },
+        {
+          "text": "壮观",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "子孙",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person"
+          ]
+        },
+        {
+          "text": "小贩",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person",
+            "action"
+          ]
+        },
+        {
+          "text": "微风",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "weather"
+          ]
+        },
+        {
+          "text": "念叨",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "抱怨",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "抽屉",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "home"
+          ]
+        },
+        {
+          "text": "探望",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "搅和",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food"
+          ]
+        },
+        {
+          "text": "摇篮",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "home"
+          ]
+        },
+        {
+          "text": "整理",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "home"
+          ]
+        },
+        {
+          "text": "斑点",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "animal"
+          ]
+        },
+        {
+          "text": "斗篷",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "person"
+          ]
+        },
+        {
+          "text": "无聊",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "枯萎",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant"
+          ]
+        },
+        {
+          "text": "梦想",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "模糊",
+          "length": 2,
+          "tags": [
+            "drawable"
+          ]
+        },
+        {
+          "text": "沸腾",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food"
+          ]
+        },
+        {
+          "text": "渔网",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "tool",
+            "action"
+          ]
+        },
+        {
+          "text": "热情",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "照顾",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "甘蔗",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "plant",
+            "food"
+          ]
+        },
+        {
+          "text": "疑问",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "疙瘩",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "body"
+          ]
+        },
+        {
+          "text": "盲人",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person"
+          ]
+        },
+        {
+          "text": "眺望",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "礼貌",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "culture"
+          ]
+        },
+        {
+          "text": "糟糕",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "缝隙",
+          "length": 2,
+          "tags": [
+            "drawable"
+          ]
+        },
+        {
+          "text": "茅屋",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "衣柜",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object",
+            "home"
+          ]
+        },
+        {
+          "text": "证据",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "safety"
+          ]
+        },
+        {
+          "text": "请求",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "跺脚",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action",
+            "body"
+          ]
+        },
+        {
+          "text": "遮盖",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "酱油",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "food",
+            "object"
+          ]
+        },
+        {
+          "text": "钟楼",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "钢琴",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "object"
+          ]
+        },
+        {
+          "text": "防御",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "预报",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "science"
+          ]
+        },
+        {
+          "text": "魔鬼",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "person"
+          ]
+        },
+        {
+          "text": "齿轮",
+          "length": 2,
+          "tags": [
+            "drawable",
+            "science",
+            "tool"
+          ]
+        },
+        {
+          "text": "后脑勺",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "body"
+          ]
+        },
+        {
+          "text": "摆摊儿",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "action",
+            "place"
+          ]
+        },
+        {
+          "text": "湿淋淋",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "weather"
+          ]
+        },
+        {
+          "text": "目的地",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "腊八粥",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "festival"
+          ]
+        },
+        {
+          "text": "软绵绵",
+          "length": 3,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "呆头呆脑",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "大步流星",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "居高临下",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "place"
+          ]
+        },
+        {
+          "text": "心惊肉跳",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "emotion"
+          ]
+        },
+        {
+          "text": "惊天动地",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "排山倒海",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "汹涌澎湃",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "nature"
+          ]
+        },
+        {
+          "text": "翻箱倒柜",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "action",
+            "home"
+          ]
+        },
+        {
+          "text": "跌跌撞撞",
+          "length": 4,
+          "tags": [
+            "drawable",
+            "action"
+          ]
+        },
+        {
+          "text": "重见天日",
+          "length": 4,
+          "tags": [
+            "drawable",
             "action"
           ]
         }

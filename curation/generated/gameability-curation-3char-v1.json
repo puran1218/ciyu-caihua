@@ -1,0 +1,1951 @@
+{
+  "schema": "cn-primary-gameability-curation",
+  "version": "0.1.0",
+  "scope": {
+    "source": "curation/textbook-diff.json#newCandidates",
+    "length": 3,
+    "candidateCount": 69,
+    "note": "三字词全量策展：按 rubric 打分并给出 KEEP/MAYBE/REJECT；仅 KEEP 附建议难度与标签。"
+  },
+  "rubric": "gameability-rubric-v1",
+  "summary": {
+    "KEEP": 20,
+    "MAYBE": 38,
+    "REJECT": 11
+  },
+  "items": [
+    {
+      "text": "一辈子",
+      "length": 3,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 0,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 3,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [
+          "abstract"
+        ],
+        "reason": "一生的时间跨度只能靠比喻表达，画面无法锁定这个词。"
+      }
+    },
+    {
+      "text": "万寿菊",
+      "length": 3,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 1,
+        "childFamiliarity": 1,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "ambiguous-visual"
+        ],
+        "reason": "能画出菊花，但孩子多半猜『花/菊花』，难锁定万寿菊这个具体品种。"
+      }
+    },
+    {
+      "text": "下意识",
+      "length": 3,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 0,
+        "guessSpecificity": 0,
+        "childFamiliarity": 1,
+        "playfulness": 0,
+        "score": 1,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [
+          "abstract"
+        ],
+        "reason": "描述不自觉的心理状态副词，无对应画面。"
+      }
+    },
+    {
+      "text": "五角星",
+      "length": 3,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（二）"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 3,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "五角星形状唯一且人人会画会认，国旗/星星场景都能呼应。"
+      },
+      "suggestedDifficulty": "easy",
+      "suggestedTags": [
+        "drawable",
+        "color"
+      ]
+    },
+    {
+      "text": "亮晶晶",
+      "length": 3,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "ambiguous-visual"
+        ],
+        "reason": "闪光效果易画，但易猜成『闪亮/晶莹/发光』等近义状态词。"
+      }
+    },
+    {
+      "text": "催眠曲",
+      "length": 3,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "ambiguous-visual"
+        ],
+        "reason": "哄睡唱歌场景可画，但更易猜成『摇篮曲/哄睡/睡觉』。"
+      }
+    },
+    {
+      "text": "军令状",
+      "length": 3,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 1,
+        "playfulness": 0,
+        "score": 3,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [
+          "context-dependent",
+          "too-niche"
+        ],
+        "reason": "依赖草船借箭等课文语境的古代文书概念，脱离故事无法画猜。"
+      }
+    },
+    {
+      "text": "农作物",
+      "length": 3,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 5,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "ambiguous-visual"
+        ],
+        "reason": "田里庄稼可画，但上位词，易猜成『庄稼/玉米/稻田』等具体词。"
+      }
+    },
+    {
+      "text": "北极星",
+      "length": 3,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（二）"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 7,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "星空+指北方向的组合可画可猜，儿童有『指路明星』认知。"
+      },
+      "suggestedDifficulty": "normal",
+      "suggestedTags": [
+        "drawable",
+        "space",
+        "nature"
+      ]
+    },
+    {
+      "text": "原子核",
+      "length": 3,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 1,
+        "playfulness": 1,
+        "score": 5,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "ambiguous-visual"
+        ],
+        "reason": "原子模型可画，但易猜成『原子/分子』，具体词锁定难。"
+      }
+    },
+    {
+      "text": "反推力",
+      "length": 3,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 1,
+        "playfulness": 1,
+        "score": 4,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "abstract"
+        ],
+        "reason": "火箭反冲等示意可画，但『力』本身不可见，词与画面对应弱。"
+      }
+    },
+    {
+      "text": "发动机",
+      "length": 3,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 8,
+        "status": "KEEP",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "引擎外形特征明确，汽车/飞机语境熟悉，可猜出发动机/引擎。"
+      },
+      "suggestedDifficulty": "normal",
+      "suggestedTags": [
+        "drawable",
+        "science",
+        "tool"
+      ]
+    },
+    {
+      "text": "台湾岛",
+      "length": 3,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "识字"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "ambiguous-visual"
+        ],
+        "reason": "岛屿形状可画，但需要地图式表达，易与一般『岛屿/地图』混同。"
+      }
+    },
+    {
+      "text": "后脑勺",
+      "length": 3,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 8,
+        "status": "KEEP",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "背影+后脑特写指向明确，儿童对身体部位词熟悉。"
+      },
+      "suggestedDifficulty": "normal",
+      "suggestedTags": [
+        "drawable",
+        "body"
+      ]
+    },
+    {
+      "text": "圆滚滚",
+      "length": 3,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 7,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "ambiguous-visual"
+        ],
+        "reason": "圆胖形象可爱，但状态词易猜成『胖乎乎/圆溜溜』。"
+      }
+    },
+    {
+      "text": "外祖父",
+      "length": 3,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "near-synonym-conflict"
+        ],
+        "reason": "画老人易猜成『爷爷/外公/老人』，亲属称谓难以从画面区分。"
+      }
+    },
+    {
+      "text": "大自然",
+      "length": 3,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（二）"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "ambiguous-visual"
+        ],
+        "reason": "山水树林组合可画，但泛称易猜成『森林/风景/山水』。"
+      }
+    },
+    {
+      "text": "天然气",
+      "length": 3,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "ambiguous-visual"
+        ],
+        "reason": "气体不可见，画灶台蓝火易猜成『煤气/烧火』。"
+      }
+    },
+    {
+      "text": "巧克力",
+      "length": 3,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 3,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 10,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "砖块造型+包装极易画认，儿童熟悉且喜欢。"
+      },
+      "suggestedDifficulty": "easy",
+      "suggestedTags": [
+        "drawable",
+        "food"
+      ]
+    },
+    {
+      "text": "恨不得",
+      "length": 3,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 0,
+        "guessSpecificity": 0,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 2,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [
+          "function-word"
+        ],
+        "reason": "表达迫切语气的副词性结构，无画面。"
+      }
+    },
+    {
+      "text": "慢吞吞",
+      "length": 3,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 7,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "ambiguous-visual"
+        ],
+        "reason": "乌龟慢走可爱，但易猜成『慢/缓慢/慢悠悠』。"
+      }
+    },
+    {
+      "text": "手榴弹",
+      "length": 3,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 3,
+        "childFamiliarity": 1,
+        "playfulness": 0,
+        "score": 7,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [
+          "weapon"
+        ],
+        "reason": "武器本身为题，按 rubric 硬拒绝。"
+      }
+    },
+    {
+      "text": "手电筒",
+      "length": 3,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 3,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "外形与光柱特征鲜明，露营场景儿童熟悉。"
+      },
+      "suggestedDifficulty": "easy",
+      "suggestedTags": [
+        "drawable",
+        "object",
+        "tool"
+      ]
+    },
+    {
+      "text": "摄氏度",
+      "length": 3,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [
+          "text-dependent",
+          "ambiguous-visual"
+        ],
+        "reason": "画温度计只能猜『温度计』，数值单位必须靠文字数字表达。"
+      }
+    },
+    {
+      "text": "摆摊儿",
+      "length": 3,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 1,
+        "playfulness": 2,
+        "score": 8,
+        "status": "KEEP",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "小摊货品陈列场景生动，可猜出摆摊/地摊。"
+      },
+      "suggestedDifficulty": "normal",
+      "suggestedTags": [
+        "drawable",
+        "action",
+        "place"
+      ]
+    },
+    {
+      "text": "明晃晃",
+      "length": 3,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 1,
+        "playfulness": 1,
+        "score": 5,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "ambiguous-visual"
+        ],
+        "reason": "反光刺眼效果可画，但状态词易猜成『亮/刺眼』。"
+      }
+    },
+    {
+      "text": "暖洋洋",
+      "length": 3,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "near-synonym-conflict"
+        ],
+        "reason": "晒太阳的暖意可画，但易猜成『温暖/暖和/晒太阳』。"
+      }
+    },
+    {
+      "text": "暴风雨",
+      "length": 3,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "near-synonym-conflict"
+        ],
+        "reason": "风雨大作很好画，但按 rubric 校准：易猜成『雷雨/下大雨』，保留复核。"
+      }
+    },
+    {
+      "text": "来得及",
+      "length": 3,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 0,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 3,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [
+          "function-word"
+        ],
+        "reason": "时间够否的口头语，无具体画面。"
+      }
+    },
+    {
+      "text": "毛茸茸",
+      "length": 3,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 7,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "ambiguous-visual"
+        ],
+        "reason": "绒毛质感可爱，但易猜成『小兔子/软毛/蓬松』而非该词。"
+      }
+    },
+    {
+      "text": "水墨画",
+      "length": 3,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 1,
+        "playfulness": 1,
+        "score": 7,
+        "status": "KEEP",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "黑白晕染的墨竹山水特征明确，可从画风猜出水墨画/国画。"
+      },
+      "suggestedDifficulty": "hard",
+      "suggestedTags": [
+        "drawable",
+        "culture"
+      ]
+    },
+    {
+      "text": "活生生",
+      "length": 3,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 0,
+        "guessSpecificity": 0,
+        "childFamiliarity": 1,
+        "playfulness": 0,
+        "score": 1,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [
+          "function-word"
+        ],
+        "reason": "强调真实性的副词性用法，无画面。"
+      }
+    },
+    {
+      "text": "清明节",
+      "length": 3,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "识字"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 7,
+        "status": "KEEP",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "雨中扫墓、柳枝、风筝等组合指向明确，『清明时节雨纷纷』儿童熟知。"
+      },
+      "suggestedDifficulty": "normal",
+      "suggestedTags": [
+        "drawable",
+        "festival"
+      ]
+    },
+    {
+      "text": "湿淋淋",
+      "length": 3,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "ambiguous-visual"
+        ],
+        "reason": "落汤鸡形象可画，但易猜成『淋湿/落汤鸡/湿透』。"
+      }
+    },
+    {
+      "text": "火烧云",
+      "length": 3,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "红霞漫天画面绚丽独特，课文语境加深认知，可猜出火烧云/晚霞。"
+      },
+      "suggestedDifficulty": "normal",
+      "suggestedTags": [
+        "drawable",
+        "weather",
+        "nature"
+      ]
+    },
+    {
+      "text": "热乎乎",
+      "length": 3,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "near-synonym-conflict"
+        ],
+        "reason": "冒热气的食物可画，但易猜成『热/温暖/烫』。"
+      }
+    },
+    {
+      "text": "热辣辣",
+      "length": 3,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "ambiguous-visual"
+        ],
+        "reason": "辣得冒火可画，但易猜成『辣/烫/火辣辣』。"
+      }
+    },
+    {
+      "text": "爬山虎",
+      "length": 3,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 1,
+        "playfulness": 1,
+        "score": 7,
+        "status": "KEEP",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "爬满墙的藤叶特征鲜明，课文《爬山虎的脚》认知度高。"
+      },
+      "suggestedDifficulty": "normal",
+      "suggestedTags": [
+        "drawable",
+        "plant"
+      ]
+    },
+    {
+      "text": "猫头鹰",
+      "length": 3,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 3,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 10,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "rubric 校准例词：大眼圆脸形象辨识度极高。"
+      },
+      "suggestedDifficulty": "normal",
+      "suggestedTags": [
+        "drawable",
+        "animal"
+      ]
+    },
+    {
+      "text": "电灯泡",
+      "length": 3,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 3,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 9,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "梨形玻璃泡+灯丝造型唯一，亮灯场景人人会画。"
+      },
+      "suggestedDifficulty": "easy",
+      "suggestedTags": [
+        "drawable",
+        "object"
+      ]
+    },
+    {
+      "text": "白茫茫",
+      "length": 3,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "ambiguous-visual"
+        ],
+        "reason": "雪原雾气可画，但易猜成『雪地/大雾/一片白』。"
+      }
+    },
+    {
+      "text": "目的地",
+      "length": 3,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 4,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "ambiguous-visual"
+        ],
+        "reason": "地图插旗可示意，但易猜成『终点/终点线/地图』。"
+      }
+    },
+    {
+      "text": "眼巴巴",
+      "length": 3,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 7,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "ambiguous-visual"
+        ],
+        "reason": "渴望眼神生动，但易猜成『盼望/期待/盯着看』。"
+      }
+    },
+    {
+      "text": "眼睁睁",
+      "length": 3,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "ambiguous-visual"
+        ],
+        "reason": "眼睁睁看着的神态可画，但词义偏书面，画面难以锁定。"
+      }
+    },
+    {
+      "text": "瞧不起",
+      "length": 3,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "ambiguous-visual"
+        ],
+        "reason": "斜眼俯视表情可画，但易猜成『骄傲/看不起/蔑视』。"
+      }
+    },
+    {
+      "text": "石钟乳",
+      "length": 3,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 1,
+        "playfulness": 1,
+        "score": 7,
+        "status": "KEEP",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "溶洞垂挂钟乳石造型独特，课文《记金华的双龙洞》有认知基础。"
+      },
+      "suggestedDifficulty": "hard",
+      "suggestedTags": [
+        "drawable",
+        "nature"
+      ]
+    },
+    {
+      "text": "笑呵呵",
+      "length": 3,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 7,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "near-synonym-conflict"
+        ],
+        "reason": "慈祥笑容可画，但易猜成『微笑/笑/开心』。"
+      }
+    },
+    {
+      "text": "笑嘻嘻",
+      "length": 3,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 7,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "near-synonym-conflict"
+        ],
+        "reason": "咧嘴嬉笑可画，但易猜成『笑/微笑/乐呵呵』。"
+      }
+    },
+    {
+      "text": "肥皂泡",
+      "length": 3,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 3,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 10,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "rubric 校准例词：吹泡泡场景色彩形态俱佳，儿童极熟悉。"
+      },
+      "suggestedDifficulty": "easy",
+      "suggestedTags": [
+        "drawable",
+        "object"
+      ]
+    },
+    {
+      "text": "脚腕子",
+      "length": 3,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "near-synonym-conflict"
+        ],
+        "reason": "脚踝特写可画，但易猜成『脚踝/脚/脚脖子』。"
+      }
+    },
+    {
+      "text": "腊八粥",
+      "length": 3,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 1,
+        "childFamiliarity": 1,
+        "playfulness": 2,
+        "score": 7,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "ambiguous-visual"
+        ],
+        "reason": "腊八节日粥可画，但碗中之粥易猜成『粥/八宝粥』，节令词锁定难。"
+      }
+    },
+    {
+      "text": "蛋炒饭",
+      "length": 3,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "识字"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 3,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 10,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "金黄饭粒+鸡蛋+锅铲组合明确，儿童熟悉又爱画。"
+      },
+      "suggestedDifficulty": "easy",
+      "suggestedTags": [
+        "drawable",
+        "food"
+      ]
+    },
+    {
+      "text": "要不然",
+      "length": 3,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 0,
+        "guessSpecificity": 0,
+        "childFamiliarity": 2,
+        "playfulness": 0,
+        "score": 2,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [
+          "function-word"
+        ],
+        "reason": "表示否则的连词性口语，无画面。"
+      }
+    },
+    {
+      "text": "赤裸裸",
+      "length": 3,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 1,
+        "guessSpecificity": 1,
+        "childFamiliarity": 1,
+        "playfulness": 0,
+        "score": 3,
+        "status": "REJECT",
+        "confidence": "high",
+        "flags": [
+          "sensitive"
+        ],
+        "reason": "直译画面不适合亲子游戏，比喻用法又无画可对。"
+      }
+    },
+    {
+      "text": "赵州桥",
+      "length": 3,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 1,
+        "playfulness": 1,
+        "score": 7,
+        "status": "KEEP",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "单孔石拱桥+桥洞造型独特，课文《赵州桥》认知度高。"
+      },
+      "suggestedDifficulty": "hard",
+      "suggestedTags": [
+        "drawable",
+        "place",
+        "culture"
+      ]
+    },
+    {
+      "text": "软绵绵",
+      "length": 3,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "ambiguous-visual"
+        ],
+        "reason": "云朵棉絮触感可画，但易猜成『软/棉花/舒服』。"
+      }
+    },
+    {
+      "text": "轻悠悠",
+      "length": 3,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 1,
+        "playfulness": 1,
+        "score": 5,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "ambiguous-visual"
+        ],
+        "reason": "飘浮状态可画，但书面化，易猜成『飘/轻』。"
+      }
+    },
+    {
+      "text": "造纸术",
+      "length": 3,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 2,
+        "childFamiliarity": 1,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "ambiguous-visual"
+        ],
+        "reason": "抄纸晾浆流程可画，但易猜成『造纸/四大发明』，术字难表达。"
+      }
+    },
+    {
+      "text": "邮递员",
+      "length": 3,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（一）"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 3,
+        "childFamiliarity": 2,
+        "playfulness": 2,
+        "score": 10,
+        "status": "KEEP",
+        "confidence": "high",
+        "flags": [],
+        "reason": "绿色制服+自行车+信包裹形象经典，儿童认知度高。"
+      },
+      "suggestedDifficulty": "easy",
+      "suggestedTags": [
+        "drawable",
+        "person",
+        "transport"
+      ]
+    },
+    {
+      "text": "金灿灿",
+      "length": 3,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "ambiguous-visual"
+        ],
+        "reason": "金色麦浪稻田可画，但易猜成『金黄/金色的麦子』。"
+      }
+    },
+    {
+      "text": "阿拉伯",
+      "length": 3,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 0,
+        "playfulness": 1,
+        "score": 4,
+        "status": "REJECT",
+        "confidence": "medium",
+        "flags": [
+          "too-niche",
+          "ambiguous-visual"
+        ],
+        "reason": "区域/民族泛称，画面只能落到骆驼沙漠或数字符号，难以成题。"
+      }
+    },
+    {
+      "text": "难为情",
+      "length": 3,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（二）"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "ambiguous-visual"
+        ],
+        "reason": "脸红低头表情可画，但易猜成『害羞/尴尬/脸红』。"
+      }
+    },
+    {
+      "text": "雾蒙蒙",
+      "length": 3,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "ambiguous-visual"
+        ],
+        "reason": "浓雾景象可画，但易猜成『雾/大雾/看不清』。"
+      }
+    },
+    {
+      "text": "露馅儿",
+      "length": 3,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 1,
+        "playfulness": 2,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "ambiguous-visual"
+        ],
+        "reason": "破皮流馅的包子有趣，但惯用语，易猜成『包子/破了的包子』。"
+      }
+    },
+    {
+      "text": "静悄悄",
+      "length": 3,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "near-synonym-conflict"
+        ],
+        "reason": "夜深无声氛围可画，但易猜成『安静/悄悄/寂静』。"
+      }
+    },
+    {
+      "text": "音乐家",
+      "length": 3,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 8,
+        "status": "KEEP",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "燕尾服+乐器+音符组合指向较明确，可猜出音乐家/钢琴家。"
+      },
+      "suggestedDifficulty": "normal",
+      "suggestedTags": [
+        "drawable",
+        "person"
+      ]
+    },
+    {
+      "text": "驾驶员",
+      "length": 3,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 7,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "near-synonym-conflict"
+        ],
+        "reason": "开车形象可画，但儿童更易猜成『司机』，书面称谓难锁定。"
+      }
+    },
+    {
+      "text": "鹅卵石",
+      "length": 3,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 3,
+        "guessSpecificity": 2,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 8,
+        "status": "KEEP",
+        "confidence": "medium",
+        "flags": [],
+        "reason": "溪边圆润条纹石头特征明确，可猜出鹅卵石/卵石。"
+      },
+      "suggestedDifficulty": "normal",
+      "suggestedTags": [
+        "drawable",
+        "nature"
+      ]
+    },
+    {
+      "text": "黑乎乎",
+      "length": 3,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "gameability": {
+        "visualizability": 2,
+        "guessSpecificity": 1,
+        "childFamiliarity": 2,
+        "playfulness": 1,
+        "score": 6,
+        "status": "MAYBE",
+        "confidence": "medium",
+        "flags": [
+          "ambiguous-visual"
+        ],
+        "reason": "昏黑场景可画，但易猜成『黑/黑暗/漆黑』。"
+      }
+    }
+  ]
+}

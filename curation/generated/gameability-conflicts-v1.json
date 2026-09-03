@@ -1,0 +1,2622 @@
+{
+  "schema": "cn-primary-gameability-conflicts",
+  "version": "0.1.0",
+  "scope": {
+    "sources": [
+      "static/huacai/data/words.json",
+      "curation/reviewed/gameability-curation-4char-v1.json",
+      "curation/generated/gameability-curation-3char-v1.json",
+      "curation/generated/gameability-prefilter-2char-v1.json"
+    ],
+    "note": "只标记冲突供人工取舍，不自动删词。words 字段标注了每个词的来源与当前判定。"
+  },
+  "groups": [
+    {
+      "type": "near-synonym",
+      "words": [
+        {
+          "text": "一望无边",
+          "from": "4char-reviewed",
+          "assessment": "MAYBE"
+        },
+        {
+          "text": "一望无际",
+          "from": "4char-reviewed",
+          "assessment": "MAYBE"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "四字近义，画面同为极目远眺的天际线，建议二选一。"
+    },
+    {
+      "type": "near-synonym",
+      "words": [
+        {
+          "text": "筋疲力尽",
+          "from": "4char-reviewed",
+          "assessment": "KEEP"
+        },
+        {
+          "text": "精疲力竭",
+          "from": "4char-reviewed",
+          "assessment": "MAYBE"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "同为瘫坐喘息的疲惫画面，已复核文件倾向保留前者。"
+    },
+    {
+      "type": "near-synonym",
+      "words": [
+        {
+          "text": "惊天动地",
+          "from": "4char-reviewed",
+          "assessment": "MAYBE"
+        },
+        {
+          "text": "震天动地",
+          "from": "4char-reviewed",
+          "assessment": "MAYBE"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "同为巨响震动的夸张画面，几乎不可区分。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "哄堂大笑",
+          "from": "4char-reviewed",
+          "assessment": "KEEP"
+        },
+        {
+          "text": "哈哈大笑",
+          "from": "4char-reviewed",
+          "assessment": "KEEP"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "同为众人大笑场面，画出来无法区分。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "心惊肉跳",
+          "from": "4char-reviewed",
+          "assessment": "KEEP"
+        },
+        {
+          "text": "心惊胆战",
+          "from": "4char-reviewed",
+          "assessment": "KEEP"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "同为受惊捂胸表情，画面高度重合。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "威风凛凛",
+          "from": "4char-reviewed",
+          "assessment": "MAYBE"
+        },
+        {
+          "text": "威武",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "同为昂首挺立的威风形象。"
+    },
+    {
+      "type": "granularity",
+      "words": [
+        {
+          "text": "大吃一惊",
+          "from": "4char-reviewed",
+          "assessment": "KEEP"
+        },
+        {
+          "text": "吃惊",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "惊奇",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "惊叹",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "惊讶表情家族：四字/双字并存会互相抢答，需控制数量。"
+    },
+    {
+      "type": "phrase-variant",
+      "words": [
+        {
+          "text": "急急忙忙",
+          "from": "4char-reviewed",
+          "assessment": "KEEP"
+        },
+        {
+          "text": "慌忙",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "赶紧",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "匆忙奔走画面相同，词形长短不同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "闪闪发光",
+          "from": "4char-reviewed",
+          "assessment": "KEEP"
+        },
+        {
+          "text": "闪烁",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "亮晶晶",
+          "from": "3char-curation",
+          "assessment": "MAYBE"
+        },
+        {
+          "text": "晶莹",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "发光/闪亮视觉符号相同，状态词扎堆。"
+    },
+    {
+      "type": "near-synonym",
+      "words": [
+        {
+          "text": "司机",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "驾驶员",
+          "from": "3char-curation",
+          "assessment": "MAYBE"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "开车画面完全相同，儿童更常答『司机』。"
+    },
+    {
+      "type": "near-synonym",
+      "words": [
+        {
+          "text": "渔夫",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "渔民",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "撒网捕鱼画面相同。"
+    },
+    {
+      "type": "granularity",
+      "words": [
+        {
+          "text": "灯",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "电灯泡",
+          "from": "3char-curation",
+          "assessment": "KEEP"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "灯泡即灯的具体化，画面高度重合。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "火烧云",
+          "from": "3char-curation",
+          "assessment": "KEEP"
+        },
+        {
+          "text": "朝霞",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "晚霞",
+          "from": "2char-prefilter",
+          "assessment": "KEEP_CANDIDATE"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "同为天空红霞，早晚方向难以画分。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "暴风雨",
+          "from": "3char-curation",
+          "assessment": "MAYBE"
+        },
+        {
+          "text": "雷雨",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "阵雨",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "风暴",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "风雨大作画面相同，天气词需控制粒度。"
+    },
+    {
+      "type": "near-synonym",
+      "words": [
+        {
+          "text": "丹顶鹤",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "白鹤",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "白色鹤类形象几乎一致。"
+    },
+    {
+      "type": "granularity",
+      "words": [
+        {
+          "text": "石头",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "鹅卵石",
+          "from": "3char-curation",
+          "assessment": "KEEP"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "卵石是石头的具体化，溪边场景重合。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "石钟乳",
+          "from": "3char-curation",
+          "assessment": "KEEP"
+        },
+        {
+          "text": "石笋",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "同为溶洞场景，一垂一立，儿童难以区分。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "荷花",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "睡莲",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "浮水莲花与荷花在儿童画中无法区分。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "暖和",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "温暖",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "温和",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "暖洋洋",
+          "from": "3char-curation",
+          "assessment": "MAYBE"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "暖意场景（晒太阳/围炉）高度重合。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "安静",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "宁静",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "寂静",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "肃静",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "清静",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "静悄悄",
+          "from": "3char-curation",
+          "assessment": "MAYBE"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "无声场景家族，六词一画，建议最多留一两个。"
+    },
+    {
+      "type": "near-synonym",
+      "words": [
+        {
+          "text": "宇宙",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "太空",
+          "from": "2char-prefilter",
+          "assessment": "KEEP_CANDIDATE"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "星空星球画面相同，语义近同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "星星",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "星空",
+          "from": "2char-prefilter",
+          "assessment": "KEEP_CANDIDATE"
+        },
+        {
+          "text": "繁星",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "群星",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "满天星斗画面一致。"
+    },
+    {
+      "type": "granularity",
+      "words": [
+        {
+          "text": "白云",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "乌云",
+          "from": "2char-prefilter",
+          "assessment": "KEEP_CANDIDATE"
+        },
+        {
+          "text": "云彩",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "云的三种表达，乌云有明暗对比尚可区分，云彩与白云重合。"
+    },
+    {
+      "type": "granularity",
+      "words": [
+        {
+          "text": "天空",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "蓝天",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "晴空画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "春天",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "春光",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "春日",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "春日花开画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "夏天",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "炎夏",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "炎热",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "酷暑",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "烈日场景家族重合。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "冬天",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "严寒",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "冰雪场景重合。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "夜晚",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "黑夜",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "深夜",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "夜景画面一致，仅程度不同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "黄昏",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "黎明",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "天际霞光方向难以画分。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "早晨",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "清晨",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "晌午",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "日升时段画面相近。"
+    },
+    {
+      "type": "granularity",
+      "words": [
+        {
+          "text": "太阳",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "阳光",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "光芒",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "发光太阳画面重合。"
+    },
+    {
+      "type": "granularity",
+      "words": [
+        {
+          "text": "月亮",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "满月",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "圆月画面相同。"
+    },
+    {
+      "type": "granularity",
+      "words": [
+        {
+          "text": "房子",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "住宅",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "宅院",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "茅屋",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "院墙",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "房屋居所家族，画面以『一座房』为主。"
+    },
+    {
+      "type": "granularity",
+      "words": [
+        {
+          "text": "草地",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "草坪",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "草丛",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "草地质画面重合。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "沙滩",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "河滩",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "海滨",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "水岸沙地画面相同。"
+    },
+    {
+      "type": "granularity",
+      "words": [
+        {
+          "text": "花朵",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "花瓣",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "鲜花",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "野花",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "花丛",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "盛开",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "花的泛称家族，建议以具体花种为主。"
+    },
+    {
+      "type": "granularity",
+      "words": [
+        {
+          "text": "床",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "床铺",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "床铺画面与床重合。"
+    },
+    {
+      "type": "granularity",
+      "words": [
+        {
+          "text": "椅子",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "板凳",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "座位",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "坐具家族画面重合。"
+    },
+    {
+      "type": "granularity",
+      "words": [
+        {
+          "text": "书包",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "背包",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "双肩包画面重合。"
+    },
+    {
+      "type": "granularity",
+      "words": [
+        {
+          "text": "台阶",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "梯子",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "楼梯",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "台阶踏步画面重合。"
+    },
+    {
+      "type": "granularity",
+      "words": [
+        {
+          "text": "马路",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "公路",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "道路",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "街道",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "道路家族，画面均为一条路。"
+    },
+    {
+      "type": "phrase-variant",
+      "words": [
+        {
+          "text": "唱歌",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "歌唱",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "歌声",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "引吭高歌画面相同。"
+    },
+    {
+      "type": "phrase-variant",
+      "words": [
+        {
+          "text": "跳舞",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "舞蹈",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "翩翩起舞画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "吃饭",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "晚饭",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "饭菜",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "美食",
+          "from": "2char-prefilter",
+          "assessment": "KEEP_CANDIDATE"
+        },
+        {
+          "text": "美餐",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "满桌饭菜画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "睡觉",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "沉睡",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "苏醒",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "醒来",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "睡眠家族画面重合。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "拍手",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "掌声",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "鼓掌画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "拥抱",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "依偎",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "亲密",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "相依相拥画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "哭泣",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "眼泪",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "泪水",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "落泪画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "笑容",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "笑脸",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "微笑",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "含笑",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "笑呵呵",
+          "from": "3char-curation",
+          "assessment": "MAYBE"
+        },
+        {
+          "text": "笑嘻嘻",
+          "from": "3char-curation",
+          "assessment": "MAYBE"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "笑的表情家族，画面高度重合。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "画画",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "图画",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "画册",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "绘画场景重合。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "看书",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "读书",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "学习",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "功课",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "伏案读书画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "弹琴",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "演奏",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "琴键",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "演奏乐器画面重合。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "跑步",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "赛跑",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "锻炼",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "奔跑锻炼画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "扫地",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "整理",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "整洁",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "清洁",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "打扫收纳画面重合。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "拍照",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "摄影",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "拍摄",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "举相机取景画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "观察",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "审视",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "观赏",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "欣赏",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "驻足观看画面重合。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "钓鱼",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "钓竿",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "垂钓画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "收割",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "收成",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "丰收",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "秋收场景重合。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "种树",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "植树",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "树苗",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "植苗栽树画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "山洞",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "洞穴",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "窟窿",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "洞穴黑影画面重合。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "荒漠",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "荒野",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "荒凉",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "荒芜场景重合。"
+    },
+    {
+      "type": "granularity",
+      "words": [
+        {
+          "text": "小河",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "河水",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "河流",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "河流画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "救援",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "救命",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "呼救施救画面重合。"
+    },
+    {
+      "type": "granularity",
+      "words": [
+        {
+          "text": "温度计",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "摄氏度",
+          "from": "3char-curation",
+          "assessment": "REJECT"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "画温度计只能猜温度计，单位无法表达。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "烛台",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "蜡烛",
+          "from": "2char-prefilter",
+          "assessment": "KEEP_CANDIDATE"
+        },
+        {
+          "text": "烛光",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "烛火画面重合。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "灯笼",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "花灯",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "节庆花灯画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "医生看病",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "治疗",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "养病",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "诊疗画面重合。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "老师讲课",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "讲座",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "讲桌",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "讲授课场景重合。"
+    },
+    {
+      "type": "phrase-variant",
+      "words": [
+        {
+          "text": "旅行",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "周游",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "漫游",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "远游画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "采访",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "访问",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "采访问答画面重合。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "演员",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "表演",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "登台表演画面重合。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "爷爷",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "伯伯",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "叔叔",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "舅父",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "姑父",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "外祖父",
+          "from": "3char-curation",
+          "assessment": "MAYBE"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "男性长辈亲属称谓，画面无法区分到具体称呼。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "妈妈",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "母亲",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "母子画面相同，保留口语词即可。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "爸爸",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "父亲",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "父子画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "婴儿",
+          "from": "2char-prefilter",
+          "assessment": "KEEP_CANDIDATE"
+        },
+        {
+          "text": "幼儿",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "婴幼画面重合。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "新娘",
+          "from": "2char-prefilter",
+          "assessment": "KEEP_CANDIDATE"
+        },
+        {
+          "text": "结婚",
+          "from": "2char-prefilter",
+          "assessment": "KEEP_CANDIDATE"
+        },
+        {
+          "text": "妻子",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "媳妇",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "婚礼场景家族，画面高度重合。"
+    },
+    {
+      "type": "granularity",
+      "words": [
+        {
+          "text": "毛毛虫",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "毛虫",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "毛虫画面相同，保留叠词更口语。"
+    },
+    {
+      "type": "granularity",
+      "words": [
+        {
+          "text": "小鱼",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "鲫鱼",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "画鲫鱼只能猜鱼。"
+    },
+    {
+      "type": "granularity",
+      "words": [
+        {
+          "text": "老虎",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "狮子",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "猛兽",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "猛兽为上位词，画出来必然是具体猛兽。"
+    },
+    {
+      "type": "granularity",
+      "words": [
+        {
+          "text": "虫子",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "昆虫",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "昆虫上位词，画面必然落到具体虫。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "麦田",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "麦穗",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "麦浪",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "麦子",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "麦作画面重合。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "稻谷",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "粮食",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "谷粒",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "谷物画面重合。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "白菜",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "萝卜",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "蔬菜",
+          "from": "2char-prefilter",
+          "assessment": "KEEP_CANDIDATE"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "蔬菜上位词与具体菜并存，画面多为具体菜。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "果园",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "果树",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "挂果之树画面重合。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "松树",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "雪松",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "松针",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "松脂",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "松树家族画面重合。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "芦苇",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "芦花",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "芦花即芦苇之花，画面重合。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "闹钟",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "钟表",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "滴答",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "钟表滴答画面重合。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "电视",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "广播",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "收音机",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "影音设备画面相近。"
+    },
+    {
+      "type": "granularity",
+      "words": [
+        {
+          "text": "指南针",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "方向",
+          "from": "2char-prefilter",
+          "assessment": "KEEP_CANDIDATE"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "方向箭头与指南针画面可区分但语义近同。"
+    },
+    {
+      "type": "granularity",
+      "words": [
+        {
+          "text": "磁铁",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "磁场",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "磁场示意必然画磁铁。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "帐篷",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "帐子",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "床帐帐篷画面相近。"
+    },
+    {
+      "type": "granularity",
+      "words": [
+        {
+          "text": "城墙",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "墙壁",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "砖墙画面重合。"
+    },
+    {
+      "type": "granularity",
+      "words": [
+        {
+          "text": "窗户",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "窗前",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "窗景画面重合。"
+    },
+    {
+      "type": "granularity",
+      "words": [
+        {
+          "text": "门",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "门板",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "门板画面与门重合。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "中秋赏月",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "中秋",
+          "from": "2char-prefilter",
+          "assessment": "KEEP_CANDIDATE"
+        },
+        {
+          "text": "团圆",
+          "from": "2char-prefilter",
+          "assessment": "KEEP_CANDIDATE"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "中秋团圆场景家族重合。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "春节贴福",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "春节",
+          "from": "2char-prefilter",
+          "assessment": "KEEP_CANDIDATE"
+        },
+        {
+          "text": "过年",
+          "from": "2char-prefilter",
+          "assessment": "KEEP_CANDIDATE"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "过年场景家族重合。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "元宵看灯",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "花灯",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "灯笼",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "灯会场景重合。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "庙会舞狮",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "庙会",
+          "from": "2char-prefilter",
+          "assessment": "KEEP_CANDIDATE"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "庙会场景重合。"
+    },
+    {
+      "type": "granularity",
+      "words": [
+        {
+          "text": "红色",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "绿色",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "黄色",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "蓝色",
+          "from": "words.json(当前词库)",
+          "assessment": "已在游戏中"
+        },
+        {
+          "text": "彩色",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "金黄",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "翠绿",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "墨绿",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "碧绿",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "嫩绿",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "浓绿",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "瓦蓝",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "色彩家族：深浅色词画面全部落到基础色，新增彩色/金黄等几乎无法区分。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "发抖",
+          "from": "2char-prefilter",
+          "assessment": "KEEP_CANDIDATE"
+        },
+        {
+          "text": "颤抖",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "发颤",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "哆嗦画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "骄傲",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "傲慢",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "高傲",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "自豪",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "昂首得意表情家族。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "使劲",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "用力",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "奋力",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "用力画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "偷偷",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "悄悄",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "轻声",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "蹑手蹑脚画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "回忆",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "记忆",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "回忆泡泡画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "朦胧",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "模糊",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "迷蒙",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "模糊视觉效果相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "灰尘",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "尘土",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "扬尘画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "微风",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "轻风",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "微风拂叶画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "盼望",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "期待",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "希望",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "盼望神情画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "喜悦",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "愉快",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "快活",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "开心情绪画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "忧伤",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "悲痛",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "沮丧",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "悲伤情绪画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "害怕",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "恐惧",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "惊慌",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "惊惶",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "惊恐表情家族。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "淘气",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "顽皮",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "调皮捣蛋画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "胆小",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "胆怯",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "懦弱",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "畏缩画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "疲倦",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "疲劳",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "筋疲力尽",
+          "from": "4char-reviewed",
+          "assessment": "KEEP"
+        },
+        {
+          "text": "精疲力竭",
+          "from": "4char-reviewed",
+          "assessment": "MAYBE"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "疲惫画面家族，横跨双字与四字。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "遮盖",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "遮掩",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "遮蔽画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "聚集",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "聚拢",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "汇集",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "聚拢画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "轮流",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "轮换",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "轮替画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "迷路",
+          "from": "2char-prefilter",
+          "assessment": "KEEP_CANDIDATE"
+        },
+        {
+          "text": "迷失",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "迷途画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "舒服",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        },
+        {
+          "text": "舒适",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "惬意瘫坐画面相同。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "打猎",
+          "from": "2char-prefilter",
+          "assessment": "KEEP_CANDIDATE"
+        },
+        {
+          "text": "猎人",
+          "from": "2char-prefilter",
+          "assessment": "KEEP_CANDIDATE"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "持械狩猎画面相同，一个是动作一个是人物。"
+    },
+    {
+      "type": "same-drawing",
+      "words": [
+        {
+          "text": "欢迎",
+          "from": "2char-prefilter",
+          "assessment": "KEEP_CANDIDATE"
+        },
+        {
+          "text": "迎接",
+          "from": "2char-prefilter",
+          "assessment": "REVIEW"
+        }
+      ],
+      "recommendation": "review-one-or-both",
+      "reason": "迎宾画面相同。"
+    }
+  ]
+}

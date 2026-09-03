@@ -1,0 +1,2573 @@
+{
+  "schema": "cn-primary-gameability-conflict-resolution",
+  "version": "1.1.0",
+  "scope": {
+    "rubric": "gameability-rubric-v1.1",
+    "note": "每个冲突簇选出代表词（canonical），其余记 REDUNDANT 指向代表词；已在词库中的词不改动，仅在 note 中说明后续合并取舍。",
+    "clusterCount": 265,
+    "noteOnlyCount": 3,
+    "unresolvedV1Groups": [
+      [
+        "打猎",
+        "猎人"
+      ]
+    ]
+  },
+  "clusters": [
+    {
+      "type": "near-synonym",
+      "canonical": "一望无边",
+      "canonicalFrom": "4char（v1.1 KEEP）",
+      "note": "同为极目远眺天际线，二选一。",
+      "redundant": [
+        "一望无际"
+      ]
+    },
+    {
+      "type": "near-synonym",
+      "canonical": "筋疲力尽",
+      "canonicalFrom": "4char（v1.1 KEEP）",
+      "note": "同为瘫坐喘息，已复核文件倾向保留前者。",
+      "redundant": [
+        "疲倦",
+        "疲劳",
+        "精疲力竭"
+      ]
+    },
+    {
+      "type": "near-synonym",
+      "canonical": "惊天动地",
+      "canonicalFrom": "4char（v1.1 KEEP）",
+      "note": "同为巨响震动夸张画面。",
+      "redundant": [
+        "震天动地"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "哈哈大笑",
+      "canonicalFrom": "4char（v1.1 KEEP）",
+      "note": "众人大笑画面相同，儿童口语优先。",
+      "redundant": [
+        "哄堂大笑"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "心惊肉跳",
+      "canonicalFrom": "4char（v1.1 KEEP）",
+      "note": "受惊捂胸表情相同。",
+      "redundant": [
+        "心惊胆战"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "大吃一惊",
+      "canonicalFrom": "4char（v1.1 KEEP）",
+      "note": "惊讶表情家族以四字为锚。",
+      "redundant": [
+        "吃惊",
+        "惊叹",
+        "惊奇"
+      ]
+    },
+    {
+      "type": "phrase-variant",
+      "canonical": "急急忙忙",
+      "canonicalFrom": "4char（v1.1 KEEP）",
+      "note": "慌忙赶紧画面相同。",
+      "redundant": [
+        "慌忙",
+        "赶紧"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "闪闪发光",
+      "canonicalFrom": "4char（v1.1 KEEP）",
+      "note": "发光视觉符号相同。",
+      "redundant": [
+        "亮晶晶",
+        "明晃晃",
+        "晶莹",
+        "闪烁"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "人山人海",
+      "canonicalFrom": "4char（v1.1 KEEP）",
+      "note": "人潮拥挤画面相同，保留四字强画面。",
+      "redundant": [
+        "拥挤"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "花骨朵儿",
+      "canonicalFrom": "4char（v1.1 KEEP）",
+      "note": "含苞画面相同，儿化口语更亲切。",
+      "redundant": [
+        "花蕾"
+      ]
+    },
+    {
+      "type": "near-synonym",
+      "canonical": "司机",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "开车画面相同，儿童先答司机。",
+      "redundant": [
+        "驾驶员"
+      ]
+    },
+    {
+      "type": "near-synonym",
+      "canonical": "渔夫",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "撒网捕鱼画面相同。",
+      "redundant": [
+        "渔民"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "叔叔",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "男性平辈亲属画面无法区分到具体称呼。",
+      "redundant": [
+        "伯伯",
+        "大叔",
+        "姑父",
+        "舅父"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "爷爷",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "年长男性亲属画面无法区分。",
+      "redundant": [
+        "外祖父"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "妈妈",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "母子画面相同，口语优先。",
+      "redundant": [
+        "母亲"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "爸爸",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "父子画面相同。",
+      "redundant": [
+        "父亲"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "新娘",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "婚礼场景家族，具体人物优先于关系词。",
+      "redundant": [
+        "妻子",
+        "媳妇",
+        "结婚"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "婴儿",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "婴幼画面重合。",
+      "redundant": [
+        "幼儿"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "弟弟",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "男孩亲属画面无法区分。",
+      "redundant": [
+        "侄子",
+        "男孩",
+        "表弟"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "妹妹",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "女孩亲属画面无法区分。",
+      "redundant": [
+        "姑娘"
+      ]
+    },
+    {
+      "type": "near-synonym",
+      "canonical": "师傅",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "匠人师傅画面相同。",
+      "redundant": [
+        "大师"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "演员",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "登台表演画面相同。",
+      "redundant": [
+        "表演"
+      ]
+    },
+    {
+      "type": "near-synonym",
+      "canonical": "盲人",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "拄杖行走画面相同，具象人物优先。",
+      "redundant": [
+        "失明"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "星空",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "满天星斗画面一致。",
+      "redundant": [
+        "繁星",
+        "群星"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "白云",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "云彩与白云画面重合。",
+      "redundant": [
+        "云彩"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "天空",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "晴空画面相同。",
+      "redundant": [
+        "蓝天"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "春天",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "春日花开画面相同。",
+      "redundant": [
+        "明媚",
+        "春光",
+        "春日"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "夏天",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "初夏与夏天画面重合。",
+      "redundant": [
+        "初夏"
+      ]
+    },
+    {
+      "type": "near-synonym",
+      "canonical": "炎热",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "烈日挥汗与暖食画面同簇。",
+      "redundant": [
+        "炎夏",
+        "热乎乎",
+        "热辣辣",
+        "酷暑"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "冬天",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "冰雪严寒画面重合。",
+      "redundant": [
+        "严寒"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "夜晚",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "夜景一致，仅程度不同。",
+      "redundant": [
+        "夜幕",
+        "深夜",
+        "黑夜"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "早晨",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "晨光时段画面相近。",
+      "redundant": [
+        "晌午",
+        "清晨"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "黄昏",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "天际霞光方向难分，暮色优先。",
+      "redundant": [
+        "黎明"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "晚霞",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "早晚霞光同画，晚霞更常用。",
+      "redundant": [
+        "朝霞"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "暴风雨",
+      "canonicalFrom": "3char（v1.1 KEEP）",
+      "note": "风雨大作画面相同。",
+      "redundant": [
+        "阵雨",
+        "风暴"
+      ]
+    },
+    {
+      "type": "near-synonym",
+      "canonical": "狂风",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "风声大作风物倾斜画面相同。",
+      "redundant": [
+        "呼啸"
+      ]
+    },
+    {
+      "type": "near-synonym",
+      "canonical": "微风",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "柳枝轻摆画面相同。",
+      "redundant": [
+        "吹拂",
+        "轻风"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "雷雨",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "雷电轰鸣画面重合。",
+      "redundant": [
+        "雷声"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "冰雹",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "冰粒砸落画面相同。",
+      "redundant": [
+        "雹子"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "雾气",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "烟笼雾绕画面重合。",
+      "redundant": [
+        "烟雾",
+        "雾蒙蒙"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "露珠",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "晨露雨露画面相同。",
+      "redundant": [
+        "露水"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "雨点",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "雨滴雨珠雨点画面一致。",
+      "redundant": [
+        "雨滴",
+        "雨珠"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "干旱",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "龟裂干燥画面重合。",
+      "redundant": [
+        "干燥"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "洪水",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "山洪淹没画面重合。",
+      "redundant": [
+        "山洪",
+        "淹没"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "潮汐",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "涨落潮画面重合。",
+      "redundant": [
+        "涨潮"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "海浪拍岸",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "惊涛画面重合。",
+      "redundant": [
+        "波涛"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "火山喷发",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "喷发画面重合。",
+      "redundant": [
+        "爆发"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "火焰",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "炭火火盆画面落到火焰。",
+      "redundant": [
+        "炭火"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "阳光",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "光芒四射画面重合。",
+      "redundant": [
+        "光芒"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "月亮",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "满月即圆月。",
+      "redundant": [
+        "满月"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "溪流",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "山涧流淌画面重合。",
+      "redundant": [
+        "山涧",
+        "流淌"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "小河",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "河水河流画面相同。",
+      "redundant": [
+        "河水",
+        "河流"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "湖水",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "湖面即湖水。",
+      "redundant": [
+        "湖面"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "沙滩",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "水岸沙地画面重合。",
+      "redundant": [
+        "河滩",
+        "海滨"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "荒漠",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "荒芜画面重合。",
+      "redundant": [
+        "荒凉"
+      ]
+    },
+    {
+      "type": "near-synonym",
+      "canonical": "野外",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "郊野画面重合。",
+      "redundant": [
+        "荒野",
+        "郊外"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "波纹",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "水纹荡漾画面相同。",
+      "redundant": [
+        "荡漾"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "飘浮",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "浮空飘动画面相同。",
+      "redundant": [
+        "浮动",
+        "飘动"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "蝴蝶飞舞",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "飞舞画面落到蝶舞。",
+      "redundant": [
+        "飞舞"
+      ]
+    },
+    {
+      "type": "near-synonym",
+      "canonical": "风景",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "山水风光画面相同。",
+      "redundant": [
+        "景色"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "黑暗",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "无光画面一致。",
+      "redundant": [
+        "乌黑",
+        "昏暗",
+        "漆黑",
+        "阴暗",
+        "黑乎乎"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "森林",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "茂密林木画面重合。",
+      "redundant": [
+        "茂盛"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "树林",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "单株大树最终画成树林。",
+      "redundant": [
+        "榕树",
+        "白桦"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "桃花",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "春日粉花同画；梅花作第二代表（寒枝视觉可分）。",
+      "redundant": [
+        "杏花",
+        "桂花"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "松树",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "松针雪松松脂画面重合。",
+      "redundant": [
+        "松针",
+        "雪松"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "柳树",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "垂柳柳枝画面重合。",
+      "redundant": [
+        "垂柳",
+        "柳叶",
+        "柳枝"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "树枝",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "枝干枝条树梢画面重合。",
+      "redundant": [
+        "枝干",
+        "枝条",
+        "树梢"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "果园",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "挂果之树与果园重合。",
+      "redundant": [
+        "果树",
+        "野果"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "麦田",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "麦子与麦田画面重合。",
+      "redundant": [
+        "麦子"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "麦苗",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "秧苗画面重合。",
+      "redundant": [
+        "禾苗"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "庄稼",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "农作物与庄稼画面重合，口语优先。",
+      "redundant": [
+        "农作物"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "稻谷",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "谷粒粮食画面重合。",
+      "redundant": [
+        "粮食",
+        "谷粒"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "花朵",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "花的泛称家族，具体花种另立代表。",
+      "redundant": [
+        "盛开",
+        "花丛",
+        "野花",
+        "鲜花"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "草地",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "草坪草丛绿毯画面重合。",
+      "redundant": [
+        "绿毯",
+        "草丛",
+        "草坪"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "荷花",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "睡莲与荷花儿童画无法区分。",
+      "redundant": [
+        "睡莲"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "芦苇",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "芦花即芦苇之花。",
+      "redundant": [
+        "芦花"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "萝卜",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "甜菜块根画面与萝卜重合。",
+      "redundant": [
+        "甜菜"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "自然",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "大自然与自然画面重合。",
+      "redundant": [
+        "大自然"
+      ]
+    },
+    {
+      "type": "near-synonym",
+      "canonical": "丹顶鹤",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "白色鹤类形象几乎一致。",
+      "redundant": [
+        "白鹤"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "兔子",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "野兔画面即兔子。",
+      "redundant": [
+        "野兔"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "小鱼",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "画鲫鱼只能猜鱼。",
+      "redundant": [
+        "鲫鱼"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "鸭子",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "野鸭画面即鸭子。",
+      "redundant": [
+        "野鸭"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "老虎",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "猛兽上位词画面必落到具体猛兽。",
+      "redundant": [
+        "猛兽"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "虫子",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "昆虫上位词画面必落到具体虫。",
+      "redundant": [
+        "昆虫"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "毛毛虫",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "毛虫画面相同，叠词口语优先。",
+      "redundant": [
+        "毛虫"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "毛茸茸",
+      "canonicalFrom": "3char（v1.1 KEEP）",
+      "note": "绒毛质感画面相同。",
+      "redundant": [
+        "绒毛"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "湿淋淋",
+      "canonicalFrom": "3char（v1.1 KEEP）",
+      "note": "淋湿画面相同。",
+      "redundant": [
+        "潮湿"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "书包",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "双肩背包画面重合。",
+      "redundant": [
+        "背包"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "帽子",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "毡帽即帽子。",
+      "redundant": [
+        "毡帽"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "床",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "床铺画面重合。",
+      "redundant": [
+        "床铺"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "椅子",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "坐具家族画面重合。",
+      "redundant": [
+        "座位",
+        "板凳"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "台阶",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "梯级踏步画面重合。",
+      "redundant": [
+        "楼梯",
+        "石级"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "盘子",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "圆盘画面重合。",
+      "redundant": [
+        "圆盘"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "铜钱",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "钱币硬币画面重合。",
+      "redundant": [
+        "钱币"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "齿轮",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "机械传动画面落到齿轮。",
+      "redundant": [
+        "机械"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "机器人",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "机器画面落到机器人。",
+      "redundant": [
+        "机器"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "汽车",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "行驶画面落到汽车。",
+      "redundant": [
+        "行驶"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "蛋糕",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "糕饼点心画面重合。",
+      "redundant": [
+        "糕饼"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "门",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "门板画面即门。",
+      "redundant": [
+        "门板"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "窗户",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "窗前景物落到窗户。",
+      "redundant": [
+        "窗前"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "灯",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "亮光光亮画面落到灯。",
+      "redundant": [
+        "亮光",
+        "光亮"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "灯笼",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "花灯画面即灯笼。",
+      "redundant": [
+        "花灯"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "蜡烛",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "烛光画面即蜡烛。",
+      "redundant": [
+        "烛光"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "钢琴",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "琴键画面落到钢琴。",
+      "redundant": [
+        "琴键"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "铃铛",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "铃声画面落到铃铛。",
+      "redundant": [
+        "铃声"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "闹钟",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "滴答声画面落到闹钟。",
+      "redundant": [
+        "滴答"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "收音机",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "广播画面落到收音机。",
+      "redundant": [
+        "广播"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "磁铁",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "磁场示意必然画磁铁。",
+      "redundant": [
+        "磁场"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "帐篷",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "床帐帐篷画面相近。",
+      "redundant": [
+        "帐子"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "墙壁",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "院墙画面即墙壁。",
+      "redundant": [
+        "院墙"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "国旗",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "旗帜画面落到国旗。",
+      "redundant": [
+        "旗帜"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "锄头",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "农具画面落到锄头。",
+      "redundant": [
+        "农具"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "农场",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "牲畜画面落到农场牛羊。",
+      "redundant": [
+        "牲畜"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "划船",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "船夫撑船画面重合。",
+      "redundant": [
+        "船夫"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "轮船靠岸",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "靠岸停泊画面重合。",
+      "redundant": [
+        "靠岸"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "隧道",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "地道画面与隧道重合。",
+      "redundant": [
+        "地道"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "餐厅",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "饭馆画面与餐厅重合。",
+      "redundant": [
+        "饭馆"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "马路",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "道路街道画面相同。",
+      "redundant": [
+        "街道",
+        "道路"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "高楼",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "建筑施工盖楼画面重合。",
+      "redundant": [
+        "修建",
+        "修筑",
+        "建筑"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "客厅",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "大厅画面与客厅重合。",
+      "redundant": [
+        "大厅"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "房子",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "住宅宅院画面重合。",
+      "redundant": [
+        "住宅",
+        "宅院"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "故宫",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "殿堂大殿画面落到故宫。",
+      "redundant": [
+        "殿堂"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "洗手",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "讲卫生画面落到洗手。",
+      "redundant": [
+        "卫生"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "实验",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "研究画面落到实验。",
+      "redundant": [
+        "研究"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "探险",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "考察画面落到探险。",
+      "redundant": [
+        "考察"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "救援",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "呼救施救画面重合。",
+      "redundant": [
+        "救命"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "纪念碑",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "纪念画面落到纪念碑。",
+      "redundant": [
+        "纪念"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "绘图",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "设计画面落到绘图。",
+      "redundant": [
+        "设计"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "发电站",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "能源画面落到发电。",
+      "redundant": [
+        "能源"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "拍照",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "拍摄取景画面重合。",
+      "redundant": [
+        "拍摄"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "钓鱼",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "钓竿垂钓画面重合。",
+      "redundant": [
+        "钓竿"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "雪地脚印",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "脚步画面落到脚印。",
+      "redundant": [
+        "脚步"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "雪山",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "积雪画面落到雪山。",
+      "redundant": [
+        "积雪"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "秋天落叶",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "落叶画面落到秋叶。",
+      "redundant": [
+        "落叶"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "石钟乳",
+      "canonicalFrom": "3char（v1.1 KEEP）",
+      "note": "溶洞一垂一立，儿童难分，保留课文词。",
+      "redundant": [
+        "石笋"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "中秋",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "中秋团圆赏月场景家族，节日名优先。",
+      "redundant": [
+        "团圆"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "过年",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "春节贺年拜年画面重合，儿童口语优先。",
+      "redundant": [
+        "春节",
+        "贺年"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "庆祝",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "节日狂欢画面落到庆祝。",
+      "redundant": [
+        "狂欢",
+        "节日"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "鞭炮",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "燃放画面落到鞭炮。",
+      "redundant": [
+        "燃放"
+      ]
+    },
+    {
+      "type": "phrase-variant",
+      "canonical": "唱歌",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "引吭高歌画面相同。",
+      "redundant": [
+        "歌唱",
+        "歌声"
+      ]
+    },
+    {
+      "type": "phrase-variant",
+      "canonical": "跳舞",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "翩翩起舞画面相同。",
+      "redundant": [
+        "舞蹈"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "弹琴",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "演奏合奏画面重合。",
+      "redundant": [
+        "合奏",
+        "演奏"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "跑步",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "赛跑锻炼画面重合。",
+      "redundant": [
+        "赛跑",
+        "锻炼"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "扫地",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "干净整洁清洁画面重合。",
+      "redundant": [
+        "干净",
+        "整洁",
+        "清洁"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "种树",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "植树树苗画面重合。",
+      "redundant": [
+        "树苗",
+        "植树"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "收割",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "丰收收成画面重合。",
+      "redundant": [
+        "丰收",
+        "收成"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "吃饭",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "晚饭饭菜画面重合。",
+      "redundant": [
+        "晚饭",
+        "饭菜"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "睡觉",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "沉睡画面重合。",
+      "redundant": [
+        "沉睡"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "看书",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "学习功课画面重合。",
+      "redundant": [
+        "功课",
+        "学习"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "画画",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "图画彩绘画册画面重合。",
+      "redundant": [
+        "图画",
+        "彩绘",
+        "画册"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "打鼓",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "鼓点画面落到打鼓。",
+      "redundant": [
+        "鼓点"
+      ]
+    },
+    {
+      "type": "phrase-variant",
+      "canonical": "玩耍",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "戏耍嬉闹画面相同。",
+      "redundant": [
+        "戏耍"
+      ]
+    },
+    {
+      "type": "phrase-variant",
+      "canonical": "旅行",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "周游漫游画面相同。",
+      "redundant": [
+        "周游",
+        "漫游"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "采访",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "访问访谈画面重合。",
+      "redundant": [
+        "访问"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "老师讲课",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "讲座讲桌画面重合。",
+      "redundant": [
+        "讲座",
+        "讲桌"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "医生看病",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "治疗养病画面重合。",
+      "redundant": [
+        "养病",
+        "治疗"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "帮助",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "帮忙帮助画面相同。",
+      "redundant": [
+        "帮忙"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "打扮",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "穿戴画面落到打扮。",
+      "redundant": [
+        "穿戴"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "布置",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "装饰布置画面相同。",
+      "redundant": [
+        "装饰"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "排练",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "彩排画面相同。",
+      "redundant": [
+        "彩排"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "排队",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "排列秩序整齐画面重合。",
+      "redundant": [
+        "排列",
+        "整齐",
+        "秩序",
+        "顺序"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "阻挡",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "挡住拦阻画面相同。",
+      "redundant": [
+        "挡住"
+      ]
+    },
+    {
+      "type": "near-synonym",
+      "canonical": "防御",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "抵御防守画面相同。",
+      "redundant": [
+        "抵御"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "遮盖",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "遮掩遮蔽画面相同。",
+      "redundant": [
+        "遮掩"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "聚集",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "聚拢汇集群拥画面相同。",
+      "redundant": [
+        "汇集",
+        "簇拥",
+        "聚拢",
+        "集中"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "轮流",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "轮替画面相同。",
+      "redundant": [
+        "轮换"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "后退",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "退缩画面落到后退。",
+      "redundant": [
+        "退缩"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "扑腾",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "扑打挣扎画面相同。",
+      "redundant": [
+        "扑打",
+        "挣扎"
+      ]
+    },
+    {
+      "type": "near-synonym",
+      "canonical": "使劲",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "用力奋力拼命画面相同。",
+      "redundant": [
+        "奋力",
+        "拼命",
+        "用力"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "偷偷",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "蹑手蹑脚悄声画面相同。",
+      "redundant": [
+        "悄悄",
+        "轻声"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "助威",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "呐喊加油画面相同。",
+      "redundant": [
+        "呐喊"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "抬头",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "昂首画面落到抬头。",
+      "redundant": [
+        "昂首"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "醒来",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "苏醒清醒画面相同。",
+      "redundant": [
+        "清醒",
+        "苏醒"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "迷路",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "迷失方向画面落到迷路。",
+      "redundant": [
+        "迷失"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "欢迎",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "迎宾画面相同。",
+      "redundant": [
+        "迎接"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "变化",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "改变前后对比画面相同。",
+      "redundant": [
+        "改变"
+      ]
+    },
+    {
+      "type": "near-synonym",
+      "canonical": "发明",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "创造发明画面相同。",
+      "redundant": [
+        "创造"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "教训",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "数落责备画面相同。",
+      "redundant": [
+        "数落"
+      ]
+    },
+    {
+      "type": "near-synonym",
+      "canonical": "中药",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "药材画面落到中药。",
+      "redundant": [
+        "药材"
+      ]
+    },
+    {
+      "type": "near-synonym",
+      "canonical": "严肃",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "板脸表情相同。",
+      "redundant": [
+        "严厉"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "威武",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "威风凛凛画面落到威武。",
+      "redundant": [
+        "威风凛凛"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "骄傲",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "昂首得意表情家族。",
+      "redundant": [
+        "傲慢",
+        "神气",
+        "自豪",
+        "高傲"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "快活",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "开心情绪画面相同，口语优先。",
+      "redundant": [
+        "喜悦",
+        "愉快",
+        "欢快",
+        "活泼"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "兴奋",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "激动欢呼画面相同。",
+      "redundant": [
+        "激动"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "痛苦",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "悲伤忧愁沮丧画面相同。",
+      "redundant": [
+        "忧伤",
+        "悲惨",
+        "悲痛",
+        "沮丧"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "害怕",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "惊恐表情家族。",
+      "redundant": [
+        "恐惧",
+        "惊惶",
+        "惊慌"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "紧张",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "局促不安画面相同。",
+      "redundant": [
+        "局促",
+        "拘束"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "担心",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "忧心忡忡画面相同。",
+      "redundant": [
+        "不安",
+        "心事",
+        "忧虑"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "胆小",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "畏缩画面相同。",
+      "redundant": [
+        "懦弱",
+        "胆怯"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "淘气",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "调皮捣蛋画面相同。",
+      "redundant": [
+        "瞎闹",
+        "顽皮"
+      ]
+    },
+    {
+      "type": "near-synonym",
+      "canonical": "讨厌",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "嫌弃厌烦表情相同。",
+      "redundant": [
+        "厌烦"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "笑嘻嘻",
+      "canonicalFrom": "3char（v1.1 KEEP）",
+      "note": "笑的表情家族，口语叠词优先。",
+      "redundant": [
+        "含笑",
+        "微笑",
+        "笑呵呵"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "哭泣",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "落泪画面相同。",
+      "redundant": [
+        "泪水",
+        "眼泪"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "安静",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "无声场景家族，最常用词优先。",
+      "redundant": [
+        "宁静",
+        "寂静",
+        "幽静",
+        "清静",
+        "肃静",
+        "静悄悄"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "凌乱",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "散乱杂乱画面相同。",
+      "redundant": [
+        "混乱"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "忙碌",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "奔忙画面相同。",
+      "redundant": [
+        "忙乱",
+        "繁忙"
+      ]
+    },
+    {
+      "type": "near-synonym",
+      "canonical": "迅速",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "敏捷飞快画面相同。",
+      "redundant": [
+        "敏捷"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "慢吞吞",
+      "canonicalFrom": "3char（v1.1 KEEP）",
+      "note": "迟钝画面落到慢吞吞。",
+      "redundant": [
+        "迟钝"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "笨重",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "笨拙迟缓画面相同。",
+      "redundant": [
+        "笨拙"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "回忆",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "记忆回想画面相同。",
+      "redundant": [
+        "记忆"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "模糊",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "朦胧迷蒙画面相同。",
+      "redundant": [
+        "朦胧",
+        "迷蒙"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "灰尘",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "扬尘画面相同。",
+      "redundant": [
+        "尘土"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "温暖",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "暖意场景重合。",
+      "redundant": [
+        "暖和",
+        "暖洋洋",
+        "温和"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "热情",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "热烈场面相同。",
+      "redundant": [
+        "热烈"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "热闹",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "喧闹场面相同。",
+      "redundant": [
+        "喧闹"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "清凉",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "凉爽画面相同。",
+      "redundant": [
+        "清爽"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "香味",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "香气画面相同。",
+      "redundant": [
+        "清香",
+        "芬芳",
+        "香甜"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "美食",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "红烧美餐鲜美画面重合。",
+      "redundant": [
+        "红烧",
+        "美餐",
+        "鲜美"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "夸奖",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "称赞夸赞画面相同。",
+      "redundant": [
+        "称赞",
+        "赞叹",
+        "赞许"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "叹气",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "叹息画面相同。",
+      "redundant": [
+        "叹息",
+        "感叹"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "慈祥",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "和蔼笑容画面相同。",
+      "redundant": [
+        "和蔼"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "危险",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "当心注意警示画面相同。",
+      "redundant": [
+        "小心",
+        "注意"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "疑问",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "困惑问号画面相同。",
+      "redundant": [
+        "迷惑"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "发抖",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "哆嗦颤抖画面相同，最常用词优先。",
+      "redundant": [
+        "发颤",
+        "抖动",
+        "颤抖"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "凶猛",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "凶狠扑咬画面相同。",
+      "redundant": [
+        "凶狠"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "吼叫",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "咆哮怒吼画面相同。",
+      "redundant": [
+        "咆哮",
+        "怒吼"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "嗓子",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "喉咙画面相同。",
+      "redundant": [
+        "喉咙"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "嘴唇",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "嘴角画面落到嘴唇。",
+      "redundant": [
+        "嘴角"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "味道",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "气味画面落到味道。",
+      "redundant": [
+        "气味"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "表情",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "心情画面落到表情。",
+      "redundant": [
+        "心情"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "胳膊",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "双臂画面落到胳膊。",
+      "redundant": [
+        "双臂"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "瘦弱",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "虚弱单薄画面相同。",
+      "redundant": [
+        "虚弱"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "难为情",
+      "canonicalFrom": "3char（v1.1 KEEP）",
+      "note": "尴尬脸红画面相同。",
+      "redundant": [
+        "红晕",
+        "难堪"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "平衡",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "平稳画面相同。",
+      "redundant": [
+        "平稳"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "年龄",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "年纪画面相同。",
+      "redundant": [
+        "年纪"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "认真",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "全神贯注画面落到认真。",
+      "redundant": [
+        "全神贯注"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "预报",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "预告播报画面相同。",
+      "redundant": [
+        "预告"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "爱心",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "喜爱画面落到爱心符号。",
+      "redundant": [
+        "喜爱"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "布料",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "绸子画面落到布料。",
+      "redundant": [
+        "绸子"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "垫子",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "席子凉席画面重合。",
+      "redundant": [
+        "席子"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "孤独",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "孤单寂寞画面相同。",
+      "redundant": [
+        "寂寞"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "秘密",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "神秘藏匿画面相同。",
+      "redundant": [
+        "神秘"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "困难",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "艰难苦想画面相同。",
+      "redundant": [
+        "艰难"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "请求",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "央求恳求画面相同。",
+      "redundant": [
+        "央求"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "希望",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "盼望期待画面相同。",
+      "redundant": [
+        "期待",
+        "盼望"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "梦想",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "幻想画面落到梦想。",
+      "redundant": [
+        "幻想"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "胜利",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "成功庆功画面相同。",
+      "redundant": [
+        "成功"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "倒影",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "倒映画面相同。",
+      "redundant": [
+        "倒映"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "放假",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "假日休假画面重合，动词优先。",
+      "redundant": [
+        "假日"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "拥抱",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "依偎亲密画面相同。",
+      "redundant": [
+        "亲密",
+        "依偎"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "老师",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "先生旧称画面落到老师。",
+      "redundant": [
+        "先生"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "观察",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "端详欣赏审视画面相同。",
+      "redundant": [
+        "凝视",
+        "审视",
+        "欣赏",
+        "观赏"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "合力",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "团结配合画面相同。",
+      "redundant": [
+        "团结",
+        "配合"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "壮观",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "雄伟宏大画面相同。",
+      "redundant": [
+        "奇观",
+        "宏伟",
+        "雄伟"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "宝石",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "珍宝宝库画面重合。",
+      "redundant": [
+        "宝库",
+        "珍宝"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "宽阔",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "宽广辽阔画面相同。",
+      "redundant": [
+        "宽广",
+        "辽阔"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "武术",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "功夫画面落到武术。",
+      "redundant": [
+        "功夫",
+        "工夫"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "彩虹",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "彩色鲜艳画面落到彩虹与基础色。",
+      "redundant": [
+        "彩色",
+        "艳丽",
+        "鲜艳"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "拍手",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "鼓掌画面相同。",
+      "redundant": [
+        "掌声"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "粉碎",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "毁坏破裂画面相同。",
+      "redundant": [
+        "毁坏",
+        "破裂"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "山洞",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "洞穴窟窿画面重合。",
+      "redundant": [
+        "洞穴",
+        "窟窿"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "洗澡",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "浴桶沐浴画面重合。",
+      "redundant": [
+        "浴桶"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "痕迹",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "足迹踪迹画面相同。",
+      "redundant": [
+        "足迹",
+        "踪迹"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "眺望",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "远眺远望画面相同。",
+      "redundant": [
+        "远眺"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "绿色",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "各深浅绿画面只能落到绿色。",
+      "redundant": [
+        "墨绿",
+        "嫩绿",
+        "浓绿",
+        "碧绿",
+        "翠绿",
+        "苍翠"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "红色",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "嫩红画面只能落到红色。",
+      "redundant": [
+        "嫩红"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "缝隙",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "空隙间隔画面相同。",
+      "redundant": [
+        "空隙",
+        "间隔"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "舒服",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "舒适惬意画面相同。",
+      "redundant": [
+        "舒适"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "衣服",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "衣裳服装画面重合。",
+      "redundant": [
+        "服装",
+        "衣裳"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "黄色",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "金黄金灿灿画面落到黄色。",
+      "redundant": [
+        "金灿灿",
+        "金黄"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "赛车",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "飞驰画面落到赛车。",
+      "redundant": [
+        "飞驰"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "骑马",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "骏马奔腾画面落到骑马。",
+      "redundant": [
+        "骏马"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "蓝色",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "瓦蓝画面只能落到蓝色。",
+      "redundant": [
+        "瓦蓝"
+      ]
+    },
+    {
+      "type": "same-drawing",
+      "canonical": "机灵",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "智慧聪明画面相同。",
+      "redundant": [
+        "智慧"
+      ]
+    },
+    {
+      "type": "granularity",
+      "canonical": "捉迷藏",
+      "canonicalFrom": "words.json（已在游戏中）",
+      "note": "隐蔽躲藏画面落到捉迷藏。",
+      "redundant": [
+        "隐蔽"
+      ]
+    }
+  ],
+  "bankCoexistenceNotes": [
+    {
+      "type": "granularity",
+      "canonical": "乌云",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "云的三种明暗表达，乌云与白云视觉可分。"
+    },
+    {
+      "type": "granularity",
+      "canonical": "黑色",
+      "canonicalFrom": "未知",
+      "note": "乌黑画面只能落到黑色。"
+    },
+    {
+      "type": "near-synonym",
+      "canonical": "太空",
+      "canonicalFrom": "2char（v1.1 KEEP）",
+      "note": "与词库已有『宇宙』画面相同：太空列为候选代表，合并词库时二者取一。"
+    }
+  ]
+}

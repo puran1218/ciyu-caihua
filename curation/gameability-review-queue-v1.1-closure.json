@@ -1,0 +1,10 @@
+{
+  "schema": "cn-primary-gameability-review-queue",
+  "version": "1.1.1-closure",
+  "scope": {
+    "note": "终结复核 + 产品方最终裁定后的剩余队列：全部裁定完毕，队列为空。",
+    "total": 0,
+    "byCategory": {}
+  },
+  "items": []
+}

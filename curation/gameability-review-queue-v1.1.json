@@ -1,0 +1,4510 @@
+{
+  "schema": "cn-primary-gameability-review-queue",
+  "version": "1.1.0",
+  "scope": {
+    "note": "v1.1 剩余复核队列：仅含 REVIEW 终态（真实产品判断）。近义歧义已由冲突消解处理，不再入队。",
+    "total": 225
+  },
+  "items": [
+    {
+      "text": "丁零",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "拟声词，画面只能落到铃铛本体，作题略显单薄。"
+      }
+    },
+    {
+      "text": "不屈",
+      "length": 2,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "精神品质词，可用倔强姿态暗示，但是否适合轻松游戏需人工判断。"
+      }
+    },
+    {
+      "text": "东北",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "依赖地图方位表达，儿童作画难度大。"
+      }
+    },
+    {
+      "text": "为难",
+      "length": 2,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（二）"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "为难神态与发愁/尴尬画面重合，独立锁定难。"
+      }
+    },
+    {
+      "text": "主人",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "角色泛称，画面漂向『主人翁/老板』。"
+      }
+    },
+    {
+      "text": "乖巧",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "性格特质词，画面漂向『听话/懂事』。"
+      }
+    },
+    {
+      "text": "人类",
+      "length": 2,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（二）"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "泛指全体人类，画面漂向『人们/人群』，独立成题弱。"
+      }
+    },
+    {
+      "text": "仇人",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "怒目相向含敌对冲突，负面程度交人工判断。"
+      }
+    },
+    {
+      "text": "伏案",
+      "length": 2,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "书面词，画面只能落到趴桌写字，儿童熟悉度不足。"
+      }
+    },
+    {
+      "text": "供品",
+      "length": 2,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "祭桌场景民俗感强但语境偏严肃，是否适合家庭游戏需判断。"
+      }
+    },
+    {
+      "text": "修补",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "缝补衣物画面漂向『缝衣服/补衣服』，独立成题弱。"
+      }
+    },
+    {
+      "text": "冲击",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "半抽象动词，巨浪撞击画面会漂到『海浪/撞』，独立成题价值存疑。"
+      }
+    },
+    {
+      "text": "冲刷",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "动作依附水流场景，画面漂向『瀑布/冲洗』，独立游戏体验弱。"
+      }
+    },
+    {
+      "text": "决心",
+      "length": 2,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（二）"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "握拳坚定是通用手势，难以构成独立游戏画面。"
+      }
+    },
+    {
+      "text": "准备",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "收拾行装画面漂向『收拾/打包』，泛义动词独立成题弱。"
+      }
+    },
+    {
+      "text": "前肢",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "解剖学术语，画面只能落到爪子/前腿，作题价值低。"
+      }
+    },
+    {
+      "text": "动物",
+      "length": 2,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "识字"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "上位词游戏体验特殊：画任何动物都会被猜成具体动物名，是否保留泛词交产品判断。"
+      }
+    },
+    {
+      "text": "勇猛",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "冲锋猛打形象偏战斗暴力，交人工判断家庭适配性。"
+      }
+    },
+    {
+      "text": "原始",
+      "length": 2,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（二）"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "画面会落到『原始人』而非『原始』本身，属性词独立成题弱。"
+      }
+    },
+    {
+      "text": "反抗",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "推挡对抗画面含冲突，负面程度交人工判断。"
+      }
+    },
+    {
+      "text": "可怜",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "楚楚可怜神态与伤心/同情难以区分出独立体验。"
+      }
+    },
+    {
+      "text": "呼唤",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "呼喊招手画面漂向『喊/叫』，独立游戏体验单薄。"
+      }
+    },
+    {
+      "text": "噪声",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "捂耳嘈杂画面漂向『吵/噪音』，声音类抽象词独立成题价值存疑。"
+      }
+    },
+    {
+      "text": "坚持",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "咬牙坚持与加油画面重合，抽象意志词独立成题弱。"
+      }
+    },
+    {
+      "text": "坦克",
+      "length": 2,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "KEEP_CANDIDATE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "军用武器平台，画面清晰但武器属性强，按 v1.1 硬拒绝复查交人工判断（词库已有军舰先例）。"
+      }
+    },
+    {
+      "text": "培养",
+      "length": 2,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "浇花育苗画面漂向『浇水/种花』，抽象动词独立成题弱。"
+      }
+    },
+    {
+      "text": "基地",
+      "length": 2,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "泛称场地，画面漂向『营地/军事基地』，语义不确定。"
+      }
+    },
+    {
+      "text": "外宾",
+      "length": 2,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "外宾迎宾场景偏正式外交，儿童作题价值存疑。"
+      }
+    },
+    {
+      "text": "太太",
+      "length": 2,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（一）"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "旧式称谓，画面漂向『夫人/奶奶/阿姨』，无从锁定。"
+      }
+    },
+    {
+      "text": "嫂子",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "亲属称谓画面无从区分锁定，且无更常用代表词可挂靠。"
+      }
+    },
+    {
+      "text": "宽慰",
+      "length": 2,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "安慰拍肩画面漂向『安慰/拍拍』，情感动词独立成题弱。"
+      }
+    },
+    {
+      "text": "寄宿",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "集体宿舍场景概念偏校园制度，儿童独立作题价值存疑。"
+      }
+    },
+    {
+      "text": "屏障",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "书面比喻词，群山如屏画面漂向『大山/遮挡』。"
+      }
+    },
+    {
+      "text": "张开",
+      "length": 2,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "识字"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "泛义动词，张嘴张臂画面无法构成独立游戏体验。"
+      }
+    },
+    {
+      "text": "徘徊",
+      "length": 2,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "来回踱步画面漂向『走来走去』，书面词儿童不熟。"
+      }
+    },
+    {
+      "text": "恢复",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "复原过程抽象，箭头示意漂向『变回/复原』，独立成题弱。"
+      }
+    },
+    {
+      "text": "扇动",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "动作依附翅膀，画面漂向『扇翅膀/飞』，独立成题弱。"
+      }
+    },
+    {
+      "text": "手艺",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "泛称技艺，画面只能落到具体手工，儿童独立作题价值低。"
+      }
+    },
+    {
+      "text": "打猎",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "KEEP_CANDIDATE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "画面清晰但含持械猎杀场景，按 v1.1 暴力邻域规则交人工判断家庭适配性。"
+      }
+    },
+    {
+      "text": "抛弃",
+      "length": 2,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "丢弃离去场景偏负面（遗弃感），基调交人工判断。"
+      }
+    },
+    {
+      "text": "拍打",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "泛义拍击动作，画面漂向『拍手/拍打灰尘』，独立成题弱。"
+      }
+    },
+    {
+      "text": "招引",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "招手引逗画面漂向『招手/吸引』，独立成题弱。"
+      }
+    },
+    {
+      "text": "拨动",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "泛义小动作，画面漂向『拨/弹』，独立成题弱。"
+      }
+    },
+    {
+      "text": "指点",
+      "length": 2,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（二）"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "手指指引画面漂向『指路/指』，独立成题弱。"
+      }
+    },
+    {
+      "text": "挣钱",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "打工赚钱场景漂向『工作/赚钱』，涉及金钱价值观，交人工判断。"
+      }
+    },
+    {
+      "text": "挤压",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "物理动作抽象，画面漂向『压/挤』，独立成题弱。"
+      }
+    },
+    {
+      "text": "接触",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "指尖相触画面语义宽泛，独立成题弱。"
+      }
+    },
+    {
+      "text": "提前",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "时间先后概念抽象，画面依赖钟表对比，独立成题弱。"
+      }
+    },
+    {
+      "text": "提示",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "元语言词（关于游戏本身的词），画面漂向『暗示/提醒』。"
+      }
+    },
+    {
+      "text": "搭乘",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "画面漂向『坐车/上车』，依附具体交通工具，独立成题弱。"
+      }
+    },
+    {
+      "text": "敌人",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "对阵场面含冲突对抗，是否适合家庭氛围交人工判断。"
+      }
+    },
+    {
+      "text": "敬佩",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "敬佩注目画面漂向『佩服/尊敬』，情感强度词独立成题弱。"
+      }
+    },
+    {
+      "text": "敬爱",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "敬爱之情难以从画面区分于尊敬/喜爱。"
+      }
+    },
+    {
+      "text": "文静",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "性格特质词，安静女孩画面漂向『安静/淑女』，独立锁定难。"
+      }
+    },
+    {
+      "text": "无聊",
+      "length": 2,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "百无聊赖神态与发呆画面重合，独立锁定难。"
+      }
+    },
+    {
+      "text": "日本",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "依赖国旗符号识别，属地理标志而非画猜。"
+      }
+    },
+    {
+      "text": "明白",
+      "length": 2,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（二）"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "领悟神态是心理/言语概念，画面漂向『懂了/知道』。"
+      }
+    },
+    {
+      "text": "昼夜",
+      "length": 2,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "昼夜对照泛概念，画面漂向『白天黑夜』。"
+      }
+    },
+    {
+      "text": "晃动",
+      "length": 2,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "摇晃动作泛义，画面漂向『摇/晃』。"
+      }
+    },
+    {
+      "text": "有趣",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "评价性泛词，画面漂向『好玩/搞笑』。"
+      }
+    },
+    {
+      "text": "服务",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "服务行为泛义，画面漂向『服务员/招待』。"
+      }
+    },
+    {
+      "text": "朝鲜",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "依赖国旗符号识别，属地理标志而非画猜。"
+      }
+    },
+    {
+      "text": "本领",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "本领是技能泛称，画面漂向『本事/绝活』。"
+      }
+    },
+    {
+      "text": "杜鹃",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "杜鹃鸟与杜鹃花双关，同一画面无法指向确定语义。"
+      }
+    },
+    {
+      "text": "松脂",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "树脂细节儿童陌生，画面难以独立成题。"
+      }
+    },
+    {
+      "text": "染缸",
+      "length": 2,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "染布大缸旧式作坊，儿童陌生。"
+      }
+    },
+    {
+      "text": "桅杆",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "船只部件，画面漂向『船/旗杆』，独立成题弱。"
+      }
+    },
+    {
+      "text": "检阅",
+      "length": 2,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "阅兵检阅场面偏正式宏大，儿童作画与猜认难度高。"
+      }
+    },
+    {
+      "text": "榨油",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "行业工序场景儿童陌生，独立成题价值低。"
+      }
+    },
+    {
+      "text": "欺负",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "欺凌场景负面，程度拿捏需家长判断。"
+      }
+    },
+    {
+      "text": "氧气",
+      "length": 2,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "气体不可见，氧气瓶/气泡画面漂向『气泡/潜水』。"
+      }
+    },
+    {
+      "text": "水泥",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "建材灰浆儿童陌生，画面难以独立识别。"
+      }
+    },
+    {
+      "text": "求饶",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "跪地讨饶含威压场景，负面程度需家长判断。"
+      }
+    },
+    {
+      "text": "汗毛",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "体毛特写作题怪异，儿童独立作画价值低。"
+      }
+    },
+    {
+      "text": "汽笛",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "鸣笛声音词，画面漂向『轮船/喇叭』。"
+      }
+    },
+    {
+      "text": "沉重",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "重量感受抽象，画面漂向『重/抬不动』。"
+      }
+    },
+    {
+      "text": "河床",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "地理术语，画面漂向『干涸的河』，儿童陌生。"
+      }
+    },
+    {
+      "text": "法庭",
+      "length": 2,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "庭审场景偏成人化，儿童熟悉度低。"
+      }
+    },
+    {
+      "text": "洒落",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "散落动作依附具体物，画面漂向『撒/掉了』，独立成题弱。"
+      }
+    },
+    {
+      "text": "浑浊",
+      "length": 2,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "水质形容词，画面漂向『脏水』，独立成题弱。"
+      }
+    },
+    {
+      "text": "浪漫",
+      "length": 2,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "氛围抽象词，玫瑰烛光画面语义宽泛。"
+      }
+    },
+    {
+      "text": "海参",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "海洋生物儿童熟悉度低，形象难以独立识别。"
+      }
+    },
+    {
+      "text": "消化",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "生理科普图示，作题体验偏课堂。"
+      }
+    },
+    {
+      "text": "清新",
+      "length": 2,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（二）"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "空气质量感受抽象，画面漂向『空气好』。"
+      }
+    },
+    {
+      "text": "温柔",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "特质形容词，轻声细语画面难以与亲切/和蔼区分。"
+      }
+    },
+    {
+      "text": "游动",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "泛义移动动词，画面漂向『游/移动』。"
+      }
+    },
+    {
+      "text": "游戏",
+      "length": 2,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（二）"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "元概念词，画面漂向『玩游戏/游戏机』，语义过宽。"
+      }
+    },
+    {
+      "text": "滚动",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "滚动物理动作依附具体物，画面漂向『滚』。"
+      }
+    },
+    {
+      "text": "满意",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "点头微笑画面与开心/认可难以区分出独立体验。"
+      }
+    },
+    {
+      "text": "满足",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "心满意足神态与满意/开心重叠，独立锁定难。"
+      }
+    },
+    {
+      "text": "满载",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "装满货物画面漂向『装满/拉货』。"
+      }
+    },
+    {
+      "text": "火盆",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "旧式取暖物件儿童陌生，画面漂向『烤火』。"
+      }
+    },
+    {
+      "text": "灿烂",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "形容光彩夺目，画面漂向『阳光/笑容』，独立锁定难。"
+      }
+    },
+    {
+      "text": "煤炭",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "乌黑矿块画面漂向『煤/挖矿』，儿童作题价值低。"
+      }
+    },
+    {
+      "text": "照耀",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "光束笼罩画面漂向『阳光/照亮』，独立成题弱。"
+      }
+    },
+    {
+      "text": "狭窄",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "空间属性词，画面漂向『窄/小巷』。"
+      }
+    },
+    {
+      "text": "猎人",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "KEEP_CANDIDATE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "持枪牵犬狩猎含暴力指向，画面清晰不构成保留理由，交人工判断。"
+      }
+    },
+    {
+      "text": "猎物",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "猎获场景含狩猎暴力指向，随打猎/猎人一并交人工判断。"
+      }
+    },
+    {
+      "text": "王朝",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "朝代概念抽象，画面漂向『皇宫/古代』。"
+      }
+    },
+    {
+      "text": "玻璃",
+      "length": 2,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "透明材质难以在画中独立识别。"
+      }
+    },
+    {
+      "text": "甜蜜",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "甜蜜氛围词，画面漂向『甜/幸福』。"
+      }
+    },
+    {
+      "text": "生物",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "泛指生命体，画面漂向『动物/虫子』，上位词交产品判断。"
+      }
+    },
+    {
+      "text": "画眉",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "画眉鸟与描眉双关，同一画面语义不确定。"
+      }
+    },
+    {
+      "text": "画纸",
+      "length": 2,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（二）"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "一张白纸难以构成独立游戏画面。"
+      }
+    },
+    {
+      "text": "留意",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "留意神态与注意/观察难以区分出独立体验。"
+      }
+    },
+    {
+      "text": "留神",
+      "length": 2,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（二）"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "同留意，泛注意类词独立成题弱。"
+      }
+    },
+    {
+      "text": "疾病",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "卧病场景负面基调，题材拿捏需家长判断。"
+      }
+    },
+    {
+      "text": "登陆",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "抢滩登岸与登月双关，画面语义不确定。"
+      }
+    },
+    {
+      "text": "目光",
+      "length": 2,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（二）"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "眼神特写画面语义宽泛，独立成题弱。"
+      }
+    },
+    {
+      "text": "目标",
+      "length": 2,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "靶心画面漂向『射箭/靶子』，抽象目标义无法画。"
+      }
+    },
+    {
+      "text": "相貌",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "泛指长相，画面即一张脸，无从猜起。"
+      }
+    },
+    {
+      "text": "石匠",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "凿石职业儿童陌生，画面漂向『雕刻/工人』。"
+      }
+    },
+    {
+      "text": "石油",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "工业场景（钻井/油罐），儿童作题价值低。"
+      }
+    },
+    {
+      "text": "砸锅",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "摔锅画面奇特但近乎无厘头，儿童理解『砸锅卖铁』语境的少。"
+      }
+    },
+    {
+      "text": "示意",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "手势指向语义宽泛，画面无法锁定。"
+      }
+    },
+    {
+      "text": "祖先",
+      "length": 2,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（二）"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "祖先牌位族谱场景肃穆沉重，交人工判断。"
+      }
+    },
+    {
+      "text": "离开",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "转身离去画面漂向『走了/出发』，泛义动词。"
+      }
+    },
+    {
+      "text": "移动",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "泛义移动动词，画面漂向『挪/搬』。"
+      }
+    },
+    {
+      "text": "笼罩",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "烟雾笼罩氛围词，画面漂向『弥漫/包围』。"
+      }
+    },
+    {
+      "text": "粗壮",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "粗大质感形容词，画面漂向『粗/壮』。"
+      }
+    },
+    {
+      "text": "繁殖",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "生物繁衍科普图示，作题体验偏课堂。"
+      }
+    },
+    {
+      "text": "线条",
+      "length": 2,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "抽象构图元素，画面即若干线，无从猜起。"
+      }
+    },
+    {
+      "text": "细胞",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "显微镜示意图偏科普图鉴，独立作题价值交人工判断。"
+      }
+    },
+    {
+      "text": "结实",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "结实（牢固）与结果实双关，画面语义不确定。"
+      }
+    },
+    {
+      "text": "绝望",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "绝望情绪基调沉重，交人工判断。"
+      }
+    },
+    {
+      "text": "继续",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "接续关系抽象，画面漂向『接着/再来』。"
+      }
+    },
+    {
+      "text": "羊肉",
+      "length": 2,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "识字"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "肉类食材画面漂向『肉/羊肉串』，独立成题弱。"
+      }
+    },
+    {
+      "text": "耐心",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "耐心守候与安静/坚持画面重合，独立锁定难。"
+      }
+    },
+    {
+      "text": "肢体",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "解剖术语，画面无法指向该词。"
+      }
+    },
+    {
+      "text": "肥料",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "农资物品儿童陌生，画面漂向『施肥/化肥袋』。"
+      }
+    },
+    {
+      "text": "脊背",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "背部特写画面漂向『后背/背影』，独立成题弱。"
+      }
+    },
+    {
+      "text": "脚跟",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "身体局部特写难以独立成题。"
+      }
+    },
+    {
+      "text": "脱落",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "掉落过程泛义，画面漂向『掉了/落叶』。"
+      }
+    },
+    {
+      "text": "膨大",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "膨胀变形画面漂向『变大/膨胀』，书面词。"
+      }
+    },
+    {
+      "text": "船头",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "船的局部，画面漂向『船』，独立成题弱。"
+      }
+    },
+    {
+      "text": "船舱",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "船的局部舱室，画面漂向『船里』。"
+      }
+    },
+    {
+      "text": "船队",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "船群画面漂向『许多船/舰队』，独立成题弱。"
+      }
+    },
+    {
+      "text": "节拍",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "音乐节拍抽象，画面漂向『打拍子/节奏』。"
+      }
+    },
+    {
+      "text": "节省",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "省钱存钱场景偏说教，交人工判断。"
+      }
+    },
+    {
+      "text": "芝麻",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "颗粒细小难以独立成画，画面漂向『小种子』。"
+      }
+    },
+    {
+      "text": "苍白",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "病容气色词，画面漂向『生病/没血色』，基调偏负面。"
+      }
+    },
+    {
+      "text": "苍耳",
+      "length": 2,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（二）"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "植物物种儿童陌生，画面难以识别。"
+      }
+    },
+    {
+      "text": "苔藓",
+      "length": 2,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "苔藓质感儿童难以识别命名。"
+      }
+    },
+    {
+      "text": "草堆",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "草垛画面漂向『干草/草垛』，农村意象儿童渐陌生。"
+      }
+    },
+    {
+      "text": "草籽",
+      "length": 2,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（二）"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "细小种子难以独立成画。"
+      }
+    },
+    {
+      "text": "藤萝",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "紫藤植物名儿童陌生，画面漂向『藤/花架』。"
+      }
+    },
+    {
+      "text": "血液",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "血的画面偏医学敏感，交人工判断。"
+      }
+    },
+    {
+      "text": "袖子",
+      "length": 2,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "服装局部，画面漂向『挽袖子』，独立成题弱。"
+      }
+    },
+    {
+      "text": "角色",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "元概念词，画面漂向『扮演/演戏』。"
+      }
+    },
+    {
+      "text": "解闷",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "逗乐解闷画面漂向『逗笑/玩』，独立成题弱。"
+      }
+    },
+    {
+      "text": "触角",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "蜗牛触角特写偏科普局部，独立成题弱。"
+      }
+    },
+    {
+      "text": "警觉",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "警觉状态与警戒/注意画面重合，独立锁定难。"
+      }
+    },
+    {
+      "text": "赶集",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "乡集场景乡土气息浓，当代儿童熟悉度下降，交人工判断。"
+      }
+    },
+    {
+      "text": "超过",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "反超瞬间画面漂向『超车/第一名』，比较关系抽象。"
+      }
+    },
+    {
+      "text": "跳动",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "跳动脉动画面漂向『心脏/跳』。"
+      }
+    },
+    {
+      "text": "踏步",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "原地踏步与踏/走画面重合，独立成题弱。"
+      }
+    },
+    {
+      "text": "轰鸣",
+      "length": 2,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "声音状态词，画面漂向『很吵/发动机』。"
+      }
+    },
+    {
+      "text": "轻快",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "轻快步态与轻巧/活泼画面重合。"
+      }
+    },
+    {
+      "text": "辛酸",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "辛酸心境沉重抽象，交人工判断。"
+      }
+    },
+    {
+      "text": "连续",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "接连关系抽象，画面漂向『一个接一个』。"
+      }
+    },
+    {
+      "text": "选择",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "岔路抉择画面偏抽象概念（决定本身），交人工判断。"
+      }
+    },
+    {
+      "text": "透明",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "材质性质词，画面依赖玻璃水母等载体，独立成题弱。"
+      }
+    },
+    {
+      "text": "逗引",
+      "length": 2,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "逗弄引逗画面漂向『逗/引诱』，独立成题弱。"
+      }
+    },
+    {
+      "text": "避免",
+      "length": 2,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "闪避概念抽象，画面漂向『躲开』。"
+      }
+    },
+    {
+      "text": "重叠",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "层层叠加偏构图概念，画面漂向『叠起来』。"
+      }
+    },
+    {
+      "text": "钢铁",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "材料泛称，画面漂向『钢筋/金属』，独立成题弱。"
+      }
+    },
+    {
+      "text": "锋利",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "刀刃寒光画面漂向『尖/快』，且带刀具意象。"
+      }
+    },
+    {
+      "text": "长江",
+      "length": 2,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "识字"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "依赖地图地理标识，画面漂向『大河/江』。"
+      }
+    },
+    {
+      "text": "闲散",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "闲散状态与悠闲画面重合，书面词。"
+      }
+    },
+    {
+      "text": "阴冷",
+      "length": 2,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "阴冷氛围与阴暗/寒冷画面重合，独立锁定难。"
+      }
+    },
+    {
+      "text": "陆地",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "海陆对照画面漂向『地面/大地』，地理概念独立成题弱。"
+      }
+    },
+    {
+      "text": "陆续",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "先后到来是关系描述，画面漂向『一个接一个』。"
+      }
+    },
+    {
+      "text": "陌生",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "生疏感受抽象，画面漂向『不认识/第一次见』。"
+      }
+    },
+    {
+      "text": "降临",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "来临是抽象动词，画面漂向『夜幕降临/到来』。"
+      }
+    },
+    {
+      "text": "陶醉",
+      "length": 2,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "沉醉神态与享受画面重合，独立锁定难。"
+      }
+    },
+    {
+      "text": "陷坑",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "陷阱深坑画面漂向『陷阱/坑』，且略带伤害意味。"
+      }
+    },
+    {
+      "text": "雨露",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "雨露 poetic 意象，画面漂向『露珠/下雨』。"
+      }
+    },
+    {
+      "text": "项圈",
+      "length": 2,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "项圈画面漂向『项链/宠物圈』，独立成题弱。"
+      }
+    },
+    {
+      "text": "额角",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "身体局部特写，独立成题弱。"
+      }
+    },
+    {
+      "text": "风俗",
+      "length": 2,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "民俗风情泛称，画面无法锁定。"
+      }
+    },
+    {
+      "text": "飞越",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "飞越动作依附载体，画面漂向『飞过/跳过』。"
+      }
+    },
+    {
+      "text": "马蹄",
+      "length": 2,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "马的局部，画面漂向『马蹄铁/奔跑』。"
+      }
+    },
+    {
+      "text": "麻烦",
+      "length": 2,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "麻烦是泛义状态词，画面漂向『乱/糟糕』。"
+      }
+    },
+    {
+      "text": "黄河",
+      "length": 2,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "识字"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "依赖地理标识，画面漂向『河/壶口瀑布』。"
+      }
+    },
+    {
+      "text": "龟裂",
+      "length": 2,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "2char",
+      "v1Status": "REVIEW",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "书面词（jūnliè），龟裂土地画面儿童难命名。"
+      }
+    },
+    {
+      "text": "反推力",
+      "length": 3,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "3char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "力本身不可见，火箭反冲示意是否适合小学生作画，需人工判断。"
+      }
+    },
+    {
+      "text": "轻悠悠",
+      "length": 3,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "3char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "书面化状态词，儿童熟悉度存疑，漂浮画面与『飘』难以区分出独立游戏体验。"
+      }
+    },
+    {
+      "text": "一丝不苟",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "一声不吭",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "一本正经",
+      "length": 4,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "万象更新",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "不动声色",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "严严实实",
+      "length": 4,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "争奇斗艳",
+      "length": 4,
+      "grades": [
+        3
+      ],
+      "occurrences": [
+        {
+          "grade": 3,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "五湖四海",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "兴致勃勃",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "半信半疑",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "半夜三更",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "反反复复",
+      "length": 4,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（二）"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "同心协力",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "哭笑不得",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "天南海北",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "完好无缺",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "居高临下",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "应接不暇",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "引人注目",
+      "length": 4,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（一）"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "心旷神怡",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "心满意足",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "念念有词",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "恋恋不舍",
+      "length": 4,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（一）"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "愤愤不平",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "成千上万",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "斩钉截铁",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "断断续续",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "无价之宝",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "无穷无尽",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "津津有味",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "热血沸腾",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "相依为命",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "碧空如洗",
+      "length": 4,
+      "grades": [
+        2
+      ],
+      "occurrences": [
+        {
+          "grade": 2,
+          "semester": "下",
+          "section": "课文（一）"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "空空如也",
+      "length": 4,
+      "grades": [
+        4
+      ],
+      "occurrences": [
+        {
+          "grade": 4,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "胸有成竹",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "跃跃欲试",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "重见天日",
+      "length": 4,
+      "grades": [
+        6
+      ],
+      "occurrences": [
+        {
+          "grade": 6,
+          "semester": "下",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    },
+    {
+      "text": "风景名胜",
+      "length": 4,
+      "grades": [
+        5
+      ],
+      "occurrences": [
+        {
+          "grade": 5,
+          "semester": "上",
+          "section": "词语表"
+        }
+      ],
+      "from": "4char",
+      "v1Status": "MAYBE",
+      "currentAssessment": {
+        "status": "REVIEW",
+        "reason": "有一定画面或动作表达空间，但具体词的猜中率、近义歧义或语义抽象度仍需人工复核。"
+      }
+    }
+  ]
+}
