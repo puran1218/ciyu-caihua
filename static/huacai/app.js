@@ -41,6 +41,7 @@ const homeScreen = document.getElementById("homeScreen");
 const gameScreen = document.getElementById("gameScreen");
 const wordText = document.getElementById("wordText");
 const startBtn = document.getElementById("startBtn");
+const bankStatus = document.getElementById("bankStatus");
 const nextBtn = document.getElementById("nextBtn");
 const exitBtn = document.getElementById("exitBtn");
 const settingsBtn = document.getElementById("settingsBtn");
@@ -72,7 +73,11 @@ function loadSettings() {
 }
 
 function saveSettings() {
-  localStorage.setItem(SETTINGS_KEY, JSON.stringify(state.settings));
+  try {
+    localStorage.setItem(SETTINGS_KEY, JSON.stringify(state.settings));
+  } catch {
+    // Storage restrictions should not block the game.
+  }
 }
 
 function isValidWord(word) {
@@ -82,7 +87,8 @@ function isValidWord(word) {
     word.text.trim() !== "" &&
     typeof word.length === "number" &&
     Number.isFinite(word.length) &&
-    Array.isArray(word.tags)
+    Array.isArray(word.tags) &&
+    (word.difficulty === undefined || ["easy", "normal", "hard"].includes(word.difficulty))
   );
 }
 
@@ -119,34 +125,9 @@ function countBankWords(bank) {
   return bank.groups.reduce((sum, group) => sum + group.words.length, 0);
 }
 
-// 候选池：按设置筛选、按 text 去重，同一个词在一副牌里只出现一次
+// Group stays as provenance; a word may override its group's gameplay difficulty.
 function candidateWords() {
-  const { range, allowFour } = state.settings;
-  const inRange = (group) => range === "all" || group.difficulty === range;
-  const lengthOk = (word) => allowFour || word.length < 4;
-  const collect = (groupOk, wordOk) =>
-    CyhcBag.uniqueTexts(
-      state.bank.groups
-        .filter(groupOk)
-        .flatMap((group) => group.words)
-        .filter(wordOk)
-        .map((word) => word.text),
-    );
-
-  // 筛不出词时逐级放宽，只放弃必要的条件：
-  // 先放宽难度范围（保住四字开关），再放宽四字开关（保住难度范围），
-  // 仍然为空才用全量词兜底，保证总能开局
-  let words = collect(inRange, lengthOk);
-  if (words.length === 0) {
-    words = collect(() => true, lengthOk);
-  }
-  if (words.length === 0) {
-    words = collect(inRange, () => true);
-  }
-  if (words.length === 0) {
-    words = collect(() => true, () => true);
-  }
-  return words;
+  return CyhcWords.candidates(state.bank, state.settings);
 }
 
 // 袋子身份：换词库 / 换范围 / 换四字开关 / 词库升版都会用新袋子
@@ -173,31 +154,27 @@ function nextWordFromBag() {
 function applyMode() {
   document.body.dataset.mode = state.settings.mode;
   modeButtons.forEach((button) => {
-    button.classList.toggle(
-      "selected",
-      button.dataset.modeOption === state.settings.mode,
-    );
+    const selected = button.dataset.modeOption === state.settings.mode;
+    button.classList.toggle("selected", selected);
+    button.setAttribute("aria-pressed", String(selected));
   });
 }
 
 function applySettingsUI() {
   sourceButtons.forEach((button) => {
-    button.classList.toggle(
-      "selected",
-      button.dataset.source === state.settings.source,
-    );
+    const selected = button.dataset.source === state.settings.source;
+    button.classList.toggle("selected", selected);
+    button.setAttribute("aria-pressed", String(selected));
   });
   rangeButtons.forEach((button) => {
-    button.classList.toggle(
-      "selected",
-      button.dataset.range === state.settings.range,
-    );
+    const selected = button.dataset.range === state.settings.range;
+    button.classList.toggle("selected", selected);
+    button.setAttribute("aria-pressed", String(selected));
   });
   fourButtons.forEach((button) => {
-    button.classList.toggle(
-      "selected",
-      (button.dataset.four === "on") === state.settings.allowFour,
-    );
+    const selected = (button.dataset.four === "on") === state.settings.allowFour;
+    button.classList.toggle("selected", selected);
+    button.setAttribute("aria-pressed", String(selected));
   });
 }
 
@@ -205,33 +182,43 @@ function wordBankPath() {
   return WORD_BANK_SOURCES[state.settings.source] || WORD_BANK_SOURCES.primary;
 }
 
+let latestBankRequest = 0;
+
 async function loadWordBank() {
+  const requestId = ++latestBankRequest;
   const path = wordBankPath();
+  startBtn.disabled = true;
+  startBtn.textContent = "正在准备…";
+  bankStatus.hidden = true;
+  let nextBank = FALLBACK_BANK;
+  let failure = null;
   try {
     const response = await fetch(path);
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-    }
+    if (!response.ok) throw new Error(`HTTP ${response.status}: ${response.statusText}`);
     const bank = await response.json();
-    if (!isValidWordBank(bank)) {
-      throw new Error("结构不符合预期");
-    }
+    if (!isValidWordBank(bank)) throw new Error("结构不符合预期");
     const { bank: cleanBank, skipped } = sanitizeWordBank(bank);
-    state.bank = cleanBank;
+    nextBank = cleanBank;
     console.log(`[${path}] 加载成功，词条数:`, countBankWords(cleanBank));
-    if (skipped > 0) {
-      console.warn(`[${path}] 忽略 ${skipped} 个无效词条`);
-    }
+    if (skipped > 0) console.warn(`[${path}] 忽略 ${skipped} 个无效词条`);
   } catch (err) {
-    console.error(`[${path}] 加载失败，使用示例词库:`, err.message);
-    state.bank = FALLBACK_BANK;
+    failure = err;
   }
-  if (gameScreen.classList.contains("active")) {
-    nextWord();
+  // Ignore responses from superseded source requests.
+  if (requestId !== latestBankRequest) return;
+  state.bank = nextBank;
+  startBtn.disabled = false;
+  startBtn.textContent = "开始玩";
+  if (failure) {
+    console.error(`[${path}] 加载失败，使用示例词库:`, failure);
+    bankStatus.textContent = "词库暂时没加载成功，正在使用示例词语。";
+    bankStatus.hidden = false;
   }
+  if (gameScreen.classList.contains("active")) nextWord();
 }
 
 function showHome() {
+  releaseWakeLock();
   gameScreen.classList.remove("active");
   homeScreen.classList.add("active");
 }
@@ -242,8 +229,10 @@ function showGame() {
 }
 
 function startGame() {
+  if (startBtn.disabled) return;
   showGame();
   nextWord();
+  requestWakeLock();
 }
 
 function nextWord() {
@@ -253,18 +242,38 @@ function nextWord() {
   }
   wordText.textContent = word;
   // 1–5 字各给一档字号；更长的词共用第 5 档，CSS 会按实际字数收缩
-  wordText.dataset.len = String(Math.min(word.length, 5));
-  wordText.style.setProperty("--word-chars", String(word.length));
+  const wordLength = Array.from(word).length;
+  wordText.dataset.len = String(Math.min(wordLength, 5));
+  wordText.style.setProperty("--word-chars", String(wordLength));
 }
 
+let settingsReturnFocus = null;
 function openSettings() {
+  settingsReturnFocus = document.activeElement;
   applySettingsUI();
   settingsBackdrop.hidden = false;
+  sourceButtons[0].focus();
 }
 
 function closeSettings() {
   settingsBackdrop.hidden = true;
+  if (settingsReturnFocus?.isConnected) settingsReturnFocus.focus();
+  settingsReturnFocus = null;
 }
+
+settingsBackdrop.addEventListener("keydown", (event) => {
+  if (event.key !== "Tab") return;
+  const focusables = Array.from(settingsBackdrop.querySelectorAll("button:not(:disabled)"));
+  const first = focusables[0], last = focusables[focusables.length - 1];
+  if (!first || !last) return;
+  if (event.shiftKey && document.activeElement === first) {
+    event.preventDefault();
+    last.focus();
+  } else if (!event.shiftKey && document.activeElement === last) {
+    event.preventDefault();
+    first.focus();
+  }
+});
 
 function isGameScreenTapTarget(target) {
   if (!target) {
@@ -281,16 +290,20 @@ function isGameScreenTapTarget(target) {
 }
 
 function installGamePageTapHandler() {
+  let down = null;
+  gameScreen.addEventListener("pointerdown", (event) => {
+    down = isGameScreenTapTarget(event.target) && event.isPrimary
+      ? { id: event.pointerId, x: event.clientX, y: event.clientY }
+      : null;
+  });
+  gameScreen.addEventListener("pointercancel", () => { down = null; });
   gameScreen.addEventListener("pointerup", (event) => {
-    if (!gameScreen.classList.contains("active")) {
-      return;
-    }
-    if (!settingsBackdrop.hidden) {
-      return;
-    }
-    if (!isGameScreenTapTarget(event.target)) {
-      return;
-    }
+    const start = down;
+    down = null;
+    if (!start || event.pointerId !== start.id) return;
+    if (Math.hypot(event.clientX - start.x, event.clientY - start.y) > 14) return;
+    if (!gameScreen.classList.contains("active") || !settingsBackdrop.hidden) return;
+    if (!isGameScreenTapTarget(event.target)) return;
     nextWord();
   });
 }
@@ -382,24 +395,53 @@ installGamePageTapHandler();
 
 document.addEventListener("keydown", (event) => {
   if (!settingsBackdrop.hidden) {
-    if (event.key === "Escape") {
-      closeSettings();
-    }
+    if (event.key === "Escape") closeSettings();
     return;
   }
-  if (!gameScreen.classList.contains("active")) {
-    return;
-  }
-  if (
-    event.key === "ArrowRight" ||
-    event.key === " " ||
-    event.key === "Enter"
-  ) {
+  if (!gameScreen.classList.contains("active") || event.repeat || event.isComposing) return;
+  // Focused buttons natively activate on Enter/Space: do not consume two cards.
+  if (event.target?.closest?.("button, a, input, select, textarea, [role='button'], [contenteditable='true']")) return;
+  if (["ArrowRight", " ", "Enter"].includes(event.key)) {
+    event.preventDefault();
     nextWord();
-  }
-  if (event.key === "Escape") {
+  } else if (event.key === "Escape") {
     showHome();
   }
+});
+
+let wakeLock = null;
+let wakeLockPending = false;
+
+async function requestWakeLock() {
+  if (!("wakeLock" in navigator) || document.hidden ||
+      !gameScreen.classList.contains("active") || wakeLock || wakeLockPending) return;
+  wakeLockPending = true;
+  try {
+    const lock = await navigator.wakeLock.request("screen");
+    if (document.hidden || !gameScreen.classList.contains("active")) {
+      await lock.release();
+      return;
+    }
+    wakeLock = lock;
+    lock.addEventListener("release", () => {
+      if (wakeLock === lock) wakeLock = null;
+    });
+  } catch {
+    // Unsupported or denied wake locks must not interrupt play.
+  } finally {
+    wakeLockPending = false;
+  }
+}
+
+function releaseWakeLock() {
+  const lock = wakeLock;
+  wakeLock = null;
+  if (lock) lock.release().catch(() => {});
+}
+
+document.addEventListener("visibilitychange", () => {
+  if (document.hidden) releaseWakeLock();
+  else requestWakeLock();
 });
 
 applyMode();

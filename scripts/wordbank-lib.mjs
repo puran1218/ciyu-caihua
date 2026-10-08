@@ -56,6 +56,9 @@ function validateWord(word, catalog) {
       problems.push(`length 与实际字数不符：应为 ${actual}，写的是 ${word.length}`);
     }
   }
+  if (word.difficulty !== undefined && !DIFFICULTIES.includes(word.difficulty)) {
+    problems.push(`difficulty 应为 ${DIFFICULTIES.join(" / ")}，实际是 ${JSON.stringify(word.difficulty)}`);
+  }
   if (!Array.isArray(word.tags)) {
     problems.push("tags 应为数组");
   } else if (catalog) {
@@ -142,7 +145,8 @@ export function validateBank(bank) {
       }
       groupTotal += 1;
       stats.total += 1;
-      stats.byDifficulty[group.difficulty] = (stats.byDifficulty[group.difficulty] || 0) + 1;
+      const gameplayDifficulty = word.difficulty ?? group.difficulty;
+      stats.byDifficulty[gameplayDifficulty] = (stats.byDifficulty[gameplayDifficulty] || 0) + 1;
       const len = charCount(word.text);
       stats.byLength[len] = (stats.byLength[len] || 0) + 1;
       const groupList = seen.get(word.text) || [];
