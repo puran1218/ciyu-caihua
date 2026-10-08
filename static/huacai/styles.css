@@ -1,6 +1,6 @@
 :root {
   --ink: #211a13;
-  --muted: rgba(33, 26, 19, .48);
+  --muted: rgba(33, 26, 19, .72);
   --card: rgba(255, 255, 255, .86);
   --line: rgba(33, 26, 19, .13);
   --shadow: 0 24px 78px rgba(91, 59, 12, .16);
@@ -32,7 +32,7 @@ body {
 
 body[data-mode="mono"] {
   --ink: #080808;
-  --muted: rgba(8, 8, 8, .46);
+  --muted: rgba(8, 8, 8, .7);
   --card: #fff;
   --line: rgba(0, 0, 0, .16);
   --shadow: 0 22px 70px rgba(0, 0, 0, .12);
@@ -203,6 +203,9 @@ button {
   border: 0;
 }
 
+button:disabled { cursor: wait; opacity: .7; }
+button:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
+
 .mode-btn {
   min-height: 50px;
   border-radius: 999px;
@@ -223,7 +226,7 @@ button {
   min-height: 76px;
   border-radius: 999px;
   background: var(--accent);
-  color: #fff;
+  color: var(--ink);
   font-size: clamp(24px, 3.6vw, 38px);
   font-weight: 950;
   box-shadow: 0 18px 44px rgba(255, 122, 89, .34);
@@ -232,6 +235,7 @@ button {
 
 body[data-mode="mono"] .primary {
   background: #000;
+  color: #fff;
   box-shadow: none;
 }
 
@@ -375,6 +379,25 @@ body[data-mode="mono"] .exit {
   letter-spacing: .02em;
 }
 
+.bank-status {
+  position: absolute;
+  z-index: 3;
+  bottom: max(8px, env(safe-area-inset-bottom));
+  left: 16px;
+  right: 16px;
+  padding: 8px 12px;
+  margin: 0 auto;
+  width: fit-content;
+  max-width: 90vw;
+  border-radius: 14px;
+  background: #fff;
+  border: 1px solid var(--line);
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+.bank-status[hidden] { display: none; }
+
 .settings-backdrop {
   position: fixed;
   inset: 0;
@@ -481,13 +504,14 @@ body[data-mode="mono"] .settings-actions .ghost {
   min-height: 46px;
   border-radius: 999px;
   background: var(--accent);
-  color: #fff;
+  color: var(--ink);
   font-size: 17px;
   font-weight: 950;
 }
 
 body[data-mode="mono"] .settings-actions .done {
   background: #000;
+  color: #fff;
 }
 
 .portrait-hint {
@@ -582,9 +606,9 @@ body[data-portrait-ok] .portrait-hint {
   }
 
   .game-controls {
-    left: 18px;
-    right: 18px;
-    bottom: 18px;
+    left: max(18px, env(safe-area-inset-left));
+    right: max(18px, env(safe-area-inset-right));
+    bottom: max(18px, env(safe-area-inset-bottom));
     grid-template-columns: 96px 1fr;
     gap: 10px;
   }
