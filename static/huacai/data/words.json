@@ -1,9 +1,9 @@
 {
-  "version": "0.2.0",
+  "version": "0.3.0",
   "schema": "cn-primary-draw-guess-wordbank",
   "language": "zh-Hans",
   "curation": {
-    "purpose": "小学语文方向的词语画猜候选词库，按年级和绘画难度分组。",
+    "purpose": "面向亲子画猜的精选词库，保留已有年级分组，并支持单词级游戏难度校准。",
     "basis": [
       "参考统编版/人教版小学语文 1–6 年级常见生字、词语、课文主题和生活场景。",
       "公开生字表页面只用于候选词整理线索，不按网页顺序复制完整列表。",
@@ -13,7 +13,7 @@
     "selectionRules": [
       "优先保留能画出来的名词、场景、动作、职业、节日物件、自然和科学词。",
       "过滤过于抽象、争议性强、低龄不宜、只适合背诵但难以画猜的词。",
-      "年级分组表示推荐投放难度，不表示该词只属于该年级教材。",
+      "年级组记录词条组织/教材来源，游戏难度默认沿用组的 difficulty；少数难度错位词可使用词条自身的 difficulty 覆盖。",
       "length 为当前 text 的字符数，可用于前端展示字数提示。"
     ]
   },
@@ -2399,7 +2399,8 @@
           "tags": [
             "drawable",
             "nature"
-          ]
+          ],
+          "difficulty": "normal"
         },
         {
           "text": "万里无云",
@@ -2417,7 +2418,8 @@
             "drawable",
             "animal",
             "culture"
-          ]
+          ],
+          "difficulty": "hard"
         },
         {
           "text": "哈哈大笑",
@@ -2433,7 +2435,8 @@
           "tags": [
             "drawable",
             "emotion"
-          ]
+          ],
+          "difficulty": "normal"
         },
         {
           "text": "恋恋不舍",
@@ -2441,7 +2444,8 @@
           "tags": [
             "drawable",
             "emotion"
-          ]
+          ],
+          "difficulty": "hard"
         },
         {
           "text": "筋疲力尽",
@@ -2449,7 +2453,8 @@
           "tags": [
             "drawable",
             "emotion"
-          ]
+          ],
+          "difficulty": "hard"
         },
         {
           "text": "花草树木",
@@ -3597,7 +3602,8 @@
             "animal",
             "action",
             "home"
-          ]
+          ],
+          "difficulty": "easy"
         },
         {
           "text": "小猫钓鱼",
@@ -3606,7 +3612,8 @@
             "drawable",
             "animal",
             "action"
-          ]
+          ],
+          "difficulty": "easy"
         },
         {
           "text": "小兔采菇",
@@ -3616,7 +3623,8 @@
             "animal",
             "plant",
             "action"
-          ]
+          ],
+          "difficulty": "easy"
         },
         {
           "text": "乌龟赛跑",
@@ -3626,7 +3634,8 @@
             "animal",
             "sports",
             "action"
-          ]
+          ],
+          "difficulty": "easy"
         },
         {
           "text": "青蛙跳远",
@@ -3636,7 +3645,8 @@
             "animal",
             "sports",
             "action"
-          ]
+          ],
+          "difficulty": "easy"
         },
         {
           "text": "蜜蜂采蜜",
@@ -3646,7 +3656,8 @@
             "animal",
             "plant",
             "action"
-          ]
+          ],
+          "difficulty": "easy"
         },
         {
           "text": "蝴蝶飞舞",
@@ -3655,7 +3666,8 @@
             "drawable",
             "animal",
             "action"
-          ]
+          ],
+          "difficulty": "easy"
         },
         {
           "text": "小鱼吐泡",
@@ -3685,7 +3697,8 @@
             "animal",
             "plant",
             "food"
-          ]
+          ],
+          "difficulty": "easy"
         },
         {
           "text": "大象喷水",
@@ -3694,7 +3707,8 @@
             "drawable",
             "animal",
             "action"
-          ]
+          ],
+          "difficulty": "easy"
         },
         {
           "text": "猴子摘桃",
@@ -3705,7 +3719,8 @@
             "plant",
             "food",
             "action"
-          ]
+          ],
+          "difficulty": "easy"
         },
         {
           "text": "全家野餐",
@@ -3715,7 +3730,8 @@
             "home",
             "food",
             "action"
-          ]
+          ],
+          "difficulty": "easy"
         },
         {
           "text": "厨房做饭",
@@ -3792,7 +3808,8 @@
             "drawable",
             "weather",
             "nature"
-          ]
+          ],
+          "difficulty": "easy"
         },
         {
           "text": "雪地脚印",
@@ -3801,7 +3818,8 @@
             "drawable",
             "weather",
             "nature"
-          ]
+          ],
+          "difficulty": "easy"
         },
         {
           "text": "春天踏青",
@@ -4714,7 +4732,8 @@
             "drawable",
             "plant",
             "nature"
-          ]
+          ],
+          "difficulty": "hard"
         },
         {
           "text": "大吃一惊",
@@ -4722,7 +4741,8 @@
           "tags": [
             "drawable",
             "emotion"
-          ]
+          ],
+          "difficulty": "easy"
         },
         {
           "text": "急急忙忙",
@@ -5965,7 +5985,8 @@
             "object",
             "weather",
             "action"
-          ]
+          ],
+          "difficulty": "easy"
         },
         {
           "text": "火车进站",
@@ -5994,7 +6015,8 @@
             "drawable",
             "transport",
             "action"
-          ]
+          ],
+          "difficulty": "easy"
         },
         {
           "text": "公交到站",
@@ -6014,7 +6036,8 @@
             "safety",
             "person",
             "action"
-          ]
+          ],
+          "difficulty": "easy"
         },
         {
           "text": "医生看病",
@@ -6024,7 +6047,8 @@
             "person",
             "action",
             "safety"
-          ]
+          ],
+          "difficulty": "easy"
         },
         {
           "text": "警察指路",
@@ -6034,7 +6058,8 @@
             "person",
             "action",
             "safety"
-          ]
+          ],
+          "difficulty": "easy"
         },
         {
           "text": "厨师炒菜",
@@ -6044,7 +6069,8 @@
             "person",
             "food",
             "action"
-          ]
+          ],
+          "difficulty": "easy"
         },
         {
           "text": "农民插秧",
@@ -6083,7 +6109,8 @@
             "drawable",
             "sports",
             "action"
-          ]
+          ],
+          "difficulty": "easy"
         },
         {
           "text": "足球射门",
@@ -6092,7 +6119,8 @@
             "drawable",
             "sports",
             "action"
-          ]
+          ],
+          "difficulty": "easy"
         },
         {
           "text": "跳绳比赛",
@@ -6240,7 +6268,8 @@
             "festival",
             "home",
             "food"
-          ]
+          ],
+          "difficulty": "easy"
         },
         {
           "text": "庙会舞狮",
@@ -6899,7 +6928,8 @@
             "drawable",
             "action",
             "culture"
-          ]
+          ],
+          "difficulty": "hard"
         },
         {
           "text": "坑坑洼洼",
@@ -6923,7 +6953,8 @@
           "tags": [
             "drawable",
             "nature"
-          ]
+          ],
+          "difficulty": "hard"
         },
         {
           "text": "左顾右盼",
@@ -7004,7 +7035,8 @@
             "drawable",
             "space",
             "science"
-          ]
+          ],
+          "difficulty": "easy"
         },
         {
           "text": "赤道",
@@ -7038,7 +7070,8 @@
           "tags": [
             "drawable",
             "space"
-          ]
+          ],
+          "difficulty": "normal"
         },
         {
           "text": "木星",
@@ -7046,7 +7079,8 @@
           "tags": [
             "drawable",
             "space"
-          ]
+          ],
+          "difficulty": "normal"
         },
         {
           "text": "银河",
@@ -7054,7 +7088,8 @@
           "tags": [
             "drawable",
             "space"
-          ]
+          ],
+          "difficulty": "normal"
         },
         {
           "text": "彗星",
@@ -7062,7 +7097,8 @@
           "tags": [
             "drawable",
             "space"
-          ]
+          ],
+          "difficulty": "normal"
         },
         {
           "text": "流星",
@@ -8042,7 +8078,8 @@
             "drawable",
             "science",
             "object"
-          ]
+          ],
+          "difficulty": "normal"
         },
         {
           "text": "风力发电机",
@@ -8175,7 +8212,8 @@
             "drawable",
             "nature",
             "science"
-          ]
+          ],
+          "difficulty": "normal"
         },
         {
           "text": "海浪拍岸",
@@ -8185,7 +8223,8 @@
             "nature",
             "place",
             "action"
-          ]
+          ],
+          "difficulty": "easy"
         },
         {
           "text": "瀑布落下",
@@ -8194,7 +8233,8 @@
             "drawable",
             "nature",
             "action"
-          ]
+          ],
+          "difficulty": "easy"
         },
         {
           "text": "山谷回声",
@@ -8214,7 +8254,8 @@
             "nature",
             "animal",
             "place"
-          ]
+          ],
+          "difficulty": "easy"
         },
         {
           "text": "草原牛羊",
@@ -8294,7 +8335,8 @@
             "festival",
             "weather",
             "object"
-          ]
+          ],
+          "difficulty": "easy"
         },
         {
           "text": "舞台表演",
@@ -8384,7 +8426,8 @@
             "science",
             "object",
             "action"
-          ]
+          ],
+          "difficulty": "normal"
         },
         {
           "text": "水车转动",
@@ -8423,7 +8466,8 @@
             "science",
             "transport",
             "action"
-          ]
+          ],
+          "difficulty": "normal"
         },
         {
           "text": "望远观星",
@@ -9247,7 +9291,8 @@
             "drawable",
             "space",
             "science"
-          ]
+          ],
+          "difficulty": "normal"
         },
         {
           "text": "探测器",
@@ -9265,7 +9310,8 @@
             "drawable",
             "space",
             "object"
-          ]
+          ],
+          "difficulty": "normal"
         },
         {
           "text": "月球车",
@@ -9274,7 +9320,8 @@
             "drawable",
             "space",
             "transport"
-          ]
+          ],
+          "difficulty": "normal"
         },
         {
           "text": "地震",
@@ -10149,7 +10196,8 @@
             "space",
             "science",
             "transport"
-          ]
+          ],
+          "difficulty": "easy"
         },
         {
           "text": "卫星绕地",
@@ -10169,7 +10217,8 @@
             "space",
             "person",
             "action"
-          ]
+          ],
+          "difficulty": "normal"
         },
         {
           "text": "星空帐篷",
@@ -10199,7 +10248,8 @@
             "space",
             "nature",
             "action"
-          ]
+          ],
+          "difficulty": "normal"
         },
         {
           "text": "海底潜艇",
@@ -10229,7 +10279,8 @@
             "animal",
             "nature",
             "action"
-          ]
+          ],
+          "difficulty": "easy"
         },
         {
           "text": "冰川裂缝",
@@ -10248,7 +10299,8 @@
             "nature",
             "weather",
             "advanced"
-          ]
+          ],
+          "difficulty": "normal"
         },
         {
           "text": "雨林瀑布",
@@ -10367,7 +10419,8 @@
             "science",
             "animal",
             "object"
-          ]
+          ],
+          "difficulty": "normal"
         },
         {
           "text": "地震避险",
@@ -10437,7 +10490,8 @@
             "science",
             "nature",
             "action"
-          ]
+          ],
+          "difficulty": "normal"
         },
         {
           "text": "举杯",
@@ -10959,7 +11013,8 @@
           "tags": [
             "drawable",
             "emotion"
-          ]
+          ],
+          "difficulty": "normal"
         },
         {
           "text": "大步流星",
@@ -10967,7 +11022,8 @@
           "tags": [
             "drawable",
             "action"
-          ]
+          ],
+          "difficulty": "normal"
         },
         {
           "text": "居高临下",
