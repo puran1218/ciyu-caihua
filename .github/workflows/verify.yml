@@ -1,0 +1,28 @@
+name: Verify
+on:
+  push:
+    branches: [main, "fix/**"]
+  pull_request:
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Syntax
+        run: |
+          node --check static/huacai/app.js
+          node --check static/huacai/word-selection.js
+          node --check static/huacai/service-worker.js
+      - name: Validation and regression tests
+        run: |
+          node scripts/validate-wordbanks.mjs
+          node scripts/report-wordbanks.mjs
+          node scripts/test-shuffle-bag.mjs
+          node scripts/test-word-selection.mjs
+          node scripts/test-app-flow.mjs
+          node scripts/diff-textbook-wordbank.mjs --check
+          node scripts/validate-curation.mjs
