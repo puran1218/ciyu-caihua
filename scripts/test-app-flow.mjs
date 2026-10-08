@@ -92,7 +92,7 @@ const context = vm.createContext({
 });
 vm.runInContext([read("shuffle-bag.js"), read("word-selection.js"), read("app.js")].join("\n"), context);
 const readState = expression => vm.runInContext(expression, context);
-const flush = async () => { for (let i = 0; i < 4; i += 1) await Promise.resolve(); };
+const flush = () => new Promise(resolve => setImmediate(resolve));
 const bank = (version, texts) => ({
   version, groups: [{ id: "group", difficulty: "easy",
     words: texts.map(text => ({ text, length: [...text].length, tags: [] })) }],
