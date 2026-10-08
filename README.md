@@ -21,6 +21,7 @@ scripts/          开发脚本（不参与发布）
   test-shuffle-bag.mjs    洗牌袋行为测试
   wordbank-lib.mjs        词库校验/报告脚本共用的工具
   test-word-selection.mjs  词语筛选与单词级难度回归测试
+  test-app-flow.mjs        加载竞态 / 键盘触摸 / 屏幕常亮回归测试
 ```
 
 ## 本地预览
@@ -52,6 +53,7 @@ node scripts/validate-wordbanks.mjs   # 结构 / 字数 / tag / 重复词检查�
 node scripts/report-wordbanks.mjs     # 按组、难度、字数、tag 的覆盖报告
 node scripts/test-shuffle-bag.mjs     # 洗牌袋行为测试
 node scripts/test-word-selection.mjs  # 难度覆盖与筛选测试
+node scripts/test-app-flow.mjs        # UI 事件与生命周期模拟测试
 ```
 
 校验会把重复词（同组或跨组）当作错误报告；运行时同一副牌里也只会出现一次。
