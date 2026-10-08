@@ -18,7 +18,7 @@ const sample = {
     { id: "grade-6", difficulty: "hard", words: [
       { text: "火箭升空", length: 4, tags: [], difficulty: "easy" },
       { text: "黑洞", length: 2, tags: [] },
-      { text: "太阳", length: 2, tags: [] },
+      { text: "太阳", length: 2, tags: [], difficulty: "easy" },
     ] },
   ],
 };
