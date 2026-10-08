@@ -1,9 +1,10 @@
-const CACHE_NAME = "ciyu-huacai-v5";
+const CACHE_NAME = "ciyu-huacai-v6";
 const ASSETS = [
   "./",
   "./index.html",
   "./styles.css",
   "./shuffle-bag.js",
+  "./word-selection.js",
   "./app.js",
   "./manifest.webmanifest",
   "./data/words.json",
@@ -15,14 +16,14 @@ const ASSETS = [
 ];
 
 self.addEventListener("install", event => {
-  event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(ASSETS)));
+  event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(ASSETS.map(url => new Request(url, { cache: "reload" })))));
   self.skipWaiting();
 });
 
 self.addEventListener("activate", event => {
   event.waitUntil(
     caches.keys().then(keys =>
-      Promise.all(keys.filter(key => key !== CACHE_NAME).map(key => caches.delete(key)))
+      Promise.all(keys.filter(key => key.startsWith("ciyu-huacai-") && key !== CACHE_NAME).map(key => caches.delete(key)))
     )
   );
   self.clients.claim();
@@ -30,18 +31,24 @@ self.addEventListener("activate", event => {
 
 // 联网时优先取最新文件并更新缓存，离线时退回缓存
 self.addEventListener("fetch", event => {
-  if (event.request.method !== "GET") {
-    return;
-  }
+  const request = event.request;
+  // Do not intercept other Micro.blog resources or cross-origin requests.
+  if (request.method !== "GET" || !request.url.startsWith(self.registration.scope)) return;
+
   event.respondWith(
-    fetch(event.request)
+    fetch(request, { cache: "no-cache" })
       .then(response => {
-        if (response.ok && event.request.url.startsWith(self.registration.scope)) {
+        if (response.ok) {
+          // Keep the service worker alive until the successful response is cached.
           const copy = response.clone();
-          caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy));
+          event.waitUntil(
+            caches.open(CACHE_NAME)
+              .then(cache => cache.put(request, copy))
+              .catch(() => {}) // Quota/storage errors must not disrupt online play.
+          );
         }
         return response;
       })
-      .catch(() => caches.match(event.request))
+      .catch(async () => (await caches.match(request)) || Response.error())
   );
 });
